@@ -8,8 +8,8 @@
   * GameData
     * ReStock
       * Assets: all model and texture files
-        * <Part Category>
-          * <Size Category>
+        * `<Part Category>`
+          * `<Size Category>`
             * Assets
       * Patches: patches to enable the replacement of the bits
 
@@ -20,20 +20,18 @@
 
 # Proposed Asset Naming Conventions
 
-restock-<descriptor>-<sizecategory>-<id>
+restock-`<descriptor>`-`<sizecategory>`-`<id>`-`<suffix>`
+
+Suffix is like -n for nomral map, -e for emissive, etc
 
 ## Examples:
-
-### Largest 3.75m Tank
-
-restock-fueltank-375-1.mu
-restock-fueltank-375-1.dds
-restock-fueltank-375-1-n.dds
-restock-fueltank-375-1-e.dds
-
-### Small radial Battery
-
-restock-battery-radial-1.mu
-restock-battery-radial-1.dds
-restock-battery-radial-1-n.dds
-restock-battery-radial-1-e.dds
+#### Largest 3.75m Tank
+* restock-fueltank-375-1.mu
+* restock-fueltank-375-1.dds
+* restock-fueltank-375-1-n.dds
+* restock-fueltank-375-1-e.dds
+#### Small radial Battery
+* restock-battery-radial-1.mu
+* restock-battery-radial-1.dds
+* restock-battery-radial-1-n.dds
+* restock-battery-radial-1-e.dds
