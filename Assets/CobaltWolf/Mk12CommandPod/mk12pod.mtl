@@ -1,0 +1,30 @@
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl mk12Pod_snap1:Endcap_125m_Crewed:Material__22
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd spacecraft-endcap-1.psd
+bump spacecraft-endcap-1-n.psd -bm 0.407407
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl mk12Pod_snap1:lambert2SG
+illum 4
+Kd 0.01 0.01 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl mk12Pod_snap1:lambert5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Restock_Command_LargePod.psd
+bump Restock_Command_LargePod_NRM.psd -bm 0.2
+Ni 1.00
