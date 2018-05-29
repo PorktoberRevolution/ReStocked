@@ -1,6 +1,25 @@
+# Restock
+Replacing and upgrading the art of Kerbal Space Program
 
-# Proposed Repository Structure
+### Goals
 
+The goal of this project is to improve the art of Kerbal Space Program with the following goals in mind
+* Create a unity of design and style for all parts
+* Preserve the general aesthetic of KSP
+* Create consistency in the detail level of all parts
+* Do not affect gameplay or part balance
+
+
+### Restock+
+
+We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project
+
+## Contributors
+
+
+If you want to contribute, contact us.
+
+## Repository Structure
 * Distribution
   * readme.txt
   * changelog.txt
@@ -8,10 +27,11 @@
   * GameData
     * ReStock
       * Assets: all model and texture files
-        * `<Part Category>`
-          * `<Size Category>`
-            * Assets
-      * Patches: patches to enable the replacement of the bits
+      * Patches: ModuleManager patches to enable art replacements
+    * ReStockPlus
+      * Assets: all models and texture files
+      * Parts: config files for new parts
+      * Patches: ModuleManager patches that change stock parts
 
 * Assets: author source files
   * Author: A folder per author
