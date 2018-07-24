@@ -12,10 +12,14 @@ The goal of this project is to improve the art of Kerbal Space Program with the 
 
 ### Restock+
 
-We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project
+We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project.
 
 ## Contributors
 
+* Chris Adderley (Nertea)
+* Beale
+* Andrew Cassidy
+* Passinglurker
 
 If you want to contribute, contact us.
 
@@ -27,6 +31,8 @@ If you want to contribute, contact us.
   * GameData
     * ReStock
       * Assets: all model and texture files
+      * FX: new effects
+      * Localization: new localization data
       * Patches: ModuleManager patches to enable art replacements
     * ReStockPlus
       * Assets: all models and texture files
@@ -42,7 +48,7 @@ If you want to contribute, contact us.
 
 restock-`<descriptor>`-`<sizecategory>`-`<id>`-`<suffix>`
 
-Suffix is like -n for nomral map, -e for emissive, etc
+Suffix is like -n for normal map, -e for emissive, etc
 
 ## Examples:
 #### Largest 3.75m Tank
