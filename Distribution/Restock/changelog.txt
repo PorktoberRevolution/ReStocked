@@ -58,3 +58,4 @@
  - Electrical
   - Z-1K Rechargeable Battery Bank (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
+- Engines are all surface attachable
