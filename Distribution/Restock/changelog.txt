@@ -25,10 +25,10 @@
   - Kerbodyne ADTP-2-3 (Nertea)
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
-  - FL-T200 Fuel Tank (fuelTankSmall)
-  - FL-T400 Fuel Tank (fuelTank)
-  - FL-T800 Fuel Tank (fuelTank_long)
-  - FL-T100 Fuel Tank (fuelTankSmallFlat)
+  - FL-T200 Fuel Tank Porkjet
+  - FL-T400 Fuel Tank Porkjet
+  - FL-T800 Fuel Tank Porkjet
+  - FL-T100 Fuel Tank Porkjet
   - Rockomax Jumbo-64 Fuel Tank (Nertea)
   - Rockomax X200-16 Fuel Tank (Nertea)
   - Rockomax X200-32 Fuel Tank (Nertea)
