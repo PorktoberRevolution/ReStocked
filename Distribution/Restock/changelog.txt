@@ -1,0 +1,61 @@
+0.1.0
+-----
+- Initial release
+- Parts included:
+ - Command
+  - PPD-12 Cupola Module (Nertea)
+  - PPD-10 Hitchhiker Storage Container (Nertea)
+  - Science Mobile Processing Lab MPL-LG-2 (Nertea)
+ - Control
+  - .625m reaction wheel (Andrew Cassidy)
+ - Coupling
+  - Inline Clamp-O-Tron (Passinglurker)
+  - Clamp-O-Tron Docking Port (Nertea)
+ - Aero
+  - Aerodynamic Nose Cone (Nertea)
+  - Protective Rocket Nose Cone Mk7 (Nertea)
+ - Structural
+  - The Not-Rockomax Micronode (Nertea)
+  - Cubic Octagonal Strut (Nertea)
+  - Octagonal Strut (Nertea)
+  - FL-A10 Adapter (Nertea)
+  - FL-A5 Adapter (Nertea)
+  - Rockomax Brand Adapter (Nertea)
+  - Rockomax Brand Adapter 02 (Nertea)
+  - Kerbodyne ADTP-2-3 (Nertea)
+ - Fuel Tanks
+  - Oscar-B Fuel Tank (Beale)
+  - FL-T200 Fuel Tank Porkjet
+  - FL-T400 Fuel Tank Porkjet
+  - FL-T800 Fuel Tank Porkjet
+  - FL-T100 Fuel Tank Porkjet
+  - Rockomax Jumbo-64 Fuel Tank (Nertea)
+  - Rockomax X200-16 Fuel Tank (Nertea)
+  - Rockomax X200-32 Fuel Tank (Nertea)
+  - Rockomax X200-8 Fuel Tank (Nertea)
+  - Kerbodyne S3-3600 Tank (Nertea)
+  - Kerbodyne S3-7200 Tank (Nertea)
+  - Kerbodyne S3-14400 Tank (Nertea)
+ - Engines
+  - Separatron I (Nertea)
+  - Flea (Nertea)
+  - Hammer (Nertea)
+  - Thumper (Nertea)
+  - Kickback (Nertea)
+  - LV-1 "Ant" Liquid Fuel Engine (Nertea)
+  - LV-1R "Spider" Liquid Fuel Engine (Nertea)
+  - 48-7S "Spark" Liquid Fuel Engine (Nertea)
+  - 24-77 "Twitch" Liquid Fuel Engine (Nertea)
+  - O-10 "Puff" MonoPropellant Fuel Engine (Nertea)
+  - LV-N "Nerv" Atomic Rocket Motor (Nertea)
+  - LV-909 "Terrier" Liquid Fuel Engine (Porkjet/Nertea)
+  - LV-T45 "Swivel" Liquid Fuel Engine (Porkjet/Nertea)
+  - LV-T30 "Reliant" Liquid Fuel Engine (Porkjet/Nertea)
+  - S3 KS-25 "Vector" Liquid Fuel Engine (Nertea)
+  - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
+  - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
+  - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
+ - Electrical
+  - Z-1K Rechargeable Battery Bank (Nertea)
+  - PB-NUK Radioisotope Thermoelectric Generator (Beale)
+- Engines are all surface attachable

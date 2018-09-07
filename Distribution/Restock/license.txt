@@ -1,1 +1,3 @@
-TBW
+The art assets in this pack (all models and textures) are distributed under an All Rights Reserved License.
+
+You may not redistribute or re-use these assets without express permission from the authors of the individual assets (specified in the configuration file).
