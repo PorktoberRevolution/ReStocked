@@ -10,7 +10,10 @@
   - .625m reaction wheel (Andrew Cassidy)
  - Coupling
   - Inline Clamp-O-Tron (Passinglurker)
+  - Clamp-O-Tron Jr. Docking Port (Nertea)
   - Clamp-O-Tron Docking Port (Nertea)
+  - Clamp-O-Tron Sr. Docking Port (Nertea)
+  - Clamp-O-Tron Shielded Port (Nertea)
  - Aero
   - Aerodynamic Nose Cone (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
