@@ -39,6 +39,9 @@
   - Kerbodyne S3-3600 Tank (Nertea)
   - Kerbodyne S3-7200 Tank (Nertea)
   - Kerbodyne S3-14400 Tank (Nertea)
+  - PB-X150 Xenon Container (Nertea)
+  - PB-X750 Xenon Container (Nertea)
+  - PB-X50R Xenon Container (Nertea)
  - Engines
   - Separatron I (Nertea)
   - Flea (Nertea)
@@ -58,7 +61,12 @@
   - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
+  - IX-6315 "Dawn" Electric Propulsion System (Nertea)
  - Electrical
+  - Z-200 Rechargeable Battery Bank (Nertea)
   - Z-1K Rechargeable Battery Bank (Nertea)
+  - Z-4K Rechargeable Battery Bank (Nertea)
+  - Z-400 Rechargeable Battery (Nertea)
+  - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
 - Engines are all surface attachable
