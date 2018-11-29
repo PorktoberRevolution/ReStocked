@@ -17,6 +17,14 @@
  - Aero
   - Aerodynamic Nose Cone (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
+ - Thermal
+  - Heat Shield (0.625m) (Nertea)
+  - Heat Shield (1.25m) (Nertea)
+  - Heat Shield (2.5m) (Nertea)
+  - Heat Shield (3.75m) (Nertea)
+ - Payload
+  - Service Bay (1.25m) (Nertea)
+  - Service Bay (2.5m) (Nertea)
  - Structural
   - The Not-Rockomax Micronode (Nertea)
   - Cubic Octagonal Strut (Nertea)
@@ -70,3 +78,8 @@
   - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
 - Engines are all surface attachable
+- New 'Metallic' variant for 2.5m tanks
+- New Unpainted, Black variants for heat shields
+- Engines have a basic and a compact variant
+- Most atmospheric engines also have a boattail variant
+- New plumes/FX for all redone engines
