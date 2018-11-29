@@ -5,7 +5,6 @@
  - Command
   - PPD-12 Cupola Module (Nertea)
   - PPD-10 Hitchhiker Storage Container (Nertea)
-  - Science Mobile Processing Lab MPL-LG-2 (Nertea)
  - Control
   - .625m reaction wheel (Andrew Cassidy)
  - Coupling
@@ -77,6 +76,14 @@
   - Z-400 Rechargeable Battery (Nertea)
   - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
+- Science
+  - Science Mobile Processing Lab MPL-LG-2 (Nertea)
+  - Thermometer (Andrew Cassidy)
+  - Barometer (Andrew Cassidy)
+  - Accelerometer (Andrew Cassidy)
+  - Negative Gravioli Detector (Andrew Cassidy)
+  - Mystery Goo™ Containment Unit (Andrew Cassidy)
+  - SC-9001 Science Jr. (Andrew Cassidy)
 - Engines are all surface attachable
 - New 'Metallic' variant for 2.5m tanks
 - New Unpainted, Black variants for heat shields
