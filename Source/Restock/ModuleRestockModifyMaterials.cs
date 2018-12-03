@@ -23,18 +23,21 @@ namespace Restock
 
             foreach (ConfigNode node2 in node.GetNodes("MATERIAL"))
             {
-                string newShaderName = node2.GetValue("shaderName");
-                Shader newShader = Shader.Find(newShaderName);
-
-                if (newShader == null)
+                if (node2.GetValue("shader") is string newShaderName)
                 {
-                    Debug.LogError($"Can't find shader {newShaderName}");
-                    continue;
-                }
+                    if (Shader.Find(newShaderName) is Shader newShader)
+                    {
+                        foreach (Renderer renderer in renderers)
+                        {
+                            renderer.material.shader = newShader;
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError($"Can't find shader {newShaderName}");
+                        continue;
+                    }
 
-                foreach (Renderer renderer in renderers)
-                {
-                    renderer.material.shader = newShader;
                 }
 
                 foreach (ConfigNode node3 in node2.GetNodes("TEXTURE_PROPERTY"))
