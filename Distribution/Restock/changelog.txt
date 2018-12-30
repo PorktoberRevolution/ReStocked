@@ -1,4 +1,4 @@
-0.1.0
+﻿0.1.0
 -----
 - Initial release
 - Parts included:
@@ -7,6 +7,8 @@
   - PPD-10 Hitchhiker Storage Container (Nertea)
  - Control
   - .625m reaction wheel (Andrew Cassidy)
+  - RV-105 RCS Thruster Block (Nertea)
+  - Place-Anywhere 7 Linear RCS Port (Nertea)
  - Coupling
   - Inline Clamp-O-Tron (Passinglurker)
   - Clamp-O-Tron Jr. Docking Port (Nertea)
@@ -15,6 +17,8 @@
   - Clamp-O-Tron Shielded Port (Nertea)
  - Aero
   - Aerodynamic Nose Cone (Nertea)
+  - Advanced Nose Cone - Type A
+  - Advanced Nose Cone - Type B
   - Protective Rocket Nose Cone Mk7 (Nertea)
  - Thermal
   - Heat Shield (0.625m) (Nertea)
@@ -35,10 +39,10 @@
   - Kerbodyne ADTP-2-3 (Nertea)
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
-  - FL-T200 Fuel Tank Porkjet
-  - FL-T400 Fuel Tank Porkjet
-  - FL-T800 Fuel Tank Porkjet
-  - FL-T100 Fuel Tank Porkjet
+  - FL-T200 Fuel Tank (Porkjet/Nertea)
+  - FL-T400 Fuel Tank (Porkje/Nertea)
+  - FL-T800 Fuel Tank (Porkjet/Nertea)
+  - FL-T100 Fuel Tank (Porkjet/Nertea)
   - Rockomax Jumbo-64 Fuel Tank (Nertea)
   - Rockomax X200-16 Fuel Tank (Nertea)
   - Rockomax X200-32 Fuel Tank (Nertea)
@@ -49,12 +53,17 @@
   - PB-X150 Xenon Container (Nertea)
   - PB-X750 Xenon Container (Nertea)
   - PB-X50R Xenon Container (Nertea)
+  - Stratus-V Roundified Monopropellant Tank (Nertea)
+  - Stratus-V Cylindrified Monopropellant Tank (Nertea)
+  - FL-R10 RCS Fuel Tank (Nertea)
+  - FL-R25 RCS Fuel Tank (Nertea)
+  - FL-R1 RCS Fuel Tank (Nertea)
  - Engines
   - Separatron I (Nertea)
-  - Flea (Nertea)
-  - Hammer (Nertea)
-  - Thumper (Nertea)
-  - Kickback (Nertea)
+  - RT-5 "Flea" Solid Fuel Booster (Nertea)
+  - RT-10 "Hammer" Solid Fuel Booster (Nertea)
+  - BACC "Thumper" Solid Fuel Booster (Nertea)
+  - S1 SRB-KD25k "Kickback" Solid Fuel Booster (Nertea)
   - LV-1 "Ant" Liquid Fuel Engine (Nertea)
   - LV-1R "Spider" Liquid Fuel Engine (Nertea)
   - 48-7S "Spark" Liquid Fuel Engine (Nertea)
@@ -87,6 +96,7 @@
 - Engines are all surface attachable
 - New 'Metallic' variant for 2.5m tanks
 - New Unpainted, Black variants for heat shields
+- New Bare variant for Linear RCS
 - Engines have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
