@@ -16,9 +16,10 @@
   - Clamp-O-Tron Sr. Docking Port (Nertea)
   - Clamp-O-Tron Shielded Port (Nertea)
  - Aero
+  - Small Nose Cone (Nertea)
   - Aerodynamic Nose Cone (Nertea)
-  - Advanced Nose Cone - Type A
-  - Advanced Nose Cone - Type B
+  - Advanced Nose Cone - Type A (Nertea)
+  - Advanced Nose Cone - Type B (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
  - Thermal
   - Heat Shield (0.625m) (Nertea)
@@ -26,6 +27,9 @@
   - Heat Shield (2.5m) (Nertea)
   - Heat Shield (3.75m) (Nertea)
  - Payload
+  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)    
+  - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
+  - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
   - Service Bay (1.25m) (Nertea)
   - Service Bay (2.5m) (Nertea)
  - Structural
@@ -74,6 +78,9 @@
   - LV-T45 "Swivel" Liquid Fuel Engine (Porkjet/Nertea)
   - LV-T30 "Reliant" Liquid Fuel Engine (Porkjet/Nertea)
   - S3 KS-25 "Vector" Liquid Fuel Engine (Nertea)
+  - RE-L10 "Poodle" Liquid Fuel Engine (riocrokite/Nertea)
+  - LV-T45 "Skipper" Liquid Fuel Engine (riocrokite/Nertea)
+  - LV-T30 "Mainsail" Liquid Fuel Engine (riocrokite/Nertea)
   - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
@@ -94,9 +101,12 @@
   - Mystery Goo™ Containment Unit (Andrew Cassidy)
   - SC-9001 Science Jr. (Andrew Cassidy)
 - Engines are all surface attachable
+- 'Dark' variant for 1.25m tanks has been completely reworked
+- 'Dark' variant for several 1.25m tank/nosecone has been added
+- New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
 - New Unpainted, Black variants for heat shields
 - New Bare variant for Linear RCS
-- Engines have a basic and a compact variant
+- Most engines have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
