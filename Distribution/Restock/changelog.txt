@@ -31,7 +31,7 @@
   - Heat Shield (2.5m) (Nertea)
   - Heat Shield (3.75m) (Nertea)
  - Payload
-  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)    
+  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)
   - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
   - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
   - Service Bay (1.25m) (Nertea)
@@ -106,11 +106,7 @@
   - SC-9001 Science Jr. (Andrew Cassidy)
 - Engines are all surface attachable
 - 'Dark' variant for 1.25m tanks has been completely reworked
-<<<<<<< HEAD
-- 'Dark' variant for several 1.25m tank/nosecone has been added
-=======
 - 'Dark' variant for several 1.25m tank/nosecones has been added
->>>>>>> master
 - New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
 - New Unpainted, Black variants for heat shields
