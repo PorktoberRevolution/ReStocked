@@ -11,7 +11,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (3.0.6)
+- ModuleManager (3.1.2)
 
 =============
 CREDITS
@@ -20,6 +20,7 @@ CREDITS
 - Chris Adderley (Nertea)
 - Beale
 - Andrew Cassidy
+- blowfish
 - Passinglurker
 
 ============

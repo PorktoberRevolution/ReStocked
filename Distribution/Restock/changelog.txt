@@ -48,7 +48,7 @@
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
   - FL-T200 Fuel Tank (Porkjet/Nertea)
-  - FL-T400 Fuel Tank (Porkje/Nertea)
+  - FL-T400 Fuel Tank (Porkjet/Nertea)
   - FL-T800 Fuel Tank (Porkjet/Nertea)
   - FL-T100 Fuel Tank (Porkjet/Nertea)
   - Rockomax Jumbo-64 Fuel Tank (Nertea)
@@ -58,6 +58,9 @@
   - Kerbodyne S3-3600 Tank (Nertea)
   - Kerbodyne S3-7200 Tank (Nertea)
   - Kerbodyne S3-14400 Tank (Nertea)
+  - R-4 'Dumpling' External Tank (Nertea)
+  - R-11 'Baguette' External Tank (Nertea)
+  - R-12 'Doughnut' External Tank (Nertea)
   - PB-X150 Xenon Container (Nertea)
   - PB-X750 Xenon Container (Nertea)
   - PB-X50R Xenon Container (Nertea)
@@ -109,6 +112,7 @@
 - 'Dark' variant for several 1.25m tank/nosecones has been added
 - New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
+- New 'Silver' variant for foil radial LFO tanks
 - New Unpainted, Black variants for heat shields
 - New Bare variant for Linear RCS
 - Most engines have a basic and a compact variant
