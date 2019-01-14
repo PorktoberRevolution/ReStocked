@@ -31,7 +31,7 @@
   - Heat Shield (2.5m) (Nertea)
   - Heat Shield (3.75m) (Nertea)
  - Payload
-  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)    
+  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)
   - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
   - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
   - Service Bay (1.25m) (Nertea)
