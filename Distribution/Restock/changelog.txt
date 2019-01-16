@@ -8,7 +8,15 @@
   - Mk1 Lander Can (Nertea)
   - Mk2 Lander Can (Nertea)
   - PPD-12 Cupola Module (Nertea)
-  - PPD-10 Hitchhiker Storage Container (Nertea)
+  - PPD-10 Hitchhiker Storage Container (Nertea) 
+  - Probodobodyne HECS (Nertea)
+  - Probodobodyne OKTO (Nertea)
+  - Probodobodyne OKTO2 (Nertea)
+  - Probodobodyne Stayputnik (Nertea)
+  - Probodobodyne QBE (Nertea)
+  - Probodobodyne HECS2 (Nertea)
+  - RC-L01 Remote Guidance Unit (Nertea)
+  - RC-001S Remote Guidance Unit (Nertea)
  - Control
   - .625m reaction wheel (Andrew Cassidy)
   - RV-105 RCS Thruster Block (Nertea)
@@ -118,3 +126,4 @@
 - Most engines have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
+- Probe cores now all have consistent 'Bare' and 'Gold' variants
