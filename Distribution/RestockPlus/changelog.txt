@@ -1,3 +1,17 @@
 0.1.0
 -----
 - Initial release
+- New parts added
+-- HG-20 High Gain Antenna (Andrew Cassidy): A longer range version of the HG-5 that can handle either direct communications or short range relays, using 4 different dishes. 
+-- SC-9001R Radial Science Jr (Andrew Cassidy): A radial version of the materials bay
+-- Mystery Goo™ Inline Containment Unit (Andrew Cassidy): An inline version of the goo cannister
+-- KR-1 'Boar' Liquid Fuel Engine (Nertea): A single version of the Twin Boar engine
+-- KR-10A 'Corgi' Liquid Fuel Engine Cluster (Nertea): A 3.75m upper stage LF/O engine
+-- LV-303 'Pug' Liquid Fuel Engine (Nertea/Porkjet):
+-- LV-T15 'Valiant' Liquid Fuel Engine (Nertea/Porkjet):
+-- Kerbodyne S3-1800 Tank (Nertea): A compact size 3.75m tank
+-- Kerbodyne ADTP-2-3A (Nertea): A hollow version of the fuelled 3.75 to 2.5m adapter
+-- Kerbodyne SKLE-2-3 (Nertea): A skeletal 3.75 to 2.5m adapter
+-- Clamp-O-Tron Docking Port 'Grande' (Nertea): 3.75m docking port
+-- RC-XL001 Remote Guidance Unit (Nertea): 3.75m RGU
+-- Z-10K Rechargable Battery Bank (Nertea): 3.75m stack battery
