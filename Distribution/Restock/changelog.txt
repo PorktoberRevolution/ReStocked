@@ -33,6 +33,11 @@
   - Advanced Nose Cone - Type A (Nertea)
   - Advanced Nose Cone - Type B (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
+  - Mk16 Parachute (Nertea)
+  - Mk16-XL Parachute (Nertea)
+  - Mk25 Parachute (Nertea)
+  - Mk2-R Radial-Mount Parachute (Nertea)
+  - Mk12-R Radial-Mount Drogue Chute (Nertea)
  - Thermal
   - Heat Shield (0.625m) (Nertea)
   - Heat Shield (1.25m) (Nertea)
