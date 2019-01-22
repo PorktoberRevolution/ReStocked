@@ -1,19 +1,54 @@
-0.1.0
+﻿0.1.0
 -----
 - Initial release
 - Parts included:
  - Command
+  - Mk1 Command Pod (Porkjet/Nertea)
+  - Mk1-3 Command Pod (Nertea)
+  - Mk1 Lander Can (Nertea)
+  - Mk2 Lander Can (Nertea)
   - PPD-12 Cupola Module (Nertea)
-  - PPD-10 Hitchhiker Storage Container (Nertea)
-  - Science Mobile Processing Lab MPL-LG-2 (Nertea)
+  - PPD-10 Hitchhiker Storage Container (Nertea) 
+  - Probodobodyne HECS (Nertea)
+  - Probodobodyne OKTO (Nertea)
+  - Probodobodyne OKTO2 (Nertea)
+  - Probodobodyne Stayputnik (Nertea)
+  - Probodobodyne QBE (Nertea)
+  - Probodobodyne HECS2 (Nertea)
+  - RC-L01 Remote Guidance Unit (Nertea)
+  - RC-001S Remote Guidance Unit (Nertea)
  - Control
   - .625m reaction wheel (Andrew Cassidy)
+  - RV-105 RCS Thruster Block (Nertea)
+  - Place-Anywhere 7 Linear RCS Port (Nertea)
  - Coupling
   - Inline Clamp-O-Tron (Passinglurker)
+  - Clamp-O-Tron Jr. Docking Port (Nertea)
   - Clamp-O-Tron Docking Port (Nertea)
+  - Clamp-O-Tron Sr. Docking Port (Nertea)
+  - Clamp-O-Tron Shielded Port (Nertea)
  - Aero
+  - Small Nose Cone (Nertea)
   - Aerodynamic Nose Cone (Nertea)
+  - Advanced Nose Cone - Type A (Nertea)
+  - Advanced Nose Cone - Type B (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
+  - Mk16 Parachute (Nertea)
+  - Mk16-XL Parachute (Nertea)
+  - Mk25 Parachute (Nertea)
+  - Mk2-R Radial-Mount Parachute (Nertea)
+  - Mk12-R Radial-Mount Drogue Chute (Nertea)
+ - Thermal
+  - Heat Shield (0.625m) (Nertea)
+  - Heat Shield (1.25m) (Nertea)
+  - Heat Shield (2.5m) (Nertea)
+  - Heat Shield (3.75m) (Nertea)
+ - Payload
+  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)
+  - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
+  - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
+  - Service Bay (1.25m) (Nertea)
+  - Service Bay (2.5m) (Nertea)
  - Structural
   - The Not-Rockomax Micronode (Nertea)
   - Cubic Octagonal Strut (Nertea)
@@ -25,10 +60,10 @@
   - Kerbodyne ADTP-2-3 (Nertea)
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
-  - FL-T200 Fuel Tank Porkjet
-  - FL-T400 Fuel Tank Porkjet
-  - FL-T800 Fuel Tank Porkjet
-  - FL-T100 Fuel Tank Porkjet
+  - FL-T200 Fuel Tank (Porkjet/Nertea)
+  - FL-T400 Fuel Tank (Porkjet/Nertea)
+  - FL-T800 Fuel Tank (Porkjet/Nertea)
+  - FL-T100 Fuel Tank (Porkjet/Nertea)
   - Rockomax Jumbo-64 Fuel Tank (Nertea)
   - Rockomax X200-16 Fuel Tank (Nertea)
   - Rockomax X200-32 Fuel Tank (Nertea)
@@ -36,12 +71,23 @@
   - Kerbodyne S3-3600 Tank (Nertea)
   - Kerbodyne S3-7200 Tank (Nertea)
   - Kerbodyne S3-14400 Tank (Nertea)
+  - R-4 'Dumpling' External Tank (Nertea)
+  - R-11 'Baguette' External Tank (Nertea)
+  - R-12 'Doughnut' External Tank (Nertea)
+  - PB-X150 Xenon Container (Nertea)
+  - PB-X750 Xenon Container (Nertea)
+  - PB-X50R Xenon Container (Nertea)
+  - Stratus-V Roundified Monopropellant Tank (Nertea)
+  - Stratus-V Cylindrified Monopropellant Tank (Nertea)
+  - FL-R10 RCS Fuel Tank (Nertea)
+  - FL-R25 RCS Fuel Tank (Nertea)
+  - FL-R1 RCS Fuel Tank (Nertea)
  - Engines
   - Separatron I (Nertea)
-  - Flea (Nertea)
-  - Hammer (Nertea)
-  - Thumper (Nertea)
-  - Kickback (Nertea)
+  - RT-5 "Flea" Solid Fuel Booster (Nertea)
+  - RT-10 "Hammer" Solid Fuel Booster (Nertea)
+  - BACC "Thumper" Solid Fuel Booster (Nertea)
+  - S1 SRB-KD25k "Kickback" Solid Fuel Booster (Nertea)
   - LV-1 "Ant" Liquid Fuel Engine (Nertea)
   - LV-1R "Spider" Liquid Fuel Engine (Nertea)
   - 48-7S "Spark" Liquid Fuel Engine (Nertea)
@@ -52,10 +98,37 @@
   - LV-T45 "Swivel" Liquid Fuel Engine (Porkjet/Nertea)
   - LV-T30 "Reliant" Liquid Fuel Engine (Porkjet/Nertea)
   - S3 KS-25 "Vector" Liquid Fuel Engine (Nertea)
+  - RE-L10 "Poodle" Liquid Fuel Engine (riocrokite/Nertea)
+  - LV-T45 "Skipper" Liquid Fuel Engine (riocrokite/Nertea)
+  - LV-T30 "Mainsail" Liquid Fuel Engine (riocrokite/Nertea)
   - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
+  - IX-6315 "Dawn" Electric Propulsion System (Nertea)
  - Electrical
+  - Z-200 Rechargeable Battery Bank (Nertea)
   - Z-1K Rechargeable Battery Bank (Nertea)
+  - Z-4K Rechargeable Battery Bank (Nertea)
+  - Z-400 Rechargeable Battery (Nertea)
+  - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
+- Science
+  - Science Mobile Processing Lab MPL-LG-2 (Nertea)
+  - Thermometer (Andrew Cassidy)
+  - Barometer (Andrew Cassidy)
+  - Accelerometer (Andrew Cassidy)
+  - Negative Gravioli Detector (Andrew Cassidy)
+  - Mystery Goo™ Containment Unit (Andrew Cassidy)
+  - SC-9001 Science Jr. (Andrew Cassidy)
 - Engines are all surface attachable
+- 'Dark' variant for 1.25m tanks has been completely reworked
+- 'Dark' variant for several 1.25m tank/nosecones has been added
+- New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
+- New 'Metallic' variant for 2.5m tanks
+- New 'Silver' variant for foil radial LFO tanks
+- New Unpainted, Black variants for heat shields
+- New Bare variant for Linear RCS
+- Most engines have a basic and a compact variant
+- Most atmospheric engines also have a boattail variant
+- New plumes/FX for all redone engines
+- Probe cores now all have consistent 'Bare' and 'Gold' variants
