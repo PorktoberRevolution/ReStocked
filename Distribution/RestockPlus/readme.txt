@@ -9,7 +9,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock 
+- Restock
 - ModuleManager (3.1.3)
 
 =============
