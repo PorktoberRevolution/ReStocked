@@ -2,14 +2,17 @@
 RESTOCK+ 0.1.0
 ==============
 
-Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game.
+Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. At the moment this concentrates on a couple of primary areas:
+- 0.625m parts: filling out this range with engines, fuel tanks, SRBs and more
+- 3.75m parts: filling out the range with engines, docking ports, control systems and more
+In addition some glaring bugfixes and improvements are made
 
 ============
 DEPENDENCIES
 ============
 
 Required:
-- Restock
+- Restock (0.1.0)
 - ModuleManager (4.0.1)
 
 =============

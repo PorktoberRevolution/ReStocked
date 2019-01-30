@@ -44,4 +44,4 @@
 -- RC-15 RCS Thruster Block (Nertea): Five way RCS block, mini size
 - Patches and fixes
 -- Gimbals are enabled on stock SRBs
--- Oscar-B tank volume has been fixed (was far too high at 40, is now 12)
+-- Oscar-B tank volume has been fixed (was far too high at 40, is now 18)
