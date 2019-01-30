@@ -14,6 +14,7 @@
 -- Oscar-C Fuel Tank (Nertea): A 2x Oscar-B size tank
 -- Oscar-D Fuel Tank (Nertea): A 4x Oscar-B size tank
 -- Oscar-E Fuel Tank (Nertea): A 8x Oscar-B size tank
+-- Stratus-V Miniature Monopropellant Tank (Nertea): A probe-sized RCS tank. Replaces MH tiny RCS tank if installed
 - New Command parts
 -- RC-XL001 Remote Guidance Unit (Nertea): 3.75m RGU
 - New Coupling parts
@@ -23,13 +24,24 @@
 -- Kerbodyne SKLE-2-3 (Nertea): A skeletal 3.75 to 2.5m adapter
 - New Payload parts
 -- AE-FF0 Airstream Protective Shell (0.625m) (Nertea): a 0.625m fairing base
+-- AE-FF1-L Airstream Protective Shell (1.875m) (Nertea): a 1.875m fairing base. Replaces MH 1.875m fairing base if installed
 - New Science parts
 -- SC-9001R Radial Science Jr (Andrew Cassidy): A radial version of the materials bay
 -- Mystery Goo™ Inline Containment Unit (Andrew Cassidy): An inline version of the goo cannister
 - New Electrical parts
--- Z-10K Rechargable Battery Bank (Nertea): 3.75m stack battery
+-- Z-10K Rechargeable Battery Bank (Nertea): 3.75m stack battery
 - New Communications parts
 -- HG-20 High Gain Antenna (Andrew Cassidy): A longer range version of the HG-5 that can handle either direct communications or short range relays, using 4 different dishes.
+- New RCS parts:
+-- RV-102 RCS Thruster Block (Nertea): Dual axis RCS block
+-- RV-103 RCS Thruster Block (Nertea): Triple RCS block
+-- RV-105-A RCS Thruster Block (Nertea): Quad angled RCS block
+-- RV-105-XL RCS Thruster Block (Nertea): Five way RCS block
+-- RC-12 RCS Thruster Block (Nertea): Dual axis RCS block, mini size
+-- RC-13 RCS Thruster Block (Nertea): Triple RCS block, mini size
+-- RC-14 RCS Thruster Block (Nertea): Quad RCS block, mini size
+-- RC-14-A RCS Thruster Block (Nertea): Quad angled RCS block, mini size
+-- RC-15 RCS Thruster Block (Nertea): Five way RCS block, mini size
 - Patches and fixes
 -- Gimbals are enabled on stock SRBs
 -- Oscar-B tank volume has been fixed (was far too high at 40, is now 12)

@@ -10,7 +10,7 @@ DEPENDENCIES
 
 Required:
 - Restock
-- ModuleManager (3.1.3)
+- ModuleManager (4.0.1)
 
 =============
 CREDITS

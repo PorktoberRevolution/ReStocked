@@ -8,7 +8,7 @@
   - Mk1 Lander Can (Nertea)
   - Mk2 Lander Can (Nertea)
   - PPD-12 Cupola Module (Nertea)
-  - PPD-10 Hitchhiker Storage Container (Nertea) 
+  - PPD-10 Hitchhiker Storage Container (Nertea)
   - Probodobodyne HECS (Nertea)
   - Probodobodyne OKTO (Nertea)
   - Probodobodyne OKTO2 (Nertea)
@@ -21,6 +21,7 @@
   - .625m reaction wheel (Andrew Cassidy)
   - RV-105 RCS Thruster Block (Nertea)
   - Place-Anywhere 7 Linear RCS Port (Nertea)
+  - Vernor Engine (Nertea)
  - Coupling
   - Inline Clamp-O-Tron (Passinglurker)
   - Clamp-O-Tron Jr. Docking Port (Nertea)
@@ -125,6 +126,7 @@
 - 'Dark' variant for several 1.25m tank/nosecones has been added
 - New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
+- New 'white' variant for Oscar-B tank
 - New 'Silver' variant for foil radial LFO tanks
 - New Unpainted, Black variants for heat shields
 - New Bare variant for Linear RCS
