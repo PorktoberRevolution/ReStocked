@@ -13,15 +13,22 @@ DEPENDENCIES
 Required:
 - ModuleManager (4.0.1)
 
-=============
+=======
 CREDITS
-=============
+=======
 
+Art
 - Chris Adderley (Nertea)
 - Beale
 - Andrew Cassidy
-- blowfish
 - Passinglurker
+
+Plugin code
+- blowfish
+
+Lead Testing:
+- Tyko
+- Poodmund
 
 ============
 INSTALLATION
@@ -38,6 +45,7 @@ LOCALIZATION
 LICENSING
 =========
 
-The art assets in this pack (all models and textures) are distributed under an All Rights Reserved License. You may not redistribute or re-use these assets without express permission from the authors.
+See the license.txt file for more information.
 
-ModuleManager by ialdabaoth and sarbian is distributed under a Creative Commons Sharealike license. More details, including source code, can be found here: http://forum.kerbalspaceprogram.com/threads/31342-0-20-ModuleManager-1-3-for-all-your-stock-modding-needs?p=528607&viewfull=1#post528607
+Any bundled mods are distributed under their own license:
+- ModuleManager by blowfish and sarbian is distributed under a Creative Commons Sharealike license. More details, including source code, can be found here: http://forum.kerbalspaceprogram.com/threads/31342-0-20-ModuleManager-1-3-for-all-your-stock-modding-needs?p=528607&viewfull=1#post528607

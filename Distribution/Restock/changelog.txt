@@ -100,8 +100,8 @@
   - LV-T30 "Reliant" Liquid Fuel Engine (Porkjet/Nertea)
   - S3 KS-25 "Vector" Liquid Fuel Engine (Nertea)
   - RE-L10 "Poodle" Liquid Fuel Engine (riocrokite/Nertea)
-  - LV-T45 "Skipper" Liquid Fuel Engine (riocrokite/Nertea)
-  - LV-T30 "Mainsail" Liquid Fuel Engine (riocrokite/Nertea)
+  - "Skipper" Liquid Fuel Engine (riocrokite/Nertea)
+  - RE-M3 "Mainsail" Liquid Fuel Engine (riocrokite/Nertea)
   - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
@@ -122,16 +122,24 @@
   - Negative Gravioli Detector (Andrew Cassidy)
   - Mystery Goo™ Containment Unit (Andrew Cassidy)
   - SC-9001 Science Jr. (Andrew Cassidy)
+  - Atmospheric Fluid Spectro-Variometer (Andrew Cassidy)
+- Communications
+  - Communotron 88-88 (Andrew Cassidy)
+  - HG-5 High Gain Antenna (Andrew Cassidy)
+  - RA-2 Relay Antenna (Andrew Cassidy)
+  - RA-15 Relay Antenna (Andrew Cassidy)
+  - RA-100 Relay Antenna (Andrew Cassidy)
 - Engines are all surface attachable
 - 'Dark' variant for 1.25m tanks has been completely reworked
 - 'Dark' variant for several 1.25m tank/nosecones has been added
 - New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
-- New 'white' variant for Oscar-B tank
+- New 'White' variant for Oscar-B tank
 - New 'Silver' variant for foil radial LFO tanks
 - New Unpainted, Black variants for heat shields
 - New Bare variant for Linear RCS
-- Most engines have a basic and a compact variant
+- Most engines now have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
+- New plumes/FX for Thud and Dart, even though they are not redone yet
 - Probe cores now all have consistent 'Bare' and 'Gold' variants
