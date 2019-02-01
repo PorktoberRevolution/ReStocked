@@ -106,6 +106,7 @@
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
   - IX-6315 "Dawn" Electric Propulsion System (Nertea)
+  - CR-7 R.A.P.I.E.R. Engine (Nertea)
  - Electrical
   - Z-200 Rechargeable Battery Bank (Nertea)
   - Z-1K Rechargeable Battery Bank (Nertea)

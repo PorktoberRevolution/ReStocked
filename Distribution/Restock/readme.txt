@@ -11,7 +11,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (3.1.2)
+- ModuleManager (4.0.1)
 
 =============
 CREDITS
