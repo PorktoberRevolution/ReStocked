@@ -21,6 +21,7 @@ Art
 - Chris Adderley (Nertea)
 - Beale
 - Andrew Cassidy
+- riocrokite
 - Passinglurker
 
 Plugin code
