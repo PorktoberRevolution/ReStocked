@@ -58,7 +58,8 @@
   - FL-A5 Adapter (Nertea)
   - Rockomax Brand Adapter (Nertea)
   - Rockomax Brand Adapter 02 (Nertea)
-  - Kerbodyne ADTP-2-3 (Nertea)
+  - Rockomax HubMax Multi-Point Connector (Nertea)
+  - BZ-52 Radial Attachment Point (Nertea)
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
   - FL-T200 Fuel Tank (Porkjet/Nertea)
@@ -72,6 +73,7 @@
   - Kerbodyne S3-3600 Tank (Nertea)
   - Kerbodyne S3-7200 Tank (Nertea)
   - Kerbodyne S3-14400 Tank (Nertea)
+  - Kerbodyne ADTP-2-3 (Nertea)
   - R-4 'Dumpling' External Tank (Nertea)
   - R-11 'Baguette' External Tank (Nertea)
   - R-12 'Doughnut' External Tank (Nertea)
