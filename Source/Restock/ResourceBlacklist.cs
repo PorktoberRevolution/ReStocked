@@ -9,6 +9,7 @@ namespace Restock
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     public class ResourceBlacklist : MonoBehaviour
     {
+        private readonly string[] commentSep = { "//" };
         private void Start()
         {
             HashSet<UrlDir.UrlFile> blacklist = new HashSet<UrlDir.UrlFile>();
@@ -23,7 +24,10 @@ namespace Restock
                     Debug.Log($"[Restock] Reading blacklist {file.url}.{file.fileExtension}");
                     foreach (string line in File.ReadAllLines(file.fullPath))
                     {
-                        foreach (UrlDir.UrlFile blacklistFile in FindFiles(line, gameData))
+                        string lineBeforeComment = line.Split(commentSep, 2, StringSplitOptions.None)[0].Trim();
+                        if (lineBeforeComment == string.Empty) continue;
+
+                        foreach (UrlDir.UrlFile blacklistFile in FindFiles(lineBeforeComment, gameData))
                         {
                             blacklist.Add(blacklistFile);
                         }
@@ -34,7 +38,10 @@ namespace Restock
                     Debug.Log($"[Restock] Reading whitelist {file.url}.{file.fileExtension}");
                     foreach (string line in File.ReadAllLines(file.fullPath))
                     {
-                        foreach (UrlDir.UrlFile whitelistFile in FindFiles(line, gameData))
+                        string lineBeforeComment = line.Split(commentSep, 2, StringSplitOptions.None)[0].Trim();
+                        if (lineBeforeComment == string.Empty) continue;
+
+                        foreach (UrlDir.UrlFile whitelistFile in FindFiles(lineBeforeComment, gameData))
                         {
                             whitelist.Add(whitelistFile);
                         }
