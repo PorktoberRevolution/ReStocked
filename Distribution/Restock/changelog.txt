@@ -3,12 +3,25 @@
 - Initial release
 - Parts included:
  - Command
+  - Mk1 Command Pod (Porkjet/Nertea)
+  - Mk1-3 Command Pod (Nertea)
+  - Mk1 Lander Can (Nertea)
+  - Mk2 Lander Can (Nertea)
   - PPD-12 Cupola Module (Nertea)
   - PPD-10 Hitchhiker Storage Container (Nertea)
+  - Probodobodyne HECS (Nertea)
+  - Probodobodyne OKTO (Nertea)
+  - Probodobodyne OKTO2 (Nertea)
+  - Probodobodyne Stayputnik (Nertea)
+  - Probodobodyne QBE (Nertea)
+  - Probodobodyne HECS2 (Nertea)
+  - RC-L01 Remote Guidance Unit (Nertea)
+  - RC-001S Remote Guidance Unit (Nertea)
  - Control
   - .625m reaction wheel (Andrew Cassidy)
   - RV-105 RCS Thruster Block (Nertea)
   - Place-Anywhere 7 Linear RCS Port (Nertea)
+  - Vernor Engine (Nertea)
  - Coupling
   - Inline Clamp-O-Tron (Passinglurker)
   - Clamp-O-Tron Jr. Docking Port (Nertea)
@@ -16,16 +29,25 @@
   - Clamp-O-Tron Sr. Docking Port (Nertea)
   - Clamp-O-Tron Shielded Port (Nertea)
  - Aero
+  - Small Nose Cone (Nertea)
   - Aerodynamic Nose Cone (Nertea)
-  - Advanced Nose Cone - Type A
-  - Advanced Nose Cone - Type B
+  - Advanced Nose Cone - Type A (Nertea)
+  - Advanced Nose Cone - Type B (Nertea)
   - Protective Rocket Nose Cone Mk7 (Nertea)
+  - Mk16 Parachute (Nertea)
+  - Mk16-XL Parachute (Nertea)
+  - Mk25 Parachute (Nertea)
+  - Mk2-R Radial-Mount Parachute (Nertea)
+  - Mk12-R Radial-Mount Drogue Chute (Nertea)
  - Thermal
   - Heat Shield (0.625m) (Nertea)
   - Heat Shield (1.25m) (Nertea)
   - Heat Shield (2.5m) (Nertea)
   - Heat Shield (3.75m) (Nertea)
  - Payload
+  - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)
+  - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
+  - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
   - Service Bay (1.25m) (Nertea)
   - Service Bay (2.5m) (Nertea)
  - Structural
@@ -36,11 +58,12 @@
   - FL-A5 Adapter (Nertea)
   - Rockomax Brand Adapter (Nertea)
   - Rockomax Brand Adapter 02 (Nertea)
-  - Kerbodyne ADTP-2-3 (Nertea)
+  - Rockomax HubMax Multi-Point Connector (Nertea)
+  - BZ-52 Radial Attachment Point (Nertea)
  - Fuel Tanks
   - Oscar-B Fuel Tank (Beale)
   - FL-T200 Fuel Tank (Porkjet/Nertea)
-  - FL-T400 Fuel Tank (Porkje/Nertea)
+  - FL-T400 Fuel Tank (Porkjet/Nertea)
   - FL-T800 Fuel Tank (Porkjet/Nertea)
   - FL-T100 Fuel Tank (Porkjet/Nertea)
   - Rockomax Jumbo-64 Fuel Tank (Nertea)
@@ -50,6 +73,10 @@
   - Kerbodyne S3-3600 Tank (Nertea)
   - Kerbodyne S3-7200 Tank (Nertea)
   - Kerbodyne S3-14400 Tank (Nertea)
+  - Kerbodyne ADTP-2-3 (Nertea)
+  - R-4 'Dumpling' External Tank (Nertea)
+  - R-11 'Baguette' External Tank (Nertea)
+  - R-12 'Doughnut' External Tank (Nertea)
   - PB-X150 Xenon Container (Nertea)
   - PB-X750 Xenon Container (Nertea)
   - PB-X50R Xenon Container (Nertea)
@@ -74,10 +101,14 @@
   - LV-T45 "Swivel" Liquid Fuel Engine (Porkjet/Nertea)
   - LV-T30 "Reliant" Liquid Fuel Engine (Porkjet/Nertea)
   - S3 KS-25 "Vector" Liquid Fuel Engine (Nertea)
+  - RE-L10 "Poodle" Liquid Fuel Engine (riocrokite/Nertea)
+  - "Skipper" Liquid Fuel Engine (riocrokite/Nertea)
+  - RE-M3 "Mainsail" Liquid Fuel Engine (riocrokite/Nertea)
   - LFB KR-1x2 "Twin-Boar" Liquid Fuel Engine (Nertea)
   - Kerbodyne KR-2L+ "Rhino" Liquid Fuel Engine (Nertea)
   - S3 KS-25x4 "Mammoth" Liquid Fuel Engine (Nertea)
   - IX-6315 "Dawn" Electric Propulsion System (Nertea)
+  - CR-7 R.A.P.I.E.R. Engine (Nertea)
  - Electrical
   - Z-200 Rechargeable Battery Bank (Nertea)
   - Z-1K Rechargeable Battery Bank (Nertea)
@@ -93,10 +124,24 @@
   - Negative Gravioli Detector (Andrew Cassidy)
   - Mystery Goo™ Containment Unit (Andrew Cassidy)
   - SC-9001 Science Jr. (Andrew Cassidy)
+  - Atmospheric Fluid Spectro-Variometer (Andrew Cassidy)
+- Communications
+  - Communotron 88-88 (Andrew Cassidy)
+  - HG-5 High Gain Antenna (Andrew Cassidy)
+  - RA-2 Relay Antenna (Andrew Cassidy)
+  - RA-15 Relay Antenna (Andrew Cassidy)
+  - RA-100 Relay Antenna (Andrew Cassidy)
 - Engines are all surface attachable
+- 'Dark' variant for 1.25m tanks has been completely reworked
+- 'Dark' variant for several 1.25m tank/nosecones has been added
+- New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
+- New 'White' variant for Oscar-B tank
+- New 'Silver' variant for foil radial LFO tanks
 - New Unpainted, Black variants for heat shields
 - New Bare variant for Linear RCS
-- Engines have a basic and a compact variant
+- Most engines now have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
+- New plumes/FX for Thud and Dart, even though they are not redone yet
+- Probe cores now all have consistent 'Bare' and 'Gold' variants
