@@ -134,6 +134,7 @@
 - Engines are all surface attachable
 - 'Dark' variant for 1.25m tanks has been completely reworked
 - 'Dark' variant for several 1.25m tank/nosecones has been added
+- New 'Orange' variant for 3.75m fuel tanks
 - New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
 - New 'Metallic' variant for 2.5m tanks
 - New 'White' variant for Oscar-B tank

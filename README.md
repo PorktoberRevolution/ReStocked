@@ -17,6 +17,8 @@ We believe that there are a number of places where KSP is missing key parts - fo
 ## Contributors
 
 * Chris Adderley (Nertea)
+* blowfish
+* DMagic
 * Beale
 * Andrew Cassidy
 * Passinglurker

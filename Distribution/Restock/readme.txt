@@ -24,6 +24,9 @@ Art
 - riocrokite
 - Passinglurker
 
+Drag cube wizardry
+- DMagic
+
 Plugin code
 - blowfish
 
