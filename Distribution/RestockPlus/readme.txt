@@ -4,8 +4,9 @@ RESTOCK+ 0.1.0
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. At the moment this concentrates on a couple of primary areas:
 - 0.625m parts: filling out this range with engines, fuel tanks, SRBs and more
+- 1.875m parts: filling out this range with a new SRB and hopefully more in the future
 - 3.75m parts: filling out the range with engines, docking ports, control systems and more
-In addition some glaring bugfixes and improvements are made
+In addition some glaring bugfixes and improvements are made. For a full list, consult the changlog
 
 ============
 DEPENDENCIES
@@ -19,8 +20,19 @@ Required:
 CREDITS
 =============
 
+Art
 - Chris Adderley (Nertea)
 - Andrew Cassidy
+
+Drag cube wizardry
+- DMagic
+
+Plugin code
+- blowfish
+
+Lead Testing:
+- Tyko
+- Poodmund
 
 ============
 INSTALLATION
@@ -32,6 +44,9 @@ To install, place the GameData folder inside your Kerbal Space Program folder. I
 LOCALIZATION
 ============
 
+This mod provides localization support for the following languages:
+- English
+- German (woeller)
 
 =========
 LICENSING

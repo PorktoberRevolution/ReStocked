@@ -9,15 +9,21 @@
 -- Mk-1H 'Torch' Liquid Fuel Engine (Nertea): 0.625m lifter engine
 -- RT-1 'Mallet' Solid Rocket Booster (Nertea): 0.625m SRB
 -- RT-2 'Striker' Solid Rocket Booster (Nertea): 0.625m longer SRB
+-- STS-1 'Anvil' Solid Rocket Booster (Nertea): 1.875m giant shuttle SRB
 - New Fuel Tank parts
+-- Kerbodyne S3-3600 Nosecone Tank (Nertea): A 3.75m fuelled nosecone
 -- Kerbodyne S3-1800 Tank (Nertea): A compact size 3.75m tank
 -- Oscar-C Fuel Tank (Nertea): A 2x Oscar-B size tank
 -- Oscar-D Fuel Tank (Nertea): A 4x Oscar-B size tank
 -- Oscar-E Fuel Tank (Nertea): A 8x Oscar-B size tank
 -- Stratus-V Miniature Monopropellant Tank (Nertea): A probe-sized RCS tank. Replaces MH tiny RCS tank if installed
+- New Aerodynamic parts
+-- Protective Rocket Nose Mk18 (Nertea): 1.875m nosecone
 - New Command parts
 -- RC-XL001 Remote Guidance Unit (Nertea): 3.75m RGU
 - New Coupling parts
+-- TD-18 Stack Decoupler (Nertea): 1.875m decoupler. Replaces MH decoupler if installed
+-- TS-18 Stack Separator (Nertea): 1.875m separator. Replaces MH separator if installed
 -- Clamp-O-Tron Docking Port 'Grande' (Nertea): 3.75m docking port
 - New Structural parts
 -- Kerbodyne ADTP-2-3A (Nertea): A hollow version of the fuelled 3.75 to 2.5m adapter
@@ -27,7 +33,7 @@
 -- AE-FF1-L Airstream Protective Shell (1.875m) (Nertea): a 1.875m fairing base. Replaces MH 1.875m fairing base if installed
 - New Science parts
 -- SC-9001R Radial Science Jr (Andrew Cassidy): A radial version of the materials bay
--- Mystery Goo™ Inline Containment Unit (Andrew Cassidy): An inline version of the goo cannister
+-- Mystery Goo™ Inline Containment Unit (Andrew Cassidy): An inline version of the goo canister
 - New Electrical parts
 -- Z-10K Rechargeable Battery Bank (Nertea): 3.75m stack battery
 - New Communications parts
@@ -44,4 +50,4 @@
 -- RC-15 RCS Thruster Block (Nertea): Five way RCS block, mini size
 - Patches and fixes
 -- Gimbals are enabled on stock SRBs
--- Oscar-B tank volume has been fixed (was far too high at 40, is now 18)
+-- Oscar-B tank volume has been fixed (was far too high at 40, is now consistent at 18)
