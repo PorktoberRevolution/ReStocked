@@ -1,0 +1,23 @@
+# Example annotated build data file
+mod-name: ReStock
+package:
+  include-dependencies: true  # Include dependencies in the package
+  included-gamedata:
+    - ReStock
+  included-support:  # Include these root-level files in packages
+    - readme.txt
+    - changelog.txt
+    - license.txt
+dependencies:  # Configure dependencies
+  ModuleManager:
+    version: 3.1.3
+    location: s3
+deploy:
+  SpaceDock:
+    enabled: false  # activate/deactivate this deployment script
+    mod-id: 709  # The Spacedock mod ID for deployment
+  CurseForge:
+    enabled: false  # activate/deactivate this deployment script
+    mod-id: 230112  # The CurseForge mod ID for deployment
+  GitHub:
+    enabled: false  # activate/deactivate this deployment script
