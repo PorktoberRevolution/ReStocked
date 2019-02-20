@@ -7,22 +7,22 @@ branches:
   only:
     - prod
 script:
-  - git clone https://github.com/post-kerbin-mining-corporation/build-deploy.git  # clone this repo
+  - git clone https://github.com/post-kerbin-mining-corporation/build-deploy.git  # clone this repo, it contains the stuff that does the heavy lifting
   - cd build-deploy
   - git checkout master
   - cd ..
-  - python build-deploy/src/package.py ".\Distribution\Restock\.mod_data.yml"
-  - python build-deploy/src/package.py ".\Distribution\RestockPlus\.mod_data.yml"
+  - python build-deploy/src/package.py  --f "Distribution/Restock/.mod_data.yml"  # Build RS package
+  - python build-deploy/src/package.py --f "Distribution/RestockPlus/.mod_data.yml"  # Build RS+ package
 before_deploy:
-  - python build-deploy/src/stage.py  # Run the staging script
+  - python build-deploy/src/stage.py --f "Distribution/Restock/.mod_data.yml" # Run the staging script. Note that tags will come off restock base always
 deploy:
   - provider: script
-    script: python build-deploy/src/deploy.py ".\Distribution\Restock\.mod_data.yml"
+    script: python build-deploy/src/deploy.py --f "Distribution/Restock/.mod_data.yml" # Deploy RS package to spacedock, curse, github
     skip_cleanup: true
     on:
       condition: $TRAVIS_BRANCH = prod
   - provider: script
-    script: python build-deploy/src/deploy.py ".\Distribution\Restock\.mod_data.yml"
+    script: python build-deploy/src/deploy.py --f "Distribution/RestockPlus/.mod_data.yml"  # Deploy RS+ package to spacedock, curse, github
     skip_cleanup: true
     on:
       condition: $TRAVIS_BRANCH = prod
