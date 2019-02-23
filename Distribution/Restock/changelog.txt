@@ -1,5 +1,5 @@
-﻿0.1.0
------
+﻿v0.1.0
+------
 - Initial release
 - Parts included:
  - Command
@@ -146,7 +146,7 @@
 - 'Dark' variant for 1.25m tanks has been completely reworked
 - 'Dark' variant for several 1.25m tank/nosecones has been added
 - New 'Orange' variant for 3.75m fuel tanks
-- New (old) 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter
+- New 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter based on the old pre-1.5 textures
 - New 'Metallic' variant for 2.5m tanks
 - New 'White' variant for Oscar-B tank
 - New 'Silver' variant for foil radial LFO tanks
@@ -155,5 +155,5 @@
 - Most engines now have a basic and a compact variant
 - Most atmospheric engines also have a boattail variant
 - New plumes/FX for all redone engines
-- New plumes/FX for Thud and Dart, even though they are not redone yet
-- Probe cores now all have consistent 'Bare' and 'Gold' variants
+- New plumes/FX for Thud and Dart, even though the engine models are not redone yet
+- Probe cores now all have consistent 'Bare' and 'Gold' variants, plus a 'Silver' foil variant

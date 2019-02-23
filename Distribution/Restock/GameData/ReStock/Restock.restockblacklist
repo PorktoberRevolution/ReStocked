@@ -80,8 +80,11 @@ Squad/Parts/Structural/Size3To2Adapter_v2/
 Squad/Parts/Structural/structuralMicronode/
 Squad/Parts/Structural/strutCubicOcto/
 Squad/Parts/Structural/strutOcto/
+Squad/Parts/Utility/DirectAntennas/
 Squad/Parts/Utility/commDish88-88/
-Squad/Parts/Utility/DirectAntennas/HGAntenna.mu
+Squad/Parts/Utility/commsAntennaDTS-M1
+Squad/Parts/Utility/commsDish16
+Squad/Parts/Misc/AsteroidDay/HighGainAntenna.mu
 Squad/Parts/Utility/dockingPort/
 Squad/Parts/Utility/dockingPortInline/
 Squad/Parts/Utility/dockingPortJr/

@@ -40,10 +40,26 @@ INSTALLATION
 
 To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, do so.
 
+===============
+ASSET BLACKLIST
+===============
+
+Restock contains a plugin that stops specific stock assets from loading, reducing the memory footprint of the mod. The list of blacklisted assets can be found in GameData/ReStock/Restock.restockblacklist.
+If your mod requires a stock texture, you can create a xxx.restockwhitelist file anywhere in your GameData distribution. Each line in this file can target an asset or a folder, for example adding this line to the whitelist file:
+
+Squad/Parts/Aero/HeatShield/HeatShield3.mu
+
+will cause the size 3 heatshield .mu file to be whitelisted and loaded into the game. You can also whitelist entire folders as follows:
+
+Squad/Parts/Aero/HeatShield/
+
 ============
 LOCALIZATION
 ============
 
+This mod primarily uses vanilla-provided localization, but for additional string, it provides localization support for the following languages:
+- English
+- German (woeller)
 
 =========
 LICENSING

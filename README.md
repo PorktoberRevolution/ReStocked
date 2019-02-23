@@ -3,7 +3,7 @@ Replacing and upgrading the art of Kerbal Space Program
 
 ### Goals
 
-The goal of this project is to improve the art of Kerbal Space Program with the following goals in mind
+The goal of this project is to improve the art of Kerbal Space Program with the following goals in mind:
 * Create a unity of design and style for all parts
 * Preserve the general aesthetic of KSP
 * Create consistency in the detail level of all parts
@@ -12,7 +12,7 @@ The goal of this project is to improve the art of Kerbal Space Program with the 
 
 ### Restock+
 
-We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project.
+We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional install.
 
 ## Contributors
 

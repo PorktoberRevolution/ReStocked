@@ -1,3 +1,7 @@
+tmp/
+deploy/
+build/
+build-deploy/
 .vs/
 bin/
 obj/
