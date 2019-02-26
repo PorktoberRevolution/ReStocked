@@ -18,7 +18,7 @@
   - RC-L01 Remote Guidance Unit (Nertea)
   - RC-001S Remote Guidance Unit (Nertea)
  - Control
-  - .625m reaction wheel (Andrew Cassidy)
+  - 0.625m reaction wheel (Andrew Cassidy)
   - RV-105 RCS Thruster Block (Nertea)
   - Place-Anywhere 7 Linear RCS Port (Nertea)
   - Vernor Engine (Nertea)
