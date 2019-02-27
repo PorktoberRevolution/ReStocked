@@ -3,7 +3,7 @@
 - Initial release
 - Parts included:
  - Command
-  - Mk1 Command Pod (Porkjet/Nertea)
+  - Mk1 Command Pod (Nertea)
   - Mk1-3 Command Pod (Nertea)
   - Mk1 Lander Can (Nertea)
   - Mk2 Lander Can (Nertea)
@@ -15,6 +15,7 @@
   - Probodobodyne Stayputnik (Nertea)
   - Probodobodyne QBE (Nertea)
   - Probodobodyne HECS2 (Nertea)
+  - Probodobodyne RoveMate (Nertea)
   - RC-L01 Remote Guidance Unit (Nertea)
   - RC-001S Remote Guidance Unit (Nertea)
  - Control
@@ -58,7 +59,7 @@
  - Payload
   - AE-FF1 Airstream Protective Shell (1.25m) (Nertea)
   - AE-FF2 Airstream Protective Shell (2.5m) (Nertea)
-  - AE-FF3 Airstream Protective Shell  (3.75m) (Nertea)
+  - AE-FF3 Airstream Protective Shell (3.75m) (Nertea)
   - Service Bay (1.25m) (Nertea)
   - Service Bay (2.5m) (Nertea)
  - Structural
@@ -142,18 +143,19 @@
   - RA-2 Relay Antenna (Andrew Cassidy)
   - RA-15 Relay Antenna (Andrew Cassidy)
   - RA-100 Relay Antenna (Andrew Cassidy)
-- Engines are all surface attachable
-- 'Dark' variant for 1.25m tanks has been completely reworked
-- 'Dark' variant for several 1.25m tank/nosecones has been added
-- New 'Orange' variant for 3.75m fuel tanks
-- New 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter based on the old pre-1.5 textures
-- New 'Metallic' variant for 2.5m tanks
-- New 'White' variant for Oscar-B tank
-- New 'Silver' variant for foil radial LFO tanks
-- New Unpainted, Black variants for heat shields
-- New Bare variant for Linear RCS
-- Most engines now have a basic and a compact variant
-- Most atmospheric engines also have a boattail variant
-- New plumes/FX for all redone engines
-- New plumes/FX for Thud and Dart, even though the engine models are not redone yet
-- Probe cores now all have consistent 'Bare' and 'Gold' variants, plus a 'Silver' foil variant
+- Additions/new variants:
+ - Probe cores now all have consistent 'Bare' and 'Gold Foil' variants, plus a generally new 'Silver' foil variant
+ - 'Dark' variant for 1.25m tanks has been completely reworked (it is no longer white)
+ - 'Dark' variant for several 1.25m parts has been added for completeness (nosecones, tanks, fairing)
+ - New 'Orange' variant for 3.75m fuel tanks
+ - New 'Metallic' variant for Rockomax Brand Adapter and FL-A5 Adapter based on the old pre-1.5 textures
+ - New 'Metallic' variant for 2.5m tanks
+ - New 'White' variant for Oscar-B tank
+ - New 'Silver' variant for foil-wrapped radial LFO tanks
+ - New Unpainted, Black variants for heat shields
+ - New Bare variant for Linear RCS
+ - Most engines now have a basic and a compact variant
+ - Most atmospheric engines also have a boattail variant
+ - A multitude of attachment variants for communications parts
+ - New plumes/FX for all redone engines
+ - New plumes/FX for Thud and Dart, even though the engine models are not redone yet

@@ -3,6 +3,8 @@ ART
 
 The art assets in this pack (all models and textures) are distributed under an All Rights Reserved License. You may not redistribute or re-use these assets without express permission from the author of the asset (located in the "author" field of the corresponding part configuration file).
 
+An exception to this are the assets derived directly from the Porkjet PartOverhauls project, which is licensed under CC-BY-NC-3.0. Specifically these assets include the Pug and Valiant engines. 
+
 CONFIGURATION
 -------------
 
