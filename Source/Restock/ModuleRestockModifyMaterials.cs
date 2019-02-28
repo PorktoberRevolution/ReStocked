@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Restock.MaterialModifiers;
 
 namespace Restock
 {
@@ -40,28 +41,24 @@ namespace Restock
 
                 }
 
-                foreach (ConfigNode node3 in node2.GetNodes("TEXTURE_PROPERTY"))
+                MaterialModifierParser parser = new MaterialModifierParser();
+
+                foreach (ConfigNode node3 in node2.nodes)
                 {
-                    string name = node3.GetValue("name");
-                    string textureUrl = node3.GetValue("textureUrl");
-                    bool normalMapToggle = false;
-
-                    if (node3.GetValue("isNormalMap") is string normalMapToggleString)
+                    IMaterialModifier modifier;
+                    try
                     {
-                        normalMapToggle = bool.Parse(normalMapToggleString);
+                        modifier = parser.Parse(node3);
                     }
-                    
-                    GameDatabase.TextureInfo textureInfo = GameDatabase.Instance.GetTextureInfo(textureUrl);
-
-                    if (textureInfo == null)
+                    catch (Exception ex)
                     {
-                        Debug.LogError($"Cannot find texture: {textureUrl}");
+                        Debug.LogException(new Exception($"[{nameof(ModuleRestockModifyMaterials)}] cannot parse node as material modifier: \n{node3.ToString()}\n", ex));
                         continue;
                     }
 
                     foreach (Renderer renderer in renderers)
                     {
-                        renderer.material.SetTexture(name, normalMapToggle ? textureInfo.normalMap : textureInfo.texture);
+                        modifier.Modify(renderer.material);
                     }
                 }
             }

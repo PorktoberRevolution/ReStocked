@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using Restock.MaterialModifiers;
 
 namespace Restock
 {
@@ -44,35 +45,30 @@ namespace Restock
                 yield break;
             }
 
-            UpdateMaterial(fairingModule.FairingMaterial, node);
-            UpdateMaterial(fairingModule.FairingConeMaterial, node);
-            UpdateMaterial(fairingModule.FairingFlightMaterial, node);
-            UpdateMaterial(fairingModule.FairingFlightConeMaterial, node);
+            MaterialModifierParser parser = new MaterialModifierParser();
 
-            foreach (ProceduralFairings.FairingPanel fairingPanel in fairingModule.Panels)
-            {
-                MeshRenderer renderer = fairingPanel.go.GetComponent<MeshRenderer>();
-                UpdateMaterial(renderer.material, node);
-            }
-        }
-
-        private void UpdateMaterial(Material material, ConfigNode node)
-        {
             foreach (ConfigNode node2 in node.nodes)
             {
-                if (node2.name == "COLOR_PROPERTY")
+                IMaterialModifier modifier;
+                try
                 {
-                    string name = node2.GetValue("name");
-                    Color color = ConfigNode.ParseColor(node2.GetValue("color"));
-
-                    material.SetColor(name, color);
+                    modifier = parser.Parse(node2);
                 }
-                else if (node2.name == "FLOAT_PROPERTY")
+                catch (Exception ex)
                 {
-                    string name = node2.GetValue("name");
-                    float value = float.Parse(node2.GetValue("value"));
+                    Debug.LogException(new Exception($"[{nameof(ModuleRestockModifyFairingMaterials)}] cannot parse node as material modifier: \n{node2.ToString()}\n", ex));
+                    continue;
+                }
 
-                    material.SetFloat(name, value);
+                modifier.Modify(fairingModule.FairingMaterial);
+                modifier.Modify(fairingModule.FairingConeMaterial);
+                modifier.Modify(fairingModule.FairingFlightMaterial);
+                modifier.Modify(fairingModule.FairingFlightConeMaterial);
+
+                foreach (ProceduralFairings.FairingPanel fairingPanel in fairingModule.Panels)
+                {
+                    MeshRenderer renderer = fairingPanel.go.GetComponent<MeshRenderer>();
+                    modifier.Modify(renderer.material);
                 }
             }
         }
