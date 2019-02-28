@@ -67,14 +67,7 @@ Squad/Parts/FuelTank/xenonTankLarge/
 Squad/Parts/FuelTank/xenonTankRadial/
 Squad/Parts/Misc/AsteroidDay/HECS2.mu
 Squad/Parts/Misc/AsteroidDay/hecs*.dds
-Squad/Parts/Science/AtmosphereSensor/
-Squad/Parts/Science/GooExperiment/
-Squad/Parts/Science/LargeCrewedLab/
-Squad/Parts/Science/MaterialBay/
-Squad/Parts/Science/sensorAccelerometer/
-Squad/Parts/Science/sensorBarometer/
-Squad/Parts/Science/sensorGravimeter/
-Squad/Parts/Science/sensorThermometer/
+Squad/Parts/Science/
 Squad/Parts/Structural/FLAdapters/
 Squad/Parts/Structural/Size3To2Adapter_v2/
 Squad/Parts/Structural/structuralMicronode/
