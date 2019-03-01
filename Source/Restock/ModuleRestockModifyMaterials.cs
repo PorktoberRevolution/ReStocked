@@ -29,7 +29,7 @@ namespace Restock
                     }
                     else
                     {
-                        Debug.LogError($"Can't find shader {newShaderName}");
+                        this.LogError($"Can't find shader {newShaderName}");
                         continue;
                     }
 
@@ -46,7 +46,7 @@ namespace Restock
                     }
                     catch (Exception ex)
                     {
-                        Debug.LogException(new Exception($"[{nameof(ModuleRestockModifyMaterials)}] cannot parse node as material modifier: \n{node3.ToString()}\n", ex));
+                        this.LogException($"cannot parse node as material modifier: \n{node3.ToString()}\n", ex);
                         continue;
                     }
 
@@ -74,7 +74,7 @@ namespace Restock
 
                     if (modelTransforms.Length == 0)
                     {
-                        Debug.LogError($"Couldn't find transform named '{value.name}' on part");
+                        this.LogError($"Couldn't find transform named '{value.name}' on part");
                         continue;
                     }
 
@@ -84,7 +84,7 @@ namespace Restock
                         Renderer renderer = transform.GetComponent<Renderer>();
 
                         if (renderer == null)
-                            Debug.LogError($"No renderer found on transform '{transform.name}'");
+                            this.LogError($"No renderer found on transform '{transform.name}'");
                         else
                             transformRenderers.Add(renderer);
                     }
@@ -98,7 +98,7 @@ namespace Restock
 
                     if (modelTransforms.Length == 0)
                     {
-                        Debug.LogError($"Couldn't find transform named '{value.name}' on part");
+                        this.LogError($"Couldn't find transform named '{value.name}' on part");
                         continue;
                     }
 
@@ -107,7 +107,7 @@ namespace Restock
                         Renderer[] transformRenderers = transform.GetComponentsInChildren<Renderer>();
 
                         if (transformRenderers.Length == 0)
-                            Debug.LogError($"No renderers found on transform '{transform.name}' or its children");
+                            this.LogError($"No renderers found on transform '{transform.name}' or its children");
                         else
                             renderers.Concat(transform.GetComponentsInChildren<Renderer>());
                     }
@@ -121,7 +121,7 @@ namespace Restock
                 Transform modelTransform = part.partTransform.Find("model");
 
                 if (modelTransform == null)
-                    Debug.LogError("Couldn't find model transform");
+                    this.LogError("Couldn't find model transform");
                 else
                     renderers = modelTransform.GetComponentsInChildren<Renderer>();
             }

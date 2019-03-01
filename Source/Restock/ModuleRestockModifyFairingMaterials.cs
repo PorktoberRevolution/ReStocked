@@ -31,7 +31,7 @@ namespace Restock
 
             if (string.IsNullOrEmpty(serializedNode))
             {
-                Debug.LogError("Serialized node is null or empty!");
+                this.LogError("Serialized node is null or empty!");
                 yield break;
             }
 
@@ -41,7 +41,7 @@ namespace Restock
 
             if (fairingModule == null)
             {
-                Debug.LogError("No fairing module found on part!");
+                this.LogError("No fairing module found on part!");
                 yield break;
             }
 
@@ -56,7 +56,7 @@ namespace Restock
                 }
                 catch (Exception ex)
                 {
-                    Debug.LogException(new Exception($"[{nameof(ModuleRestockModifyFairingMaterials)}] cannot parse node as material modifier: \n{node2.ToString()}\n", ex));
+                    this.LogException($"cannot parse node as material modifier: \n{node2.ToString()}\n", ex);
                     continue;
                 }
 
