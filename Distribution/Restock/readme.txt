@@ -18,11 +18,14 @@ CREDITS
 =======
 
 Art
+- Andrew Cassidy
 - Chris Adderley (Nertea)
 - Beale
-- Andrew Cassidy
-- riocrokite
+- blowfish
 - Passinglurker
+- Porkjet
+- riocrokite
+
 
 Drag cube wizardry
 - DMagic

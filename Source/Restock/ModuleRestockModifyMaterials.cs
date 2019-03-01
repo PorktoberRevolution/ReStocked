@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using Restock.MaterialModifiers;
 
 namespace Restock
 {
@@ -11,18 +14,10 @@ namespace Restock
 
             if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
 
-            Transform modelTransform = part.partTransform.Find("model");
-
-            Renderer[] renderers = modelTransform.GetComponentsInChildren<Renderer>();
-
-            if (modelTransform == null)
-            {
-                Debug.LogError("Couldn't find model transform");
-                return;
-            }
-
             foreach (ConfigNode node2 in node.GetNodes("MATERIAL"))
             {
+                IEnumerable<Renderer> renderers = GetRenderers(node2);
+
                 if (node2.GetValue("shader") is string newShaderName)
                 {
                     if (Shader.Find(newShaderName) is Shader newShader)
@@ -34,40 +29,104 @@ namespace Restock
                     }
                     else
                     {
-                        Debug.LogError($"Can't find shader {newShaderName}");
+                        this.LogError($"Can't find shader {newShaderName}");
                         continue;
                     }
 
                 }
 
-                foreach (ConfigNode node3 in node2.GetNodes("TEXTURE_PROPERTY"))
+                MaterialModifierParser parser = new MaterialModifierParser();
+
+                foreach (ConfigNode node3 in node2.nodes)
                 {
-                    string name = node3.GetValue("name");
-                    string textureUrl = node3.GetValue("textureUrl");
-                    bool normalMapToggle = false;
-
-                    if (node3.GetValue("isNormalMap") is string normalMapToggleString)
+                    IMaterialModifier modifier;
+                    try
                     {
-                        normalMapToggle = bool.Parse(normalMapToggleString);
+                        modifier = parser.Parse(node3);
                     }
-                    
-                    GameDatabase.TextureInfo textureInfo = GameDatabase.Instance.GetTextureInfo(textureUrl);
-
-                    if (textureInfo == null)
+                    catch (Exception ex)
                     {
-                        Debug.LogError($"Cannot find texture: {textureUrl}");
+                        this.LogException($"cannot parse node as material modifier: \n{node3.ToString()}\n", ex);
                         continue;
                     }
 
                     foreach (Renderer renderer in renderers)
                     {
-                        renderer.material.SetTexture(name, normalMapToggle ? textureInfo.normalMap : textureInfo.texture);
+                        modifier.Modify(renderer.material);
                     }
                 }
             }
 
             isEnabled = false;
             moduleIsEnabled = false;
+        }
+
+        private IEnumerable<Renderer> GetRenderers(ConfigNode node)
+        {
+            IEnumerable<Renderer> renderers = Enumerable.Empty<Renderer>();
+            bool useAllRenderers = true;
+
+            foreach (ConfigNode.Value value in node.values)
+            {
+                if (value.name == "transform")
+                {
+                    Transform[] modelTransforms = part.FindModelTransforms(value.name);
+
+                    if (modelTransforms.Length == 0)
+                    {
+                        this.LogError($"Couldn't find transform named '{value.name}' on part");
+                        continue;
+                    }
+
+                    List<Renderer> transformRenderers = new List<Renderer>(modelTransforms.Length);
+                    foreach (Transform transform in modelTransforms)
+                    {
+                        Renderer renderer = transform.GetComponent<Renderer>();
+
+                        if (renderer == null)
+                            this.LogError($"No renderer found on transform '{transform.name}'");
+                        else
+                            transformRenderers.Add(renderer);
+                    }
+
+                    renderers.Concat(transformRenderers);
+                    useAllRenderers = false;
+                }
+                else if (value.name == "baseTransform")
+                {
+                    Transform[] modelTransforms = part.FindModelTransforms(value.name);
+
+                    if (modelTransforms.Length == 0)
+                    {
+                        this.LogError($"Couldn't find transform named '{value.name}' on part");
+                        continue;
+                    }
+
+                    foreach (Transform transform in modelTransforms)
+                    {
+                        Renderer[] transformRenderers = transform.GetComponentsInChildren<Renderer>();
+
+                        if (transformRenderers.Length == 0)
+                            this.LogError($"No renderers found on transform '{transform.name}' or its children");
+                        else
+                            renderers.Concat(transform.GetComponentsInChildren<Renderer>());
+                    }
+
+                    useAllRenderers = false;
+                }
+            }
+
+            if (useAllRenderers)
+            {
+                Transform modelTransform = part.partTransform.Find("model");
+
+                if (modelTransform == null)
+                    this.LogError("Couldn't find model transform");
+                else
+                    renderers = modelTransform.GetComponentsInChildren<Renderer>();
+            }
+
+            return renderers;
         }
     }
 }
