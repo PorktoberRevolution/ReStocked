@@ -57,10 +57,15 @@ namespace Restock
                 string lineBeforeComment = line.Split(COMMENT_SEPARATOR, 2, StringSplitOptions.None)[0].Trim();
                 if (lineBeforeComment == string.Empty) continue;
 
+                bool matchedFile = false;
                 foreach (UrlDir.UrlFile urlFile in FindFilesForUrl(lineBeforeComment, dir))
                 {
                     yield return urlFile;
+                    matchedFile = true;
                 }
+
+                if (!matchedFile)
+                    Debug.LogError($"[Restock] No files found matching url {lineBeforeComment}");
             }
         }
 
