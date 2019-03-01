@@ -9,7 +9,7 @@ namespace Restock
     [KSPAddon(KSPAddon.Startup.Instantly, true)]
     public class ResourceBlacklist : MonoBehaviour
     {
-        private readonly string[] commentSep = { "//" };
+        private readonly string[] COMMENT_SEPARATOR = { "//" };
         private void Start()
         {
             HashSet<UrlDir.UrlFile> blacklist = new HashSet<UrlDir.UrlFile>();
@@ -22,29 +22,17 @@ namespace Restock
                 if (file.fileExtension == "restockblacklist")
                 {
                     Debug.Log($"[Restock] Reading blacklist {file.url}.{file.fileExtension}");
-                    foreach (string line in File.ReadAllLines(file.fullPath))
+                    foreach (UrlDir.UrlFile blacklistFile in FindFilesInAssetListFile(file.fullPath, gameData))
                     {
-                        string lineBeforeComment = line.Split(commentSep, 2, StringSplitOptions.None)[0].Trim();
-                        if (lineBeforeComment == string.Empty) continue;
-
-                        foreach (UrlDir.UrlFile blacklistFile in FindFiles(lineBeforeComment, gameData))
-                        {
-                            blacklist.Add(blacklistFile);
-                        }
+                        blacklist.Add(blacklistFile);
                     }
                 }
                 else if (file.fileExtension == "restockwhitelist")
                 {
                     Debug.Log($"[Restock] Reading whitelist {file.url}.{file.fileExtension}");
-                    foreach (string line in File.ReadAllLines(file.fullPath))
+                    foreach (UrlDir.UrlFile whitelistFile in FindFilesInAssetListFile(file.fullPath, gameData))
                     {
-                        string lineBeforeComment = line.Split(commentSep, 2, StringSplitOptions.None)[0].Trim();
-                        if (lineBeforeComment == string.Empty) continue;
-
-                        foreach (UrlDir.UrlFile whitelistFile in FindFiles(lineBeforeComment, gameData))
-                        {
-                            whitelist.Add(whitelistFile);
-                        }
+                        whitelist.Add(whitelistFile);
                     }
                 }
             }
@@ -62,10 +50,29 @@ namespace Restock
             Destroy(gameObject);
         }
 
-        private readonly char[] sep = new[] { '/' };
-        private IEnumerable<UrlDir.UrlFile> FindFiles(string url, UrlDir dir)
+        private IEnumerable<UrlDir.UrlFile> FindFilesInAssetListFile(string filePath, UrlDir dir)
         {
-            string[] splits = url.Split(sep, 2);
+            foreach (string line in File.ReadAllLines(filePath))
+            {
+                string lineBeforeComment = line.Split(COMMENT_SEPARATOR, 2, StringSplitOptions.None)[0].Trim();
+                if (lineBeforeComment == string.Empty) continue;
+
+                bool matchedFile = false;
+                foreach (UrlDir.UrlFile urlFile in FindFilesForUrl(lineBeforeComment, dir))
+                {
+                    yield return urlFile;
+                    matchedFile = true;
+                }
+
+                if (!matchedFile)
+                    Debug.LogError($"[Restock] No files found matching url {lineBeforeComment}");
+            }
+        }
+
+        private readonly char[] PATH_SEPARATOR = new[] { '/' };
+        private IEnumerable<UrlDir.UrlFile> FindFilesForUrl(string url, UrlDir dir)
+        {
+            string[] splits = url.Split(PATH_SEPARATOR, 2);
 
             if (splits.Length == 1)
             {
@@ -121,7 +128,7 @@ namespace Restock
                 {
                     if (regex.IsMatch(subDir.name))
                     {
-                        foreach (UrlDir.UrlFile file in FindFiles(splits[1], subDir))
+                        foreach (UrlDir.UrlFile file in FindFilesForUrl(splits[1], subDir))
                         {
                             yield return file;
                         }
