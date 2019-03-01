@@ -60,7 +60,7 @@ Squad/Parts/Aero/HeatShield/
 LOCALIZATION
 ============
 
-This mod primarily uses vanilla-provided localization, but for additional string, it provides localization support for the following languages:
+This mod primarily uses vanilla-provided localization, but for additional strings, it provides localization support for the following languages:
 - English
 - German (woeller)
 
