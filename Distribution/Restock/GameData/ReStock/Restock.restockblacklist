@@ -23,7 +23,14 @@ Squad/Parts/Command/probeStackLarge/
 Squad/Parts/Command/probeStackSmall/
 Squad/Parts/Command/probeStackSphere_v2/
 Squad/Parts/Command/probeRoverBody_v2/
-Squad/Parts/Coupling/
+Squad/Parts/Coupling/Assets/Decoupler_0.mu
+Squad/Parts/Coupling/Assets/Decoupler_1.mu
+Squad/Parts/Coupling/Assets/Decoupler_2.mu
+Squad/Parts/Coupling/Assets/Decoupler_3.mu
+Squad/Parts/Coupling/Assets/Separator_0.mu
+Squad/Parts/Coupling/Assets/Separator_1.mu
+Squad/Parts/Coupling/Assets/Separator_2.mu
+Squad/Parts/Coupling/Assets/Separator_3.mu
 Squad/Parts/Electrical/RTG/
 Squad/Parts/Electrical/z-100Battery/
 Squad/Parts/Electrical/z-1kBattery/
