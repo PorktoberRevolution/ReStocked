@@ -19,7 +19,9 @@
   - RC-L01 Remote Guidance Unit (Nertea)
   - RC-001S Remote Guidance Unit (Nertea)
  - Control
-  - .625m reaction wheel (Andrew Cassidy)
+  - Small Inline Reaction Wheel (Andrew Cassidy)
+  - Advanced Inline Stabilizer (advSasModule)
+  - Advanced Reaction Wheel Module, Large (asasmodule1-2)
   - RV-105 RCS Thruster Block (Nertea)
   - Place-Anywhere 7 Linear RCS Port (Nertea)
   - Vernor Engine (Nertea)
@@ -137,6 +139,7 @@
   - Mystery Goo™ Containment Unit (Andrew Cassidy)
   - SC-9001 Science Jr. (Andrew Cassidy)
   - Atmospheric Fluid Spectro-Variometer (Andrew Cassidy)
+  - Experiment Storage Unit (Andrew Cassidy)
 - Communications
   - Communotron 88-88 (Andrew Cassidy)
   - HG-5 High Gain Antenna (Andrew Cassidy)
