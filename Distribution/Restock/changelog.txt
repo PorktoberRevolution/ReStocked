@@ -1,7 +1,7 @@
 ﻿v0.1.0
 ------
 - Initial release
-- Parts included:
+- Stock parts included:
  - Command
   - Mk1 Command Pod (Nertea)
   - Mk1-3 Command Pod (Nertea)
@@ -20,8 +20,8 @@
   - RC-001S Remote Guidance Unit (Nertea)
  - Control
   - Small Inline Reaction Wheel (Andrew Cassidy)
-  - Advanced Inline Stabilizer (advSasModule)
-  - Advanced Reaction Wheel Module, Large (asasmodule1-2)
+  - Advanced Inline Stabilizer (Nertea)
+  - Advanced Reaction Wheel Module, Large (Nertea)
   - RV-105 RCS Thruster Block (Nertea)
   - Place-Anywhere 7 Linear RCS Port (Nertea)
   - Vernor Engine (Nertea)
@@ -130,7 +130,7 @@
   - Z-400 Rechargeable Battery (Nertea)
   - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
-- Science
+ - Science
   - Science Mobile Processing Lab MPL-LG-2 (Nertea)
   - Thermometer (Andrew Cassidy)
   - Barometer (Andrew Cassidy)
@@ -140,12 +140,20 @@
   - SC-9001 Science Jr. (Andrew Cassidy)
   - Atmospheric Fluid Spectro-Variometer (Andrew Cassidy)
   - Experiment Storage Unit (Andrew Cassidy)
-- Communications
+ - Communications
   - Communotron 88-88 (Andrew Cassidy)
   - HG-5 High Gain Antenna (Andrew Cassidy)
   - RA-2 Relay Antenna (Andrew Cassidy)
   - RA-15 Relay Antenna (Andrew Cassidy)
   - RA-100 Relay Antenna (Andrew Cassidy)
+- Making History parts included
+ - Coupling
+  - TD-18 Decoupler (Nertea)
+  - TS-18 Separator (Nertea)
+ - Fuel Tanks
+  - Stratus-V Minified Monopropellant Tank (Nertea)
+ - Payload
+  - AE-FF1.5 Airstream Protective Shell (Nertea)
 - Additions/new variants:
  - Probe cores now all have consistent 'Bare' and 'Gold Foil' variants, plus a generally new 'Silver' foil variant
  - 'Dark' variant for 1.25m tanks has been completely reworked (it is no longer white)
