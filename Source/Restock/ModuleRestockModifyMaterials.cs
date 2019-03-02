@@ -70,7 +70,7 @@ namespace Restock
             {
                 if (value.name == "transform")
                 {
-                    Transform[] modelTransforms = part.FindModelTransforms(value.name);
+                    Transform[] modelTransforms = part.FindModelTransforms(value.value);
 
                     if (modelTransforms.Length == 0)
                     {
@@ -89,12 +89,12 @@ namespace Restock
                             transformRenderers.Add(renderer);
                     }
 
-                    renderers.Concat(transformRenderers);
+                    renderers = renderers.Concat(transformRenderers);
                     useAllRenderers = false;
                 }
                 else if (value.name == "baseTransform")
                 {
-                    Transform[] modelTransforms = part.FindModelTransforms(value.name);
+                    Transform[] modelTransforms = part.FindModelTransforms(value.value);
 
                     if (modelTransforms.Length == 0)
                     {
@@ -109,7 +109,7 @@ namespace Restock
                         if (transformRenderers.Length == 0)
                             this.LogError($"No renderers found on transform '{transform.name}' or its children");
                         else
-                            renderers.Concat(transform.GetComponentsInChildren<Renderer>());
+                            renderers = renderers.Concat(transform.GetComponentsInChildren<Renderer>());
                     }
 
                     useAllRenderers = false;
