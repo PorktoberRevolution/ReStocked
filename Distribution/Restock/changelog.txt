@@ -170,3 +170,12 @@
  - A multitude of attachment variants for communications parts
  - New plumes/FX for all redone engines
  - New plumes/FX for Thud and Dart, even though the engine models are not redone yet
+- Normal maps added:
+ - Mk2 Liquid Fuel Fuselage Short
+ - Mk2 Rocket Fuel Fuselage Short
+ - Mk2 Monopropellant Tank
+ - Mk2 Liquid Fuel Fuselage Long
+ - Mk2 Rocket Fuel Fuselage Long
+ - Mk2 Bicoupler
+ - Mk2 to 1.25m Adapter Long
+ - Mk2 to 1.25m Adapter
