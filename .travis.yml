@@ -21,16 +21,12 @@ deploy:
     script: python build-deploy/src/deploy.py --f "Distribution/Restock/.mod_data.yml" # Deploy RS package to spacedock, curse, github
     skip_cleanup: true
     on:
-      branches:
-        only:
-          - prod
+      branch: prod
   - provider: script
     script: python build-deploy/src/deploy.py --f "Distribution/RestockPlus/.mod_data.yml"  # Deploy RS+ package to spacedock, curse, github
     skip_cleanup: true
     on:
-      branches:
-        only:
-          - prod
+      branch: prod
   - provider: s3 # releases to S3
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
@@ -41,9 +37,7 @@ deploy:
     region: us-east-2
     upload-dir: restock
     on:
-      branches:
-        only:
-          - prod
+      branch: prod
   - provider: s3 # releases to S3
     access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
@@ -54,6 +48,4 @@ deploy:
     region: us-east-2
     upload-dir: restockplus
     on:
-      branches:
-        only:
-          - prod
+      branch: prod
