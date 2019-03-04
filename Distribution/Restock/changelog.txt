@@ -130,6 +130,13 @@
   - Z-400 Rechargeable Battery (Nertea)
   - Z-100 Rechargeable Battery Pack (Nertea)
   - PB-NUK Radioisotope Thermoelectric Generator (Beale)
+  - OX-4L 1x6 Photovoltaic Panels (Beale)
+  - SP-L 1x6 Photovoltaic Panels (Beale)
+  - OX-4W 3x2 Photovoltaic Panels (Beale)
+  - SP-W 3x2 Photovoltaic Panels (Beale)
+  - Gigantor XL Solar Array (Nertea)
+  - OX-STAT Photovoltaic Panels (Nertea)
+  - OX-STAT-XL Photovoltaic Panels (Nertea)
  - Science
   - Science Mobile Processing Lab MPL-LG-2 (Nertea)
   - Thermometer (Andrew Cassidy)
