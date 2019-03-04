@@ -1,0 +1,36 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "ReStock",
+  "name": "ReStock",
+  "abstract": "A community-built replacement for KSP's part models and textures. ",
+  "author": "ReStock Team",
+  "$kref": "#/ckan/github/PorktoberRevolution/ReStocked/asset_match/ReStock_.*?\\.zip",
+  "$vref": "#/ckan/ksp-avc",
+  "license": "restricted",
+  "resources": {
+    "homepage": "tbd",
+    "repository": "https://github.com/PorktoberRevolution/ReStocked"
+  },
+  "install": [
+    {
+      "find": "ReStock",
+      "install_to": "GameData",
+      "comment": "Restock installation"
+    }
+  ],
+  "depends": [
+    {
+      "name": "ModuleManager"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "VenStockRevamp"
+    }
+  ],
+  "suggests": [
+    {
+      "name": "ReStockPlus"
+    }
+  ]
+}

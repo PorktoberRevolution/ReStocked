@@ -24,6 +24,7 @@ v0.1.0
 - New Coupling parts
  - TD-18 Stack Decoupler (Nertea): 1.875m decoupler. Replaces MH decoupler if installed
  - TS-18 Stack Separator (Nertea): 1.875m separator. Replaces MH separator if installed
+ - TT-14 Decoupler (Nertes): Tiny radial decoupler suitable for 0.625m boosters
  - Clamp-O-Tron Docking Port 'Grande' (Nertea): 3.75m docking port
 - New Structural parts
  - Kerbodyne ADTP-2-3A (Nertea): A hollow version of the fuelled 3.75 to 2.5m adapter
@@ -37,7 +38,9 @@ v0.1.0
 - New Electrical parts
  - Z-10K Rechargeable Battery Bank (Nertea): 3.75m stack battery
 - New Communications parts
- - HG-20 High Gain Antenna (Andrew Cassidy): A longer range version of the HG-5 that can handle either direct communications or short range relays, using 4 different dishes.
+ - HG-20 High Gain Antenna (Andrew Cassidy): A version of the HG-5 with 4 dishes and 4x the range
+ - Communotron DTS-J1 (Andrew Cassidy): Stack mount equivalent to the DTS-M1, based on Juno's high gain antenna
+ - Communotron HG-61 (Andrew Cassidy) Stack mount equivalent to the HG-55, based on the Galileo main antenna
 - New RCS parts:
  - RV-102 RCS Thruster Block (Nertea): Dual axis RCS block
  - RV-103 RCS Thruster Block (Nertea): Triple RCS block

@@ -2,11 +2,13 @@
 RESTOCK+ 0.1.0
 ==============
 
-Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. At the moment this concentrates on a couple of primary areas:
-- 0.625m parts: filling out this range with engines, fuel tanks, SRBs and more
-- 1.875m parts: filling out this range with a new SRB and hopefully more in the future
-- 3.75m parts: filling out the range with engines, docking ports, control systems and more
-In addition some glaring bugfixes and improvements are made. For a full list, consult the changlog
+Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
+
+- 0.625m parts: Completing this range with other tiny parts, including fairings, more fuel tanks, engines and the like
+- 1.875m parts: Completing this range with a new SRB and hopefully more in the future
+- 3.75m parts: Completing this range with a guidance unit, docking port, engines, nosecones
+
+In addition some glaring bugfixes and improvements are included. For a full list of changes and additions, consult the changelog.
 
 ============
 DEPENDENCIES
@@ -21,8 +23,9 @@ CREDITS
 =============
 
 Art
-- Chris Adderley (Nertea)
 - Andrew Cassidy
+- Chris Adderley (Nertea)
+- Porkjet
 
 Drag cube wizardry
 - DMagic

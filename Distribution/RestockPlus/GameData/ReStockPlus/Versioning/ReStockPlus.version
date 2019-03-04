@@ -1,12 +1,12 @@
 {
     "NAME":"ReStock",
-    "URL":"https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/master/GameData/ReStockPlus/Versioning/ReStockPlus.version",
+    "URL":"https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/GameData/ReStockPlus/Versioning/ReStockPlus.version",
     "DOWNLOAD":"",
     "VERSION":
     {
         "MAJOR":0,
-        "MINOR":1,
-        "PATCH":0,
+        "MINOR":0,
+        "PATCH":9,
         "BUILD":0
     },
     "KSP_VERSION":
