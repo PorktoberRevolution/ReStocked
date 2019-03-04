@@ -2,11 +2,11 @@
   "spec_version": "v1.4",
   "identifier": "ReStockPlus",
   "name": "ReStock+",
-  "abstract": "A set of new parts that fill gaping holes in the stock lineup, adding missing types for size classes",
+  "abstract": "A carefully curated set of new parts that fill gaping holes in the stock lineup, adding fox example missing size classes for imporntant part types",
   "author": "ReStock Team",
   "$kref": "#/ckan/github/PorktoberRevolution/ReStocked/asset_match/ReStockPlus_.*?\\.zip",
   "$vref": "#/ckan/ksp-avc",
-  "license": "All Rights Reserved",
+  "license": "restricted",
   "resources": {
     "homepage": "tbd",
     "repository": "https://github.com/PorktoberRevolution/ReStocked"
@@ -18,7 +18,6 @@
       "comment": "Restock+ installation"
     }
   ],
-  "ksp_version": "1.6.1",
   "depends": [
     {
       "name": "ModuleManager"

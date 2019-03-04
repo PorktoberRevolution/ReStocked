@@ -6,7 +6,7 @@
   "author": "ReStock Team",
   "$kref": "#/ckan/github/PorktoberRevolution/ReStocked/asset_match/ReStock_.*?\\.zip",
   "$vref": "#/ckan/ksp-avc",
-  "license": "All Rights Reserved",
+  "license": "restricted",
   "resources": {
     "homepage": "tbd",
     "repository": "https://github.com/PorktoberRevolution/ReStocked"
@@ -18,7 +18,6 @@
       "comment": "Restock installation"
     }
   ],
-  "ksp_version": "1.6.1",
   "depends": [
     {
       "name": "ModuleManager"
