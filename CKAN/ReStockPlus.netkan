@@ -1,34 +1,34 @@
 {
-    "spec_version": "v1.4",
-    "identifier": "ReStockPlus",
-    "name": "ReStock+",
-    "abstract": "A set of new parts that fill gaping holes in the stock lineup, adding missing types for size classes",
-    "author": "ReStock Team",
-    "$vref": "#/ckan/ksp-avc/https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/RestockPlus/GameData/ReStockPlus/Versioning/ReStockPlus.version",
-    "license": "All Rights Reserved",
-    "resources": {
-        "homepage": "tbd"
-        "repository": "https://github.com/PorktoberRevolution/ReStocked"
+  "spec_version": "v1.4",
+  "identifier": "ReStockPlus",
+  "name": "ReStock+",
+  "abstract": "A set of new parts that fill gaping holes in the stock lineup, adding missing types for size classes",
+  "author": "ReStock Team",
+  "$vref": "#/ckan/ksp-avc/https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/RestockPlus/GameData/ReStockPlus/Versioning/ReStockPlus.version",
+  "license": "All Rights Reserved",
+  "resources": {
+    "homepage": "tbd",
+    "repository": "https://github.com/PorktoberRevolution/ReStocked"
+  },
+  "install": [
+    {
+      "find": "ReStockPlus",
+      "install_to": "GameData",
+      "comment": "Restock+ installation"
+    }
+  ],
+  "ksp_version": "1.6.1",
+  "depends": [
+    {
+      "name": "ModuleManager"
     },
-    "install": [
-        {
-            "find": "ReStockPlus",
-            "install_to": "GameData",
-            "comment": "Restock+ installation"
-        }
-    ],
-    "ksp_version": "1.6.1",
-    "depends": [
-        {
-            "name": "ModuleManager"
-        },
-        {
-            "name": "ReStock"
-        }
-    ],
-    "conflicts": [
-        {
-            "name": "VenStockRevamp"
-        }
-    ]
+    {
+      "name": "ReStock"
+    }
+  ],
+  "conflicts": [
+    {
+      "name": "VenStockRevamp"
+    }
+  ]
 }
