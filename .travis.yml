@@ -11,6 +11,7 @@ script:
   - cd build-deploy
   - git checkout master
   - cd ..
+  - pytest -s --testpath "Distribution/" build-deploy/src/tests/  # run the deploy tests
   - python build-deploy/src/package.py  --f "Distribution/Restock/.mod_data.yml"  # Build RS package
   - python build-deploy/src/package.py --f "Distribution/RestockPlus/.mod_data.yml"  # Build RS+ package
 before_deploy:
