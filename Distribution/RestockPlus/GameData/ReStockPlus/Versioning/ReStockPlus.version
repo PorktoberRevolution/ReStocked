@@ -1,6 +1,6 @@
 {
-    "NAME":"ReStock",
-    "URL":"https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/GameData/ReStockPlus/Versioning/ReStockPlus.version",
+    "NAME":"ReStockPlus",
+    "URL":"https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/RestockPlus/GameData/ReStockPlus/Versioning/ReStockPlus.version",
     "DOWNLOAD":"",
     "VERSION":
     {
