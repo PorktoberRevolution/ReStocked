@@ -20,4 +20,4 @@ deploy:
     enabled: false  # activate/deactivate this deployment script
     mod-id: 230112  # The CurseForge mod ID for deployment
   GitHub:
-    enabled: false  # activate/deactivate this deployment script
+    enabled: true  # activate/deactivate this deployment script
