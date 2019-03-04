@@ -4,7 +4,7 @@
     "name": "ReStock",
     "abstract": "A community-built replacement for KSP's part models and textures. ",
     "author": "ReStock Team",
-    "version": "0.1.0"
+    "$vref": "#/ckan/ksp-avc/https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/Restock/GameData/ReStock/Versioning/ReStock.version",
     "license": "All Rights Reserved",
     "resources": {
         "homepage": "tbd"

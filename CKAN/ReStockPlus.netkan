@@ -4,7 +4,7 @@
     "name": "ReStock+",
     "abstract": "A set of new parts that fill gaping holes in the stock lineup, adding missing types for size classes",
     "author": "ReStock Team",
-    "version": "0.1.0"
+    "$vref": "#/ckan/ksp-avc/https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/RestockPlus/GameData/ReStockPlus/Versioning/ReStockPlus.version",
     "license": "All Rights Reserved",
     "resources": {
         "homepage": "tbd"
