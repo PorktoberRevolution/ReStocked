@@ -10,7 +10,7 @@ The goal of this project is to improve the art of Kerbal Space Program with the 
 
 ## Restock+
 
-We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project. 
+We believe that there are a number of places where KSP is missing key parts - for example, where a stack class is missing parts that exist in other classes. Restock+ aims to create parts that fill this niche, and is a wholly optional project.
 
 ## Contributing
 
@@ -19,7 +19,7 @@ If you are interested in contributing artistically to the revamp, please contact
 
 ### Current Contributors
 
-##### Art
+#### Art
 - Andrew Cassidy
 - Chris Adderley (Nertea)
 - Beale
@@ -27,11 +27,14 @@ If you are interested in contributing artistically to the revamp, please contact
 - Passinglurker
 - Porkjet
 - riocrokite
-##### Drag cube wizardry
+
+#### Drag cube wizardry
 - DMagic
-##### Plugin code
+
+#### Plugin code
 - blowfish
-##### Lead Testing
+
+#### Lead Testing
 - Tyko
 - Poodmund
 
