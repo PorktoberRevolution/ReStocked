@@ -31,7 +31,7 @@ If you are interested in contributing artistically to the revamp, please contact
 - DMagic
 ##### Plugin code
 - blowfish
-##### Lead Testing:
+##### Lead Testing
 - Tyko
 - Poodmund
 
