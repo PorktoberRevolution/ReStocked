@@ -149,6 +149,10 @@
   - Experiment Storage Unit (Andrew Cassidy)
  - Communications
   - Communotron 88-88 (Andrew Cassidy)
+  - Communotron 16 (Andrew Cassidy)
+  - Communotron 16-S (Andrew Cassidy)
+  - Communotron HG-55 (Andrew Cassidy)
+  - Communotron DTS-M1 (Andrew Cassidy)
   - HG-5 High Gain Antenna (Andrew Cassidy)
   - RA-2 Relay Antenna (Andrew Cassidy)
   - RA-15 Relay Antenna (Andrew Cassidy)
