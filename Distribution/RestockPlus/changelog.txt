@@ -51,6 +51,7 @@ v0.1.0
  - RC-14 RCS Thruster Block (Nertea): Quad RCS block, mini size
  - RC-14-A RCS Thruster Block (Nertea): Quad angled RCS block, mini size
  - RC-15 RCS Thruster Block (Nertea): Five way RCS block, mini size
+ - Small Radial Gyroscope (Andrew Cassidy): radial mount gyroscope with a small amount of torque
 - Patches and fixes
  - Gimbals are enabled on stock SRBs
  - Oscar-B tank volume has been fixed (was far too high at 40, is now consistent at 18)
