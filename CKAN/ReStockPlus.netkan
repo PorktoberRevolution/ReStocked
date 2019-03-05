@@ -25,10 +25,5 @@
     {
       "name": "ReStock"
     }
-  ],
-  "conflicts": [
-    {
-      "name": "VenStockRevamp"
-    }
   ]
 }

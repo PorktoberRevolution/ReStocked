@@ -23,11 +23,6 @@
       "name": "ModuleManager"
     }
   ],
-  "conflicts": [
-    {
-      "name": "VenStockRevamp"
-    }
-  ],
   "suggests": [
     {
       "name": "ReStockPlus"
