@@ -33,7 +33,7 @@ Drag cube wizardry
 Plugin code
 - blowfish
 
-Lead Testing:
+Lead Testing
 - Tyko
 - Poodmund
 
