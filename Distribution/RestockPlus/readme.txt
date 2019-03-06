@@ -23,8 +23,8 @@ CREDITS
 =============
 
 Art
-- Andrew Cassidy
 - Chris Adderley (Nertea)
+- Andrew Cassidy (Cineboxandrew)
 - Porkjet
 
 Drag cube wizardry

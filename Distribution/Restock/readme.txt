@@ -20,8 +20,8 @@ CREDITS
 =======
 
 Art
-- Andrew Cassidy
 - Chris Adderley (Nertea)
+- Andrew Cassidy (Cineboxandrew)
 - Beale
 - blowfish
 - Passinglurker

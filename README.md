@@ -20,8 +20,8 @@ If you are interested in contributing artistically to the revamp, please contact
 ### Current Contributors
 
 #### Art
-- Andrew Cassidy
 - Chris Adderley (Nertea)
+- Andrew Cassidy (Cineboxandrew)
 - Beale
 - blowfish
 - Passinglurker
