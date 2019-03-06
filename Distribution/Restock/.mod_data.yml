@@ -14,8 +14,8 @@ dependencies:  # Configure dependencies
     location: s3
 deploy:
   SpaceDock:
-    enabled: false  # activate/deactivate this deployment script
-    mod-id: 709  # The Spacedock mod ID for deployment
+    enabled: true  # activate/deactivate this deployment script
+    mod-id: 2098  # The Spacedock mod ID for deployment
   CurseForge:
     enabled: false  # activate/deactivate this deployment script
     mod-id: 230112  # The CurseForge mod ID for deployment

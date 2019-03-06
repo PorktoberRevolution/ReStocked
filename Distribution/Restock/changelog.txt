@@ -1,4 +1,11 @@
-﻿v0.1.0
+v0.1.1
+------
+- Fixed solar array pivots on already-built craft having some potential issues
+- Fixed interstage shrouds on already-built and decoupled craft hanging around when they shouldn't
+- Fixed diameter of Mk16-XL parachute
+- Fixed vertical offset of Mk16 parachute
+
+v0.1.0
 ------
 - Initial release
 - Stock parts included:
