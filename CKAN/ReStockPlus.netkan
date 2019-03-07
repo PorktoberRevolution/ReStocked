@@ -8,7 +8,7 @@
   "$vref": "#/ckan/ksp-avc",
   "license": "restricted",
   "resources": {
-    "homepage": "tbd",
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/",
     "repository": "https://github.com/PorktoberRevolution/ReStocked"
   },
   "install": [

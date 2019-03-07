@@ -1,5 +1,5 @@
 =============
-RESTOCK 0.1.0
+RESTOCK 0.1.1
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the cancelled Part Overhaul project by Porkjet.
@@ -20,8 +20,8 @@ CREDITS
 =======
 
 Art
-- Andrew Cassidy
 - Chris Adderley (Nertea)
+- Andrew Cassidy (Cineboxandrew)
 - Beale
 - blowfish
 - Passinglurker
