@@ -1,12 +1,12 @@
 {
     "NAME":"ReStock",
     "URL":"https://raw.githubusercontent.com/PorktoberRevolution/ReStocked/prod/Distribution/Restock/GameData/ReStock/Versioning/ReStock.version",
-    "DOWNLOAD":"",
+    "DOWNLOAD":"https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/&",
     "VERSION":
     {
         "MAJOR":0,
         "MINOR":1,
-        "PATCH":1,
+        "PATCH":2,
         "BUILD":0
     },
     "KSP_VERSION":
