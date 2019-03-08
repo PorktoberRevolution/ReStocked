@@ -2,7 +2,7 @@ v0.1.2
 ------
 - Fixed RealChute compatibility
 - Fixed Communotron HG-55 being rotated 180° to the stock version
-- Tuned Stayputnick reflectivity
+- Tuned Stayputnik reflectivity
 
 v0.1.1
 ------

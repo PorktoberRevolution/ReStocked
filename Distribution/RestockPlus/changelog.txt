@@ -37,7 +37,7 @@ v0.1.0
 - New Coupling parts
  - TD-18 Stack Decoupler (Nertea): 1.875m decoupler. Replaces MH decoupler if installed
  - TS-18 Stack Separator (Nertea): 1.875m separator. Replaces MH separator if installed
- - TT-14 Decoupler (Nertes): Tiny radial decoupler suitable for 0.625m boosters
+ - TT-14 Decoupler (Nertea): Tiny radial decoupler suitable for 0.625m boosters
  - Clamp-O-Tron Docking Port 'Grande' (Nertea): 3.75m docking port
 - New Structural parts
  - Kerbodyne ADTP-2-3A (Nertea): A hollow version of the fuelled 3.75 to 2.5m adapter
