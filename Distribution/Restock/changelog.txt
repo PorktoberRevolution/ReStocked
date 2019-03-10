@@ -8,7 +8,7 @@
 - Fixed incorrect dimensions on SC-9001 Material Bay (#542)
 - Fixed Communotron HG-55 being rotated 180° to the stock version (#529)
 - Fixed Rhino plume (#538)
-- Fixed symmetry og of (#536)
+- Fixed symmetry of 0.625m heat shield (#536)
 - Tuned Stayputnik reflectivity
 
 v0.1.1
