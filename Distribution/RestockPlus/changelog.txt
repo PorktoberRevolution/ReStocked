@@ -1,10 +1,10 @@
 v0.1.2
 ------
-- Fixed tech node of restock-radial-relay-2 
-- Fixed mesh hole in 3.75m battery
-- Fixed bottom node of Anvil SRB being too high
-- Fixed Communotron HG-20 not appearing in the tech tree
-- Replaced SKLE-2-3 adapter colldiers with hollow version
+- Fixed incorrect dimensions on SC-9001R Material Bay (#542)
+- Fixed mesh hole in 3.75m battery (#531)
+- Fixed bottom node of Anvil SRB being too high (#534)
+- Fixed Communotron HG-20 not appearing in the tech tree (#527)
+- Replaced SKLE-2-3 adapter colldiers with hollow version (#528)
 - Enabled patch to allow a tweakable to rotate both replaced lights
 
 v0.1.1

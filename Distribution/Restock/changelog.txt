@@ -1,7 +1,8 @@
 v0.1.2
 ------
-- Fixed RealChute compatibility
-- Fixed Communotron HG-55 being rotated 180° to the stock version
+- Fixed incorrect dimensions on SC-9001 Material Bay (#542)
+- Fixed RealChute compatibility 
+- Fixed Communotron HG-55 being rotated 180° to the stock version (#529)
 - Tuned Stayputnik reflectivity
 
 v0.1.1
