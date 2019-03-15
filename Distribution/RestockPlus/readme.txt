@@ -53,7 +53,7 @@ To install, drag the ReStockPlus folder from the GameData folder you downloaded 
             - Assets
             - Parts
             - etc.
-        - Modulemanager.3.0.7.dll
+        - Modulemanager.4.0.2.dll
 
 
 ============

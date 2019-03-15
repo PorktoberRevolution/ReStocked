@@ -50,7 +50,7 @@ To install, drag the ReStock folder and Modulemanager DLL from the GameData fold
             - Assets
             - Patches
             - etc.
-        - Modulemanager.3.0.7.dll
+        - Modulemanager.4.0.2.dll
 
 ===============
 ASSET BLACKLIST
