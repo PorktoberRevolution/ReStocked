@@ -1,6 +1,10 @@
 ﻿v0.1.3
 ------
-- Fixes animation of SC-9001 Material Bay
+- Fixed animation of SC-9001 Material Bay
+- Fixed thrust offset on LV-909  (#553)
+- Fixed Mk1-3 Command pod still using old RCS FX  (#546)
+- Fixed docking transform on Clamp-O-Tron Sr (#555)
+- Killed flameout effects on many engines (#549)
 
 v0.1.2
 ------
