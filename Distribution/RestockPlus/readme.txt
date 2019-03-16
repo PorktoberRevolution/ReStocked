@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 0.1.2
+RESTOCK+ 0.1.3
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -15,7 +15,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (0.1.2)
+- Restock (0.1.3)
 - ModuleManager (4.0.2)
 
 =============
@@ -41,7 +41,20 @@ Lead Testing
 INSTALLATION
 ============
 
-To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, do so.
+To install, drag the ReStockPlus folder from the GameData folder you downloaded into your Kerbal Space Program Gamedata folder. If installed correctly, you should see:
+- Kerbal Space Program
+    - GameData
+        - Squad
+        - ReStock
+            - Assets
+            - Patches
+            - etc.
+        - ReStockPlus
+            - Assets
+            - Parts
+            - etc.
+        - ModuleManager.4.0.2.dll
+
 
 ============
 LOCALIZATION

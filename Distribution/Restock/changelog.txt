@@ -1,9 +1,16 @@
-﻿v0.1.2
+﻿v0.1.3
+------
+- Fixed animation of SC-9001 Material Bay
+- Fixed thrust offset on LV-909  (#553)
+- Fixed Mk1-3 Command pod still using old RCS FX  (#546)
+- Fixed docking transform on Clamp-O-Tron Sr (#555)
+- Killed flameout effects on many engines (#549)
+
+v0.1.2
 ------
 - Fixes to address SurfaceLights compatibility (requires updated RealPlume, #522)
 - Fixes to address RealChute compatibility
 - Fixes to address RealPlume compatibility (requires updated RealPlume)
-- Fixed Communotron HG-55 being rotated 180° to the stock version
 - Fixed Basic variant Spark shroud (#521, #539)
 - Fixed incorrect dimensions on SC-9001 Material Bay (#542)
 - Fixed Communotron HG-55 being rotated 180° to the stock version (#529)
