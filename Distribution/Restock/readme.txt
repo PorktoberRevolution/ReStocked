@@ -42,7 +42,15 @@ Lead Testing
 INSTALLATION
 ============
 
-To install, place the GameData folder inside your Kerbal Space Program folder. If asked to overwrite files, do so.
+To install, drag the ReStock folder and Modulemanager DLL from the GameData folder you downloaded into your Kerbal Space Program Gamedata folder. If installed correctly, you should see:
+- Kerbal Space Program
+    - GameData
+        - Squad
+        - ReStock
+            - Assets
+            - Patches
+            - etc.
+        - ModuleManager.4.0.2.dll
 
 ===============
 ASSET BLACKLIST
