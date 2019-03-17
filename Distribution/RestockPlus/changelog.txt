@@ -1,4 +1,9 @@
-﻿v0.1.3
+﻿v0.1.4
+------
+- Changed radial material bay and inline goo canister to use localization strings (#557)
+- Fixed radial material bay and inline goo canister not counting for satellite contracts (#557)
+
+v0.1.3
 ------
 - Balance tweaks to Anvil SRB. Fuel increased to 7200, thrust increased to 2250 kN (#547)
 - Fixed light pivots not moving light emitters (#548)

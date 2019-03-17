@@ -1,4 +1,7 @@
-﻿v0.1.3
+﻿v0.1.4
+------
+
+v0.1.3
 ------
 - Fixed animation of SC-9001 Material Bay
 - Fixed thrust offset on LV-909  (#553)
