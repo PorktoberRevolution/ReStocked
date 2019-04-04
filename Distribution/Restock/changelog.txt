@@ -1,6 +1,6 @@
 v0.2.0
 ------
-- Stack parts included:
+- Stock parts included:
  - Resource
   - Radial Holding Tank (Andrew)
   - Small Holding Tank (Andrew)
