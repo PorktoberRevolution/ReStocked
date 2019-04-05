@@ -111,3 +111,6 @@ Squad/Parts/Utility/rockomaxAdapters/
 Squad/Parts/Utility/ServiceBay/
 Squad/Parts/Utility/spotLightMk1/
 Squad/Parts/Utility/spotLightMk2/
+Squad/Parts/Resource/RadialTank
+Squad/Parts/Resource/SmallTank
+Squad/Parts/Resource/LargeTank
