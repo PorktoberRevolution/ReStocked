@@ -2,6 +2,7 @@
 ------
 - Changed radial material bay and inline goo canister to use localization strings (#557)
 - Fixed radial material bay and inline goo canister not counting for satellite contracts (#557)
+- Adjusted cost of Boar to 7000 from 12000 (#571)
 
 v0.1.3
 ------
