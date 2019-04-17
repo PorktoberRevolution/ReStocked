@@ -1,9 +1,12 @@
 v0.2.0
 ------
 - New Science parts
- - Experiment Return Unit (Andrew Cassidy): Inline science box
- - Medium Holding Tank (Andrew Cassidy): 1.875m Ore Tank
- - Jumbo Holding Tank (Andrew Cassidy): 3.75m Ore Tank
+ - Experiment Return Unit (Andrew): Inline science box
+- New Resource parts
+ - Medium Holding Tank (Andrew): 1.875m Ore Tank
+ - Jumbo Holding Tank (Andrew): 3.75m Ore Tank
+- New Electrical parts
+ - Monopropellant APU (Andrew): Radial monopropellant equivalent to the fuel cell
 
 ﻿v0.1.4
 ------

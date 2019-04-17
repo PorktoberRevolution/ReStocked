@@ -5,6 +5,9 @@ v0.2.0
   - Radial Holding Tank (Andrew)
   - Small Holding Tank (Andrew)
   - Large Holding Tank (Andrew)
+ - Electrical
+  - Fuel Cell (Andrew)
+  - Fuel Cell Array (Andrew)
 
 ﻿v0.1.4
 ------
