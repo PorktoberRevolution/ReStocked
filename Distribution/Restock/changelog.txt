@@ -3,6 +3,8 @@
 - KSP 1.7.x
 - Fixed scale of linear RCS collider (#569)
 - Fixed flag transform on Mk1 lander can (#558)
+- Warn user if Restock is installed in the wrong location
+- Warn user if old 1.25m tank directories are detected
 
 
 v0.1.3
