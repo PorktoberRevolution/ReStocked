@@ -1,6 +1,8 @@
 ﻿v0.1.4
 ------
 - KSP 1.7.x
+- Fixed scale of linear RCS collider (#569)
+- Fixed flag transform on Mk1 lander can (#558)
 
 
 v0.1.3

@@ -5,6 +5,8 @@
 - Fixed radial material bay and inline goo canister not counting for satellite contracts (#557)
 - Adjusted cost of Boar to 7000 from 12000 (#571)
 - Adjusted cost and masses of all RCS blocks for consistency with KSP 1.7 (#582)
+- Changed Torch tech node to Precision Propulsion, ASL Isp to 275s from 260s, mass from 0.3 to 0.29 (#582)
+- Changed Pug vacuum Isp to 330s from 320s (#582)
 
 v0.1.3
 ------
