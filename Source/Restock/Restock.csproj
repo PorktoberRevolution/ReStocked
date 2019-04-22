@@ -41,6 +41,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InstallChecker.cs" />
     <Compile Include="MaterialModifiers\ColorPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\FloatPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
