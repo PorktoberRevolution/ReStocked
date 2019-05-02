@@ -8,6 +8,9 @@
  - New base model for Twitch 
  - New variants for Twitch with 1.6-era Restock podped model
  - Tuned colliders, pivots of parts to line up with 1.7-era parts
+- Plugin improvements:
+ - Warn user if Restock is installed in the wrong location
+ - Warn user if old 1.25m tank directories are detected
 
 v0.1.3
 ------
