@@ -6,7 +6,7 @@
 - Adaptations for stock 1.7 changes
  - Propagated legacy patches for 1.6-era parts into a Legacy folder
  - New base model for Twitch 
- - New variants for Twitch with 1.6-era Restock podped model
+ - New variants for Twitch with 1.6-era Restock podded model
  - Tuned colliders, pivots of parts to line up with 1.7-era parts
 - Plugin improvements:
  - Warn user if Restock is installed in the wrong location
