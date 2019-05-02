@@ -3,7 +3,11 @@
 - KSP 1.7.x
 - Fixed scale of linear RCS collider (#569)
 - Fixed flag transform on Mk1 lander can (#558)
-
+- Adaptations for stock 1.7 changes
+ - Propagated legacy patches for 1.6-era parts into a Legacy folder
+ - New base model for Twitch 
+ - New variants for Twitch with 1.6-era Restock podped model
+ - Tuned colliders, pivots of parts to line up with 1.7-era parts
 
 v0.1.3
 ------
