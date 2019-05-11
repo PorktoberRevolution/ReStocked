@@ -15,7 +15,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (0.1.3)
+- Restock (0.1.4)
 - ModuleManager (4.0.2)
 
 =============
