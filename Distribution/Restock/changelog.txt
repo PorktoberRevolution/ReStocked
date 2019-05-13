@@ -2,6 +2,7 @@ v0.2.0
 ------
 - Stock parts included:
  - Resource
+  - Drill-O-Matic (Andrew)
   - Drill-O-Matic Junior (Andrew)
   - Radial Holding Tank (Andrew)
   - Small Holding Tank (Andrew)
