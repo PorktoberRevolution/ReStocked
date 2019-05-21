@@ -1,3 +1,32 @@
+v0.2.0
+------
+- Phase 2 release
+- New part replacements
+ - Coupling
+  - Advanced Grabbing Unit (Andrew Cassidy)
+ - Resources
+  - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
+  - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
+  - Large Holding Tank (Andrew Cassidy)
+  - Small Holding Tank (Andrew Cassidy)
+  - Radial Holding Tank (Andrew Cassidy)
+ - Electrical
+  - Fuel Cell (Andrew Cassidy)
+  - Fuel Cell Array (Andrew Cassidy)
+- Making History parts included
+ - Fuel Tanks
+   - FL-C1000 Fuel Tank (Nertea)
+   - FL-TX220_Fuel Tank (Nertea)
+   - FL-TX440_Fuel Tank (Nertea)
+   - FL-TX900_Fuel Tank (Nertea)
+   - FL-A150 Fuel Tank Adapter (Nertea)
+   - FL-A151L Fuel Tank Adapter (Nertea)
+   - FL-A151S Fuel Tank Adapter (Nertea)
+   - FL-A215 Fuel Tank Adapter (Nertea)
+   - FL-R5 RCS Fuel Tank (Nertea)
+ - Thermal
+   - Heat Shield (1.875m) (Nertea)
+
 ﻿v0.1.4
 ------
 - KSP 1.7.x

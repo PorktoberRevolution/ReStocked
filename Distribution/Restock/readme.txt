@@ -1,5 +1,5 @@
 =============
-RESTOCK 0.1.4
+RESTOCK 0.2.0
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the cancelled Part Overhaul project by Porkjet.
@@ -42,7 +42,7 @@ Lead Testing
 INSTALLATION
 ============
 
-To install, drag the ReStock folder and Modulemanager DLL from the GameData folder you downloaded into your Kerbal Space Program Gamedata folder. If installed correctly, you should see:
+To install, drag the ReStock folder and ModuleManager DLL from the GameData folder you downloaded into your Kerbal Space Program Gamedata folder. If installed correctly, you should see:
 - Kerbal Space Program
     - GameData
         - Squad

@@ -1,3 +1,31 @@
+v0.2.0
+------
+- Phase 2 release
+- New Command parts
+ -  (Nertea): 0.625m drone core
+ -  (Nertea): 1.875m drone core
+- New Control parts
+ -  (Nertea): 1.875m reaction wheel
+- New Fuel Tank parts
+ -  (Nertea): 3.75m monopropellant tank
+- New Structural parts
+ -  (Nertea): 1.875m to 2.5m flat adapter
+ -  (Nertea): 1.25m to 1.875m flat adapter
+- New Electrical parts
+ - Z-10K Rechargeable Battery Bank (Nertea): 1.875m battery bank
+ - Monopropellant APU (Andrew Cassidy): fuel cell powered by monopropellant
+- New Science parts
+ - Experiment Return Unit (Andrew Cassidy): Small 0.625m to 1.25m conical experiment storage unit
+- New Coupling parts
+ - Advanced Grabbing Unit Junior (Andrew Cassidy): 0.625m klaw
+- New Payload parts
+ - Service Bay (1.875m) (Nertea): 1.875m service bay
+- New Resources parts
+ - Jumbo Holding Tank (Andrew Cassidy): 3.75m ore tank
+ - Medium Holding Tank (Andrew Cassidy): 1.875m ore tank
+
+
+
 ﻿v0.1.4
 ------
 - KSP 1.7.x
