@@ -78,7 +78,8 @@ LOCALIZATION
 This mod primarily uses vanilla-provided localization, but for additional strings, it provides localization support for the following languages:
 - English
 - German (woeller)
-- French (Challyss
+- French (Challyss)
+- Brazilian Portuguese (AluisioASG)
 
 =========
 LICENSING
