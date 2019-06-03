@@ -80,6 +80,7 @@ This mod primarily uses vanilla-provided localization, but for additional string
 - German (woeller)
 - French (Challyss)
 - Brazilian Portuguese (AluisioASG)
+- Spanish (Niako)
 
 =========
 LICENSING
