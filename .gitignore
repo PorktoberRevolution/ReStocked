@@ -3,5 +3,7 @@ deploy/
 build/
 build-deploy/
 .vs/
+.idea/
 bin/
 obj/
+*.swp
