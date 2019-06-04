@@ -1,0 +1,84 @@
+using UnityEngine;
+using CompoundParts;
+
+namespace Restock
+{
+    /* Extends the stock CModuleLinkedMesh used on struts and pipes to make pipe textures repeat instead of stretch when
+       a pipe is extended beyond its default length */
+    
+    public class ModuleRestockLinkedMesh : CModuleLinkedMesh
+    {
+        // the direction along the texture that the pipe points. set to "x" or "y"
+        [KSPField] public string stretchAxis = "x";
+        
+        // space-seperated list of textures to be effected by the length, preferably all of the ones on the material
+        // Unity has no good way to get all the texture names attached to a material so it has to be set manually, unfortunately
+        [KSPField] public string stretchTextures = "_MainTex";
+        
+        
+        // reference to the material we will be modifying
+        private Material pipeMaterial;
+        
+        // array of property IDs corresponding to the textures
+        private int[] pipeMaterialIDs;
+        
+        // index of the texture scale vector, 0 for x, 1 for y
+        private int pipeStretchIndex;
+        
+        // initial scale of the pipe object, may not be 1
+        private float baseStretch;
+        
+
+        public override void OnStart(StartState state)
+        {
+            base.OnStart(state);
+            
+            // only the first material we find is used. complicates things otherwise
+            pipeMaterial = line.GetComponentInChildren<MeshRenderer>().material;
+            
+            // split texture list and convert to property IDs for easy access
+            var texNames = stretchTextures.Split(' ');
+            pipeMaterialIDs = new int[texNames.Length];
+            for (int i = 0; i < texNames.Length; i++)
+            {
+                pipeMaterialIDs[i] = Shader.PropertyToID(texNames[i]);
+            }
+            
+            // default to 'x' if an invalid value is used
+            pipeStretchIndex = stretchAxis != "y" ? 0 : 1;
+            baseStretch = line.localScale.z;
+            
+        }
+
+        public override void OnTargetSet(Part target)
+        {
+            base.OnTargetSet(target);
+            UpdateStretch();
+        }
+
+        public override void OnTargetUpdate()
+        {
+            base.OnTargetUpdate();
+            UpdateStretch();
+        }
+
+        public override void OnPreviewAttachment(Vector3 rDir, Vector3 rPos, Quaternion rRot)
+        {
+            base.OnPreviewAttachment(rDir, rPos, rRot);
+            UpdateStretch();
+        }
+
+        // updates the texture stretch to match the pipe object's local scale
+        private void UpdateStretch()
+        {
+            var stretch = line.localScale.z;
+            var scaleVect = Vector2.one;
+            scaleVect[pipeStretchIndex] = stretch / baseStretch;
+            
+            foreach (var t in pipeMaterialIDs)
+            {
+                pipeMaterial.SetTextureScale(t, scaleVect);
+            }
+        }
+    }
+}
