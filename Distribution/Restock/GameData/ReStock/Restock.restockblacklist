@@ -62,7 +62,7 @@ Squad/Parts/Engine/Size3AdvancedEngine/
 Squad/Parts/Engine/Size3EngineCluster/
 Squad/Parts/Engine/solidBoosterBACC/
 Squad/Parts/Engine/solidBoosterSep/
-Squad/Parts/Engine/vernorEngine/
+Squad/Parts/Utility/linearVernorRCS/Assets/
 Squad/Parts/FuelTank/FoilTanks/
 Squad/Parts/FuelTank/fuelTankOscarB/
 Squad/Parts/FuelTank/RCSFuelTankR1/
@@ -98,7 +98,6 @@ Squad/Parts/Utility/dockingPortSr/
 Squad/Parts/Utility/decouplerRadialHDM/
 Squad/Parts/Utility/decouplerRadialTT-38K/
 Squad/Parts/Utility/decouplerRadialTT-70/
-Squad/Parts/Utility/linearRCS/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
 Squad/Parts/Utility/parachuteMk16-XL/
