@@ -17,7 +17,7 @@ namespace Restock
         
         
         // reference to the material we will be modifying
-        private Material pipeMaterial;
+        private Material[] pipeMaterials;
         
         // array of property IDs corresponding to the textures
         private int[] pipeMaterialIDs;
@@ -33,8 +33,13 @@ namespace Restock
         {
             base.OnStart(state);
             
-            // only the first material we find is used. complicates things otherwise
-            pipeMaterial = line.GetComponentInChildren<MeshRenderer>().material;
+            // get all materials on the line object, including disabled ones
+            var renderers = line.GetComponentsInChildren<MeshRenderer>(true);
+            pipeMaterials = new Material[renderers.Length];
+            for (int i = 0; i < renderers.Length; i++)
+            {
+                pipeMaterials[i] = renderers[i].material;
+            }
             
             // split texture list and convert to property IDs for easy access
             var texNames = stretchTextures.Split(' ');
@@ -74,10 +79,13 @@ namespace Restock
             var stretch = line.localScale.z;
             var scaleVect = Vector2.one;
             scaleVect[pipeStretchIndex] = stretch / baseStretch;
-            
-            foreach (var t in pipeMaterialIDs)
+
+            foreach (var material in pipeMaterials)
             {
-                pipeMaterial.SetTextureScale(t, scaleVect);
+                foreach (var id in pipeMaterialIDs)
+                {
+                    material.SetTextureScale(id, scaleVect);
+                }
             }
         }
     }
