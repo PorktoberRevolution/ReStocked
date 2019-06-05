@@ -27,6 +27,12 @@ namespace Restock
         
         // initial scale of the pipe object, may not be 1
         private float baseStretch;
+
+        // scale vector for the material
+        private Vector2 texScale = Vector2.one;
+        
+        // offset vector for the material
+        private Vector2 texOffset = Vector2.zero;
         
 
         public override void OnStart(StartState state)
@@ -76,15 +82,17 @@ namespace Restock
         // updates the texture stretch to match the pipe object's local scale
         private void UpdateStretch()
         {
-            var stretch = line.localScale.z;
-            var scaleVect = Vector2.one;
-            scaleVect[pipeStretchIndex] = stretch / baseStretch;
+            var stretch = line.localScale.z / baseStretch;
+            
+            texScale[pipeStretchIndex] = stretch;
+            texOffset[pipeStretchIndex] = (1 - stretch) / 2;
 
             foreach (var material in pipeMaterials)
             {
                 foreach (var id in pipeMaterialIDs)
                 {
-                    material.SetTextureScale(id, scaleVect);
+                    material.SetTextureScale(id, texScale);
+                    material.SetTextureOffset(id, texOffset);
                 }
             }
         }
