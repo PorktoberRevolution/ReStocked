@@ -11,15 +11,15 @@ v0.2.0
 - New Fuel Tank parts
  - FL-S1 RCS Fuel Tank (Nertea): 3.75m monopropellant tank
  - FL-R4 RCS Fuel Tank (Nertea): 1.875m monopropellant tank
- - FL-X1800 Liquid Fuel Tank (Nertea): 1.875m LFO tank (long)
- - FL-X900 Liquid Fuel Tank (Nertea): 1.875m LFO tank (medium)
- - FL-X440 Liquid Fuel Tank (Nertea): 1.875m LFO tank (short)
- - FL-X200 Liquid Fuel Tank (Nertea): 1.875m LFO tank (tiny)
- - FL-S1200 Liquid Fuel Tank (Nertea): 1.875m LFO tank (tapered)
- - FL-XA1200 Fuel Tank Adapter (Nertea): 1.875m to 2.5m LFO adapter tank
- - FL-XA600 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO adapter tank (long)
- - FL-XA160 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO adapter tank
- - FL-XA160-S Fuel Tank Adapter (Nertea): 1/875m to 0.625m LFO adapter tank
+ - FL-X1800 Liquid Fuel Tank (Nertea): 1.875m long LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X900 Liquid Fuel Tank (Nertea): 1.875m medium LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X440 Liquid Fuel Tank (Nertea): 1.875m short LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X200 Liquid Fuel Tank (Nertea): 1.875m tiny  tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-S1200 Liquid Fuel Tank (Nertea): 1.875m soyuz-style LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA1200 Fuel Tank Adapter (Nertea): 1.875m to 2.5m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA600 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO long adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA160 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA160-S Fuel Tank Adapter (Nertea): 1.875m to 0.625m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
  - Oscar-A Liquid Fuel Tank (Nertea): 0.625m half Oscar-B tank (White and Metallic variants)
  - PRBE-9 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank (long)
  - PRBE-4 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank
@@ -34,7 +34,7 @@ v0.2.0
 - New Coupling parts
  - Advanced Grabbing Unit Junior (Andrew Cassidy): 0.625m klaw
 - New Payload parts
- - Service Bay (1.875m) (Nertea): 1.875m service bay
+ - Service Bay (1.875m) (Nertea): 1.875m service bay (Open, Opaque, Transparent variants)
 - New Resources parts
  - Jumbo Holding Tank (Andrew Cassidy): 3.75m ore tank
  - Medium Holding Tank (Andrew Cassidy): 1.875m ore tank
