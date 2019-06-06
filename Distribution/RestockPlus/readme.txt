@@ -4,9 +4,9 @@ RESTOCK+ 0.2.0
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
 
-- 0.625m parts: Completing this range with other tiny parts, including fairings, more fuel tanks, engines and the like
-- 1.875m parts: Completing this range with a new SRB and hopefully more in the future
-- 3.75m parts: Completing this range with a guidance unit, docking port, engines, nosecones
+- 0.625m parts: Completing this range with other tiny parts, including fairings, more fuel tanks, engines and the like.
+- 1.875m parts: Completing this range with missing parts like drone cores, service bays, batteries, and reaction wheels.
+- 3.75m parts: Completing this range with a guidance unit, docking port, engines, and nosecones.
 
 In addition some glaring bugfixes and improvements are included. For a full list of changes and additions, consult the changelog.
 
@@ -15,7 +15,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (0.1.4)
+- Restock (0.2.0)
 - ModuleManager (4.0.2)
 
 =============

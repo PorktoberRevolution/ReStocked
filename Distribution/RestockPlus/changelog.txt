@@ -1,7 +1,43 @@
 v0.2.0
 ------
+- Phase 2 release
+- New Aero parts:
+ - Miniature Rocket Nose (Nertea): 0.625m rocket nosecone (White and Metallic variants)
+- New Command parts
+ - RC-XS1 Remote Guidance Unit (Nertea): 0.625m drone core
+ - RC-M001 Remote Guidance Unit (Nertea): 1.875m drone core
+- New Control parts
+ - Medium Reaction Wheel Assembly (Nertea): 1.875m reaction wheel
+- New Fuel Tank parts
+ - FL-S1 RCS Fuel Tank (Nertea): 3.75m monopropellant tank
+ - FL-R4 RCS Fuel Tank (Nertea): 1.875m monopropellant tank
+ - FL-X1800 Liquid Fuel Tank (Nertea): 1.875m long LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X900 Liquid Fuel Tank (Nertea): 1.875m medium LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X440 Liquid Fuel Tank (Nertea): 1.875m short LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-X200 Liquid Fuel Tank (Nertea): 1.875m tiny  tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-S1200 Liquid Fuel Tank (Nertea): 1.875m soyuz-style LFO tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA1200 Fuel Tank Adapter (Nertea): 1.875m to 2.5m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA600 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO long adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA160 Fuel Tank Adapter (Nertea): 1.875m to 1.25m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - FL-XA160-S Fuel Tank Adapter (Nertea): 1.875m to 0.625m LFO adapter tank (White, Black and White, Dark Grey/Orange variants)
+ - Oscar-A Liquid Fuel Tank (Nertea): 0.625m half Oscar-B tank (White and Metallic variants)
+ - PRBE-9 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank (long)
+ - PRBE-4 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank
+- New Structural parts
+ - FL-XA30 Adapter (Nertea): 1.875m to 2.5m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
+ - FL-XA15 Adapter (Nertea): 1.25m to 1.875m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
+- New Electrical parts
+ - Z-2500 Rechargeable Battery Bank (Nertea): 1.875m battery bank
+ - Monopropellant APU (Andrew Cassidy): fuel cell powered by monopropellant
 - New Science parts
- - Experiment Return Unit (Andrew Cassidy): Inline science box
+ - Experiment Return Unit (Andrew Cassidy): Small 0.625m to 1.25m conical experiment storage unit
+- New Coupling parts
+ - Advanced Grabbing Unit Junior (Andrew Cassidy): 0.625m klaw
+- New Payload parts
+ - Service Bay (1.875m) (Nertea): 1.875m service bay (Open, Opaque, Transparent variants)
+- New Resources parts
+ - Jumbo Holding Tank (Andrew Cassidy): 3.75m ore tank
+ - Medium Holding Tank (Andrew Cassidy): 1.875m ore tank
 
 ﻿v0.1.4
 ------
