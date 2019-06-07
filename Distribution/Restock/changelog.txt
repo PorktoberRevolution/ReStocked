@@ -13,12 +13,17 @@ v0.2.0
  - Electrical
   - Fuel Cell (Andrew Cassidy)
   - Fuel Cell Array (Andrew Cassidy)
+ - Utility
+  - Pegasus I Mobility Enhancer (Nertea)
+  - Kelus Mobility Enhancer (Nertea)
+  - Kelus-LV Bay Mobility Enhancer (Nertea)
 - Making History parts replaced:
  - Fuel Tanks
    - FL-C1000 Fuel Tank (Nertea)
    - FL-TX220 Fuel Tank (Nertea)
    - FL-TX440 Fuel Tank (Nertea)
    - FL-TX900 Fuel Tank (Nertea)
+   - FL-C1000 Fuel Tank (Nertea)
    - FL-A150 Fuel Tank Adapter (Nertea)
    - FL-A151L Fuel Tank Adapter (Nertea)
    - FL-A151S Fuel Tank Adapter (Nertea)
