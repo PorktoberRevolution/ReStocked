@@ -4,6 +4,15 @@ v0.2.0
 - New stock part replacements
  - Coupling
   - Advanced Grabbing Unit (Andrew Cassidy)
+ - Structural
+  - Modular Girder Segment  (Nertea): new Thermal Blanket variant
+  - Modular Girder Segment XL (Nertea): new Thermal Blanket variant
+  - Modular Girder Segment Adapter (Nertea)
+  - M-1x1 Structural Panel (Nertea): now has Basic, Skeletal, Thermal Blanket, White, Gold Foil, Silver foil variants
+  - M-2x2 Structural Panel (Nertea): now has Basic, Skeletal, Thermal Blanket, White, Gold Foil, Silver foil variants
+  - M-Beam 200 I-Beam (Nertea): now has Basic, Thermal Blanket variants
+  - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Thermal Blanket variants
+  - M-Beam 650 I-Beam (Nertea)
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
@@ -30,7 +39,7 @@ v0.2.0
    - FL-A215 Fuel Tank Adapter (Nertea)
    - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
-   - Heat Shield (1.875m) (Nertea)
+   - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
 
 ﻿v0.1.4
 ------
