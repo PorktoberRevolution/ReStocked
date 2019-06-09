@@ -9,11 +9,13 @@ namespace Restock
     public class ModuleRestockLinkedMesh : CModuleLinkedMesh
     {
         // the direction along the texture that the pipe points. set to "x" or "y"
-        [KSPField] public string stretchAxis = "x";
+        [KSPField] 
+        public string stretchAxis = "x";
         
         // space-seperated list of textures to be effected by the length, preferably all of the ones on the material
         // Unity has no good way to get all the texture names attached to a material so it has to be set manually, unfortunately
-        [KSPField] public string stretchTextures = "_MainTex";
+        [KSPField] 
+        public string stretchTextures = "_MainTex";
         
         
         // reference to the material we will be modifying
@@ -57,8 +59,14 @@ namespace Restock
             
             // default to 'x' if an invalid value is used
             pipeStretchIndex = stretchAxis != "y" ? 0 : 1;
-            baseStretch = line.localScale.z;
+            baseStretch = part.scaleFactor;
             
+            GameEvents.onEditorVariantApplied.Add(OnVariantApplied);
+        }
+
+        private void OnDestroy()
+        {
+            GameEvents.onEditorVariantApplied.Remove(OnVariantApplied);
         }
 
         public override void OnTargetSet(Part target)
@@ -79,6 +87,12 @@ namespace Restock
             UpdateStretch();
         }
 
+        public void OnVariantApplied(Part part, PartVariant variant)
+        {
+            UpdateStretch();
+        }
+
+        
         // updates the texture stretch to match the pipe object's local scale
         private void UpdateStretch()
         {
