@@ -69,9 +69,9 @@ namespace Restock
             GameEvents.onEditorVariantApplied.Remove(OnVariantApplied);
         }
 
-        public override void OnTargetSet(Part target)
+        public override void OnTargetSet(Part newTarget)
         {
-            base.OnTargetSet(target);
+            base.OnTargetSet(newTarget);
             UpdateStretch();
         }
 
@@ -87,11 +87,10 @@ namespace Restock
             UpdateStretch();
         }
 
-        public void OnVariantApplied(Part part, PartVariant variant)
+        public void OnVariantApplied(Part appliedPart, PartVariant variant)
         {
-            UpdateStretch();
+            if (appliedPart == part) UpdateStretch();
         }
-
         
         // updates the texture stretch to match the pipe object's local scale
         private void UpdateStretch()
