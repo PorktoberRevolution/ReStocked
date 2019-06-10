@@ -40,6 +40,13 @@ v0.2.0
    - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
    - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
+   - Heat Shield (10m) (Nertea)
+   - Radiator Panel (edge) (Nertea)
+   - Radiator Panel (small) (Nertea)
+   - Radiator Panel (large) (Nertea)
+   - Thermal Control System (small) (Nertea)
+   - Thermal Control System (medium) (Nertea)
+   - Thermal Control System (large) (Nertea)
 
 ﻿v0.1.4
 ------
