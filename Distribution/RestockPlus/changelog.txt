@@ -26,7 +26,7 @@ v0.2.0
 - New Structural parts
  - FL-XA30 Adapter (Nertea): 1.875m to 2.5m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
  - FL-XA15 Adapter (Nertea): 1.25m to 1.875m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
- - Modular Girder Segment XXL (Nertea): double length XL Girder (Basic and Thermal Blanket variants)
+ - Modular Girder Segment XXL (Nertea): double length XL Girder (Basic and Insulated variants)
  - Modular Girder Segment Hub (Nertea): Girder style 6-way hub
  - Modular Girder Small Adapter (Nertea): Girder to 0.625m adapter
 - New Electrical parts

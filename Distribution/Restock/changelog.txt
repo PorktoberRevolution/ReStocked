@@ -5,14 +5,14 @@ v0.2.0
  - Coupling
   - Advanced Grabbing Unit (Andrew Cassidy)
  - Structural
-  - Modular Girder Segment  (Nertea): new Thermal Blanket variant
-  - Modular Girder Segment XL (Nertea): new Thermal Blanket variant
+  - Modular Girder Segment  (Nertea): new Insulated variant
+  - Modular Girder Segment XL (Nertea): new Insulated variant
   - Modular Girder Segment Adapter (Nertea)
-  - M-1x1 Structural Panel (Nertea): now has Basic, Skeletal, Thermal Blanket, White, Gold Foil, Silver foil variants
-  - M-2x2 Structural Panel (Nertea): now has Basic, Skeletal, Thermal Blanket, White, Gold Foil, Silver foil variants
-  - M-Beam 200 I-Beam (Nertea): now has Basic, Thermal Blanket variants
-  - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Thermal Blanket variants
-  - M-Beam 650 I-Beam (Nertea)
+  - M-1x1 Structural Panel (Nertea): now has Basic, Truss, Insulated, White, Gold Foil, Silver foil variants
+  - M-2x2 Structural Panel (Nertea): now has Basic, Truss, Insulated, White, Gold Foil, Silver foil variants
+  - M-Beam 200 I-Beam (Nertea): now has Basic, Truss, Insulated variants
+  - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Truss, Insulated variants
+  - M-Beam 650 I-Beam (Nertea): now has Basic, Truss variants
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
