@@ -15,17 +15,29 @@ namespace Restock
 
         // The render queue value for the mesh, should be less than maskRenderQueue
         [KSPField] 
-        public int meshRenderQueue = 1800;
+        public int meshRenderQueue = 1000;
         
         // the render queue value for the mask, should be less than 2000
         [KSPField] 
-        public int maskRenderQueue = 1900;
+        public int maskRenderQueue = 1999;
 
         // depth mask object transform
         public Transform depthMask;
         
         // depth mask shader object
         public Shader depthShader;
+
+        public override void OnStart(StartState state)
+        {
+            base.OnStart(state);
+            
+            GameEvents.onVariantApplied.Add(OnVariantApplied);
+        }
+
+        private void OnDestroy()
+        {
+            GameEvents.onVariantApplied.Remove(OnVariantApplied);
+        }
 
         public override void OnLoad(ConfigNode node)
         {
@@ -34,22 +46,31 @@ namespace Restock
             
             //if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
 
-            if (!(base.part.FindModelTransform(maskTransform) is Transform depthMask))
+            this.depthMask = base.part.FindModelTransform(maskTransform);
+            if (!(this.depthMask is Transform))
             {
                 this.LogError($"Can't find transform {maskTransform}");
                 return;
             }
-            else
-            {
-                this.Log($"found mask transform {maskTransform}");
-            }
-
-            if (!(Shader.Find(shaderName) is Shader depthShader))
+            
+            
+            this.depthShader = Shader.Find(shaderName);
+            if (!(this.depthShader is Shader))
             {
                 this.LogError($"Can't find shader {shaderName}");
                 return;
             }
 
+            UpdatematerialQueue();
+        }
+        
+        public void OnVariantApplied(Part appliedPart, PartVariant variant)
+        {
+            if (appliedPart == this.part) UpdatematerialQueue();
+        }
+        
+        private void UpdatematerialQueue()
+        {
             var windowRenderer = depthMask.GetComponent<MeshRenderer>();
 
 
@@ -64,8 +85,11 @@ namespace Restock
 
             foreach (var renderer in meshRenderers)
             {
+                this.Log(renderer.material.name + " " + renderer.material.renderQueue.ToString());
                 if (renderer == windowRenderer) continue;
-                renderer.material.renderQueue = meshRenderQueue;
+                var queue = renderer.material.renderQueue;
+                queue = meshRenderQueue + ((queue - 2000) / 2);
+                renderer.material.renderQueue = queue;
 
             }
         }
