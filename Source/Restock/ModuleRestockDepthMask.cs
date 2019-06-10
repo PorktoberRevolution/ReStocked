@@ -9,6 +9,9 @@ namespace Restock
         [KSPField] 
         public string maskTransform= "";
 
+        [KSPField] 
+        public string bodyTransform = "";
+
         // The name of the depth mask shader
         [KSPField] 
         public string shaderName = "DepthMask";
@@ -23,6 +26,8 @@ namespace Restock
 
         // depth mask object transform
         public Transform depthMask;
+
+        public Transform bodyRoot;
         
         // depth mask shader object
         public Shader depthShader;
@@ -44,7 +49,7 @@ namespace Restock
             
             base.OnLoad(node);
             
-            //if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
+            if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
 
             this.depthMask = base.part.FindModelTransform(maskTransform);
             if (!(this.depthMask is Transform))
@@ -52,7 +57,21 @@ namespace Restock
                 this.LogError($"Can't find transform {maskTransform}");
                 return;
             }
-            
+
+            if (bodyTransform == "")
+            {
+                bodyRoot = base.part.partTransform;
+            }
+            else
+            {
+                this.bodyRoot = base.part.partTransform.Find(bodyTransform);
+                if (!(this.bodyRoot is Transform))
+                {
+                    this.LogError($"Can't find transform {bodyTransform}");
+                    return;
+                }
+            }
+
             
             this.depthShader = Shader.Find(shaderName);
             if (!(this.depthShader is Shader))
@@ -80,17 +99,23 @@ namespace Restock
             this.Log(depthShader.name);
             this.Log(windowRenderer.material.shader.name);
             
-            var meshRenderers = part.partTransform.GetComponentsInChildren<MeshRenderer>(true);
-            var skinnedMeshRenderers = part.partTransform.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+            var meshRenderers = bodyRoot.GetComponentsInChildren<MeshRenderer>(true);
+            var skinnedMeshRenderers = bodyRoot.GetComponentsInChildren<SkinnedMeshRenderer>(true);
 
             foreach (var renderer in meshRenderers)
             {
-                this.Log(renderer.material.name + " " + renderer.material.renderQueue.ToString());
                 if (renderer == windowRenderer) continue;
                 var queue = renderer.material.renderQueue;
                 queue = meshRenderQueue + ((queue - 2000) / 2);
                 renderer.material.renderQueue = queue;
-
+            }
+            
+            foreach (var renderer in skinnedMeshRenderers)
+            {
+                if (renderer == windowRenderer) continue;
+                var queue = renderer.material.renderQueue;
+                queue = meshRenderQueue + ((queue - 2000) / 2);
+                renderer.material.renderQueue = queue;
             }
         }
     }
