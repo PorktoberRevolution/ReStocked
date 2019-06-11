@@ -103,6 +103,7 @@ namespace Restock
             foreach (var renderer in renderers)
             {
                 var queue = renderer.material.renderQueue;
+                if (queue <= maskRenderQueue) continue;
                 queue = meshRenderQueue + ((queue - 2000) / 2);
                 renderer.material.renderQueue = queue;
             }
