@@ -26,6 +26,9 @@ v0.2.0
   - Pegasus I Mobility Enhancer (Nertea)
   - Kelus Mobility Enhancer (Nertea)
   - Kelus-LV Bay Mobility Enhancer (Nertea)
+ - Compound Parts
+  - FTX-2 External Fuel Duct (Andrew)
+  - EAS-4 Strut Connector (Andrew)
 - Making History parts replaced:
  - Fuel Tanks
    - FL-C1000 Fuel Tank (Nertea)
@@ -40,6 +43,24 @@ v0.2.0
    - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
    - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
+- New Depth Mask module added
+  - Some parts can now be inset into other parts without visible clipping inside them
+  - Aero
+    - Circular Intake
+    - Small Circular Intake
+    - Shock Cone Intake
+    - Adjustable Ramp Intake
+    - Adjustable Ramp Intake (radial)
+    - Radial Air Intake
+    - Mk1 Inline Air Intake
+  - Engines
+    - J-33 "Wheesley" Turbofan
+    - J-404 "Panther" Afterburning Turbofan
+    - J-X4 "Whiplash" Turbo Ramjet
+    - J-20 "Juno" Basic Jet
+  - Electrical
+    - OX-4L 1x6 Solar Panels
+    - OX-4W 3x2 Solar Panels
 
 ﻿v0.1.4
 ------
