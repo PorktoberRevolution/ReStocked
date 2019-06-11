@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -25,8 +26,8 @@ namespace Restock
         public int maskRenderQueue = 1999;
 
 
-        // depth mask object transform
-        public Transform maskTransformObject;
+        // depth mask object transforms
+        public Transform[] maskTransformObjects;
 
         // body object transform
         public Transform bodyTransformObject;
@@ -38,7 +39,7 @@ namespace Restock
         public override void OnStart(StartState state)
         {
             base.OnStart(state);
-            UpdatematerialQueue();
+            UpdateAllMaterials();
 
             // the part variant system is implemented extremely stupidly
             // so we have to make this whole module more complicated as a result
@@ -58,14 +59,14 @@ namespace Restock
 
             if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
 
-            this.maskTransformObject = base.part.FindModelTransform(maskTransform);
-            if (this.maskTransformObject == null)
+            this.maskTransformObjects = base.part.FindModelTransforms(maskTransform);
+            if (this.maskTransformObjects.Length == 0 || this.maskTransformObjects == null)
             {
                 this.LogError($"Can't find transform {maskTransform}");
                 return;
             }
 
-            if (bodyTransform == "")
+            if (bodyTransform.Length == 0)
             {
                 this.bodyTransformObject = base.part.partTransform;
             }
@@ -91,34 +92,26 @@ namespace Restock
         public void OnVariantApplied(Part appliedPart, PartVariant variant)
         {
             // I dont know why changing part variants resets all the materials to their as-loaded state, but it does
-            if (appliedPart == this.part) UpdatematerialQueue();
+            if (appliedPart == this.part) UpdateAllMaterials();
         }
 
 
-        private void UpdatematerialQueue()
+        private void UpdateAllMaterials()
         {
-            var windowRenderer = maskTransformObject.GetComponent<MeshRenderer>();
+            var renderers = bodyTransformObject.GetComponentsInChildren<Renderer>(true);
 
-            windowRenderer.material.shader = depthShader;
-            windowRenderer.material.renderQueue = maskRenderQueue;
-
-            var meshRenderers = bodyTransformObject.GetComponentsInChildren<MeshRenderer>(true);
-            var skinnedMeshRenderers = bodyTransformObject.GetComponentsInChildren<SkinnedMeshRenderer>(true);
-
-            foreach (var renderer in meshRenderers)
+            foreach (var renderer in renderers)
             {
-                if (renderer == windowRenderer) continue;
                 var queue = renderer.material.renderQueue;
                 queue = meshRenderQueue + ((queue - 2000) / 2);
                 renderer.material.renderQueue = queue;
             }
 
-            foreach (var renderer in skinnedMeshRenderers)
+            foreach (var maskObject in maskTransformObjects)
             {
-                if (renderer == windowRenderer) continue;
-                var queue = renderer.material.renderQueue;
-                queue = meshRenderQueue + ((queue - 2000) / 2);
-                renderer.material.renderQueue = queue;
+                var renderer = maskObject.GetComponent<Renderer>();
+                renderer.material.shader = depthShader;
+                renderer.material.renderQueue = maskRenderQueue;
             }
         }
     }
