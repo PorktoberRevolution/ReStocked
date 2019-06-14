@@ -12,7 +12,7 @@ v0.2.0
   - M-2x2 Structural Panel (Nertea): now has Basic, Truss, Insulated, White, Gold Foil, Silver foil variants
   - M-Beam 200 I-Beam (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Truss, Insulated variants
-  - M-Beam 650 I-Beam (Nertea): now has Basic, Truss variants
+  - M-Beam 650 I-Beam (Nertea): now has Basic, Truss, Insulated variants
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
@@ -30,19 +30,24 @@ v0.2.0
   - FTX-2 External Fuel Duct (Andrew)
   - EAS-4 Strut Connector (Andrew)
 - Making History parts replaced:
+ - New Engine parts
+  - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Bare variants
+  - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and compact variants
+  - RE-J10 'Wolfhound' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and compact variants
+  - RE-I2 'Skiff' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and compact variants
  - Fuel Tanks
-   - FL-C1000 Fuel Tank (Nertea)
-   - FL-TX220 Fuel Tank (Nertea)
-   - FL-TX440 Fuel Tank (Nertea)
-   - FL-TX900 Fuel Tank (Nertea)
-   - FL-C1000 Fuel Tank (Nertea)
-   - FL-A150 Fuel Tank Adapter (Nertea)
-   - FL-A151L Fuel Tank Adapter (Nertea)
-   - FL-A151S Fuel Tank Adapter (Nertea)
-   - FL-A215 Fuel Tank Adapter (Nertea)
-   - FL-R5 RCS Fuel Tank (Nertea)
+  - FL-C1000 Fuel Tank (Nertea)
+  - FL-TX220 Fuel Tank (Nertea)
+  - FL-TX440 Fuel Tank (Nertea)
+  - FL-TX900 Fuel Tank (Nertea)
+  - FL-C1000 Fuel Tank (Nertea)
+  - FL-A150 Fuel Tank Adapter (Nertea)
+  - FL-A151L Fuel Tank Adapter (Nertea)
+  - FL-A151S Fuel Tank Adapter (Nertea)
+  - FL-A215 Fuel Tank Adapter (Nertea)
+  - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
-   - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
+  - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
 - New Depth Mask module added
   - Some parts can now be inset into other parts without visible clipping inside them
   - Aero
