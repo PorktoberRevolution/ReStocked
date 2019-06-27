@@ -66,6 +66,11 @@ v0.2.0
   - Electrical
     - OX-4L 1x6 Solar Panels
     - OX-4W 3x2 Solar Panels
+- Bugfixes
+  - Updated Gigantor colliders to be closer to stock
+  - Updated Gigantor mesh to be more performant
+  - Fixed Twin Boar flag being on wrong side compared to original model
+  - Tweaked Nerv plume to be prettier
 
 ﻿v0.1.4
 ------
