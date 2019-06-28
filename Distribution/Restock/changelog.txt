@@ -30,11 +30,11 @@ v0.2.0
   - FTX-2 External Fuel Duct (Andrew)
   - EAS-4 Strut Connector (Andrew)
 - Making History parts replaced:
- - New Engine parts
-  - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Bare variants
-  - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and compact variants
-  - RE-J10 'Wolfhound' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and compact variants
-  - RE-I2 'Skiff' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and compact variants
+ - Engines
+  - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Compact variants
+  - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and Compact variants
+  - RE-J10 'Wolfhound' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
+  - RE-I2 'Skiff' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
  - Fuel Tanks
   - FL-C1000 Fuel Tank (Nertea)
   - FL-TX220 Fuel Tank (Nertea)
@@ -47,7 +47,7 @@ v0.2.0
   - FL-A215 Fuel Tank Adapter (Nertea)
   - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
-  - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
+  - Heat Shield (1.875m) (Nertea): now has Unpainted, Classic, Black variants
 - New Depth Mask module added
   - Some parts can now be inset into other parts without visible clipping inside them
   - Aero
@@ -63,15 +63,25 @@ v0.2.0
     - J-404 "Panther" Afterburning Turbofan
     - J-X4 "Whiplash" Turbo Ramjet
     - J-20 "Juno" Basic Jet
+    - Separatron I
+    - 24-77 "Twitch" Liquid Fuel Engine
+    - O-10 "Puff" Monopropellant Fuel Engine
   - Electrical
     - OX-4L 1x6 Solar Panels
     - OX-4W 3x2 Solar Panels
-- Bugfixes and Tweaks
+  - Control
+    - RV-105 RCS Thruster Block
+    - Place-Anywhere 7 Linear RCS Port
+  - Utility
+    - Kelus Mobility Enhancer
+    - Kelus-LV Bay Mobility Enhancer
+- Bugfixes and tweaks
   - Updated Gigantor colliders to be closer to stock
   - Updated Gigantor mesh to be more performant
   - Fixed Twin Boar flag being on wrong side compared to original model
   - Tweaked Nerv plume to be prettier
-  - Added optional structural struts on Baguette and Dumpling tanks
+  - Added optional structural strut variants on Baguette and Dumpling tanks
+  - Fixed MH replacement for Stratus-V tank
 
 ﻿v0.1.4
 ------

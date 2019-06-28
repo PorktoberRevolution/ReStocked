@@ -28,7 +28,7 @@ v0.2.0
  - RK-107 'Ursa' Liquid Fueled Engine (Nertea): 1.875m booster engine, with 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and compact variants
  - RE-137 'Schnauzer' Liquid Fuel Engine AJ10 (Nertea): 1.875m vacuum engine, with 2.5m, 1.875m, 1.25m and compact variants
  - RE-I2 'Caravel' Liquid Fuel Engine	(Nertea): 1.875m sustainer engine, with 2.5m, 1.875m, 1.25m and compact variants
-- LV-N410' Atomic Rocket Motor  (Nertea): 2.5m atomic engine with 2.5m and compact variants
+ - LV-N410 'Cherenkov' Atomic Rocket Motor (Nertea): 2.5m atomic engine with 2.5m and compact variants
 - New Structural parts
  - FL-XA30 Adapter (Nertea): 1.875m to 2.5m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
  - FL-XA15 Adapter (Nertea): 1.25m to 1.875m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
@@ -52,8 +52,8 @@ v0.2.0
 - New Utility parts
  - Pegasus II Mobility Enhancer (Nertea): 2x size static ladder
  - Pegasus III Mobility Enhancer (Nertea): 4x size static ladder
-- Updated parts
- - Depth mask added to radial material bay
+- Fixes and improvements
+ - Depth mask added to radial material bay and new RCS parts
 
 ﻿v0.1.4
 ------
