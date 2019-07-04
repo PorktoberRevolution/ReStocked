@@ -64,6 +64,7 @@ This mod provides localization support for the following languages:
 - English
 - German (woeller)
 - Brazilian Portuguese (AluisioASG)
+- Spanish (Niako)
 
 =========
 LICENSING
