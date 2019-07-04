@@ -1,4 +1,9 @@
-﻿v0.1.4
+﻿v0.1.5
+------
+ - Added Spanish localization of Restock+ strings (thanks Niako)
+ - Added Brazilian Portuguese localization of Restock+ strings (thanks AluisioASG)
+
+v0.1.4
 ------
 - KSP 1.7.x
 - Changed radial material bay and inline goo canister to use localization strings (#557)

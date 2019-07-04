@@ -1,4 +1,10 @@
-﻿v0.1.4
+﻿v0.1.5
+------
+ - Added Spanish localization of Restock strings (thanks Niako)
+ - Fixed HG-55 animation not deploying all the way
+ - Fixed legacy part folders being present in the blacklist file
+
+v0.1.4
 ------
 - KSP 1.7.x
 - Fixed scale of linear RCS collider (#569)
