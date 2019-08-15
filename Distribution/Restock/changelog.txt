@@ -10,6 +10,7 @@ v0.2.0
   - Surface Scanning Module (Andrew)
   - M700 Survey Scanner (Andrew)
   - M4435 Narrow-Band Scanner (Andrew)
+  - Convert-O-Tron 125 ISRU (Andrew)
  - Electrical
   - Fuel Cell (Andrew)
   - Fuel Cell Array (Andrew)
