@@ -1,0 +1,7 @@
+Used with permission from JadeOfMaar
+
+Some FX which are not needed for the Restock realplume project have been removed
+
+https://github.com/JadeOfMaar/PlumeParty/blob/master/LICENSE.md
+
+PlumeParty is licensed under CC BY-NC-SA 4.0
