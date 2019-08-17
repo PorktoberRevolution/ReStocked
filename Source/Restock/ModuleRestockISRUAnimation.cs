@@ -6,10 +6,13 @@ namespace Restock
 {
     public class ModuleRestockISRUAnimation : PartModule
     {
+        // name of the deploy animation to use
         [KSPField] public string deployAnimationName = "";
 
+        // speed to run the animation when deploying
         [KSPField] public float deploySpeed = 1.0f;
 
+        // speed to run the animation when retracting
         [KSPField] public float retractSpeed = 1.0f;
 
         public bool isDeployed = false;

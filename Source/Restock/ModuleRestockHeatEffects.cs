@@ -6,28 +6,40 @@ namespace Restock
 {
     public class ModuleRestockHeatEffects : PartModule
     {
+        // enable the heat glow emissive
         [KSPField] public bool enableHeatEmissive = false;
 
-        [KSPField] public string shaderProperty = string.Empty;
+        // what shader property to modify. must be a color.
+        [KSPField] public string shaderProperty = "_EmissiveColor";
 
+        // animation curve for the red channel
         [KSPField] public FloatCurve redCurve= new FloatCurve();
 
+        // animation curve for the green channel
         [KSPField] public FloatCurve greenCurve = new FloatCurve();
-
+        
+        // animation curve for the blue channel
         [KSPField] public FloatCurve blueCurve = new FloatCurve();
 
+        // animation curve for the alpha channel
         [KSPField] public FloatCurve alphaCurve = new FloatCurve();
 
+        // draper point, the temperature in Kelvin where materials start glowing
         [KSPField] public double draperPoint = 798.0;
         
+        // temperature where the animation is at its maximum
         [KSPField] public double lerpMax = double.NaN;
         
+        // temperature where the animation is at its minimum, added with draperPoint
         [KSPField] public double lerpMin = 0.0;
 
+        // use the part's core temperature? (overrides useSkinTemp)
         [KSPField] public bool useCoreTemp = false;
         
+        // use the part's skin temperature?
         [KSPField] public bool useSkinTemp = false;
 
+        // should the module disable the stock blackbody glow effect on the included renderers?
         [KSPField] public bool disableBlackbody = false;
         
         [KSPField] public List<Renderer> renderers = new List<Renderer>();
