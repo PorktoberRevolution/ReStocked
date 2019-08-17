@@ -4,38 +4,40 @@ using UnityEngine;
 
 namespace Restock
 {
-    public class ModuleRestockISRUAnimation: PartModule
+    public class ModuleRestockISRUAnimation : PartModule
     {
-        [KSPField] public string activeAnimationName = "";
-
         [KSPField] public string deployAnimationName = "";
 
+        [KSPField] public float deploySpeed = 1.0f;
+
+        [KSPField] public float retractSpeed = 1.0f;
+
         public bool isDeployed = false;
-        
-        public Animation DeployAnimation
-        {
-            get;
-            private set;
-        }
+
+        public Animation DeployAnimation { get; private set; }
 
         private List<BaseConverter> _modules;
 
         private bool _deployAnimationPresent = false;
-        
+
         public void Start()
         {
-            if (base.vessel == null) return;
             _modules = base.part.FindModulesImplementing<BaseConverter>();
 
             _deployAnimationPresent = (deployAnimationName != string.Empty);
             DeployAnimation = ((_deployAnimationPresent) ? base.part.FindModelAnimators(deployAnimationName)[0] : null);
 
-            foreach (var a in base.part.FindModelAnimators()) a.Stop(); 
-            
+            foreach (var a in base.part.FindModelAnimators()) a.Stop();
         }
 
         public override void OnLoad(ConfigNode node)
         {
+            if (!HighLogic.LoadedSceneIsFlight || base.vessel == null)
+            {
+                isDeployed = false;
+                return;
+            }
+            
             if (isDeployed)
             {
                 PlayDeployAnimation(1000);
@@ -45,17 +47,16 @@ namespace Restock
                 PlayDeployAnimation(-1000);
             }
         }
-        
+
         public void Update()
         {
-            if (!HighLogic.LoadedSceneIsFlight || base.vessel == null) return;
+            if (!HighLogic.LoadedSceneIsFlight) return;
             try
             {
                 if (!CheatOptions.InfiniteElectricity)
                 {
                     var ecHash = PartResourceLibrary.ElectricityHashcode;
                     base.vessel.GetConnectedResourceTotals(ecHash, out var ecAmount, out _, true);
-                    Debug.Log(ecAmount);
                     if (ecAmount < 0.1)
                     {
                         if (isDeployed) RetractModule();
@@ -68,6 +69,7 @@ namespace Restock
                 {
                     if (m.ModuleIsActive()) enabledCount++;
                 }
+
                 if (isDeployed && enabledCount == 0) RetractModule();
                 else if (!isDeployed && enabledCount != 0) DeployModule();
             }
@@ -80,16 +82,16 @@ namespace Restock
         public void DeployModule()
         {
             isDeployed = true;
-            PlayDeployAnimation(1);
+            PlayDeployAnimation(1 * deploySpeed);
         }
 
         public void RetractModule()
         {
             isDeployed = false;
-            PlayDeployAnimation(-1);
+            PlayDeployAnimation(-1 * retractSpeed);
         }
 
-        private void PlayDeployAnimation(int speed)
+        private void PlayDeployAnimation(float speed)
         {
             if (_deployAnimationPresent)
             {
@@ -102,6 +104,7 @@ namespace Restock
                 {
                     deployAnimationState.time = 0.0f;
                 }
+
                 deployAnimationState.speed = speed;
                 DeployAnimation.Play(deployAnimationName);
             }

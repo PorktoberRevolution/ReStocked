@@ -47,6 +47,7 @@
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\MaterialModifierParser.cs" />
     <Compile Include="MaterialModifiers\TexturePropertyMaterialModifier.cs" />
+    <Compile Include="ModuleRestockHeatEffects.cs" />
     <Compile Include="ModuleRestockISRUAnimation.cs" />
     <Compile Include="ModuleRestockModifyFairingMaterials.cs" />
     <Compile Include="ModuleRestockModifyMaterials.cs" />
