@@ -16,6 +16,8 @@
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
+  - 'Convert-O-Tron 125' ISRU (Andrew Cassidy)
+  - 'Convert-O-Tron 250' ISRU (Andrew Cassidy)
   - Large Holding Tank (Andrew Cassidy)
   - Small Holding Tank (Andrew Cassidy)
   - Radial Holding Tank (Andrew Cassidy)
