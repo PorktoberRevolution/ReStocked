@@ -1,4 +1,4 @@
-v0.2.0
+﻿v0.2.0
 ------
 - Phase 2 release
 - New stock part replacements
@@ -54,6 +54,19 @@ v0.2.0
    - Thermal Control System (small) (Nertea)
    - Thermal Control System (medium) (Nertea)
    - Thermal Control System (large) (Nertea)
+  - Resource
+   - Drill-O-Matic (Andrew)
+   - Drill-O-Matic Junior (Andrew)
+   - Radial Holding Tank (Andrew)
+   - Small Holding Tank (Andrew)
+   - Large Holding Tank (Andrew)
+   - Surface Scanning Module (Andrew)
+   - M700 Survey Scanner (Andrew)
+   - M4435 Narrow-Band Scanner (Andrew)
+   - Convert-O-Tron 125 ISRU (Andrew)
+  - Electrical
+   - Fuel Cell (Andrew)
+   - Fuel Cell Array (Andrew)
 - New Depth Mask module added
   - Some parts can now be inset into other parts without visible clipping inside them
   - Aero
@@ -88,6 +101,8 @@ v0.2.0
   - Tweaked Nerv plume to be prettier
   - Added optional structural strut variants on Baguette and Dumpling tanks
   - Fixed MH replacement for Stratus-V tank
+- Stock parts included:
+
 
 ﻿v0.1.4
 ------
