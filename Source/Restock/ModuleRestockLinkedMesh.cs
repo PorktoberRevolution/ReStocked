@@ -100,10 +100,12 @@ namespace Restock
             texScale[pipeStretchIndex] = stretch;
             texOffset[pipeStretchIndex] = (1 - stretch) / 2;
 
-            foreach (var material in pipeMaterials)
+            for (var i = 0; i < pipeMaterials.Length; i++)
             {
-                foreach (var id in pipeMaterialIDs)
+                var material = pipeMaterials[i];
+                for (var j = 0; j < pipeMaterialIDs.Length; j++)
                 {
+                    var id = pipeMaterialIDs[j];
                     material.SetTextureScale(id, texScale);
                     material.SetTextureOffset(id, texOffset);
                 }

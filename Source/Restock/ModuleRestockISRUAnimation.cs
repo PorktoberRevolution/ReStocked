@@ -312,11 +312,11 @@ namespace Restock
                 {
                     return false;
                 }
-            }   
-            
-            foreach (var m in _modules)
+            }
+
+            for (var i = 0; i < _modules.Count; i++)
             {
-                if (m.ModuleIsActive())
+                if (_modules[i].ModuleIsActive())
                 {
                     return true;
                 }

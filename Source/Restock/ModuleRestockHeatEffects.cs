@@ -150,10 +150,10 @@ namespace Restock
                 _propertyBlock.SetColor(_shaderBlackbodyID, Color.black);
 
             }
-            
-            foreach (var r in renderers)
+
+            for (var i = 0; i < renderers.Count; i++)
             {
-                r.SetPropertyBlock(_propertyBlock);
+                renderers[i].SetPropertyBlock(_propertyBlock);
             }
         }
     }
