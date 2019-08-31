@@ -59,7 +59,6 @@ namespace Restock
 
         public void Start()
         {
-            Debug.Log("Start()");
             if (base.vessel == null) return;
             
             if (enableHeatEmissive)
@@ -100,9 +99,6 @@ namespace Restock
         public override void OnLoad(ConfigNode node)
         {
             if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
-            
-            Debug.Log("OnLoad()");
-            Debug.Log(node.ToString());
             
             renderers = base.part.FindModelComponents<Renderer>();
             
