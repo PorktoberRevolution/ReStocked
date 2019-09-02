@@ -77,8 +77,7 @@ Squad/Parts/FuelTank/Size3Tanks/
 Squad/Parts/FuelTank/xenonTank/
 Squad/Parts/FuelTank/xenonTankLarge/
 Squad/Parts/FuelTank/xenonTankRadial/
-Squad/Parts/Misc/AsteroidDay/HECS2.mu
-Squad/Parts/Misc/AsteroidDay/hecs*.dds
+Squad/Parts/Misc/AsteroidDay/
 Squad/Parts/Science/
 Squad/Parts/Structural/FLAdapters/
 Squad/Parts/Structural/Size3To2Adapter_v2/
@@ -90,7 +89,6 @@ Squad/Parts/Utility/DirectAntennas/
 Squad/Parts/Utility/commDish88-88/
 Squad/Parts/Utility/commsAntennaDTS-M1/
 Squad/Parts/Utility/commsDish16/
-Squad/Parts/Misc/AsteroidDay/HighGainAntenna.mu
 Squad/Parts/Utility/dockingPort/
 Squad/Parts/Utility/dockingPortInline/
 Squad/Parts/Utility/dockingPortJr/
