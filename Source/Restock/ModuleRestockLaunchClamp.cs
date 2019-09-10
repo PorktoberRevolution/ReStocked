@@ -16,8 +16,8 @@ namespace Restock
         [KSPField] public Transform towerGirder;
         [KSPField] public Transform towerStretch;
         
-        [KSPField] private Mesh _girderSegmentMesh;
-        [KSPField] private Mesh _girderMesh;
+        [KSPField] public Mesh girderSegmentMesh;
+        [KSPField] public Mesh girderMesh;
         
         private List<Vector3> _girderVerts;
         private List<Vector2> _girderUVs;
@@ -27,8 +27,6 @@ namespace Restock
         private List<int> _girderTris;
         private int _girderSegments;
         
-        private float _girderHeight = -1f;
-
         private bool _girderHasTangents = false;
         private bool _girderHasColors = false;
         private int _girderVertCount;
@@ -38,45 +36,44 @@ namespace Restock
 
         public override void OnLoad(ConfigNode node)
         {
+            Debug.Log("OnLoad Called");
+            
+            towerPivot = base.part.FindModelTransform(trf_towerPivot_name);
+            towerYoke = base.part.FindModelTransform(trf_towerYoke_name);
+            towerAnchor = base.part.FindModelTransform(trf_anchor_name);
+            towerGirder = base.part.FindModelTransform(trf_towerGirder_name);
+            towerStretch = base.part.FindModelTransform(trf_towerStretch_name);
+            
+            girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
+            girderSegmentMesh = Instantiate<Mesh>(girderMesh);
+            
             base.OnLoad(node);
-            
-            if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
-            
-
         }
 
         public override void OnStart(StartState state)
         {
 
             Debug.Log("OnStart Called");
-            towerPivot = base.part.FindModelTransform(trf_towerPivot_name);
-            towerYoke = base.part.FindModelTransform(trf_towerYoke_name);
-            towerAnchor = base.part.FindModelTransform(trf_anchor_name);
-            towerGirder = base.part.FindModelTransform(trf_towerGirder_name);
-            towerStretch = base.part.FindModelTransform(trf_towerStretch_name);
-
-            _girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
-            _girderSegmentMesh = Instantiate<Mesh>(_girderMesh);
-
-            _girderHeight = Vector3.Distance(towerStretch.position, towerAnchor.position);
+            Debug.Log(girderSegmentMesh == null);
+            girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
             
-            _girderVertCount = _girderSegmentMesh.vertexCount;
-            _girderTriCount = _girderSegmentMesh.triangles.Length;
+            _girderVertCount = girderSegmentMesh.vertexCount;
+            _girderTriCount = girderSegmentMesh.triangles.Length;
             
-            _girderVerts = new List<Vector3>(_girderSegmentMesh.vertices);
-            _girderUVs = new List<Vector2>(_girderSegmentMesh.uv);
-            _girderNormals = new List<Vector3>(_girderSegmentMesh.normals);
-            if (_girderSegmentMesh.tangents.Length > 0)
+            _girderVerts = new List<Vector3>(girderSegmentMesh.vertices);
+            _girderUVs = new List<Vector2>(girderSegmentMesh.uv);
+            _girderNormals = new List<Vector3>(girderSegmentMesh.normals);
+            if (girderSegmentMesh.tangents.Length > 0)
             {
                 _girderHasTangents = true;
-                _girderTangents = new List<Vector4>(_girderSegmentMesh.tangents);
+                _girderTangents = new List<Vector4>(girderSegmentMesh.tangents);
             }
-            if (_girderSegmentMesh.colors32.Length > 0)
+            if (girderSegmentMesh.colors32.Length > 0)
             {
                 _girderHasColors = true;
-                _girderColors = new List<Color32>(_girderSegmentMesh.colors32);
+                _girderColors = new List<Color32>(girderSegmentMesh.colors32);
             }
-            _girderTris = new List<int>(_girderSegmentMesh.triangles);
+            _girderTris = new List<int>(girderSegmentMesh.triangles);
             _girderSegments = 1;
             
             base.OnStart(state);
@@ -97,45 +94,50 @@ namespace Restock
         
         public void UpdateClamp()
         {
+            var height = base.height;
+            var initialHeight = base.initialHeight;
+            
+            towerAnchor.position = towerStretch.position - (towerStretch.up * height);
+            
             var vec1 = Vector3.down;
             var vec2 = towerAnchor.localPosition - towerYoke.localPosition ;
             towerYoke.localRotation = Quaternion.FromToRotation(vec1, vec2);
 
-            var height = Vector3.Distance(towerStretch.position, towerAnchor.position);
-            var segments = Mathf.CeilToInt(height / _girderHeight);
+            var segments = Mathf.CeilToInt(height / initialHeight);
             if (segments != _girderSegments)
             {
                 UpdateGirder(segments);
             }
-            
-            towerAnchor.position = towerStretch.position - (towerStretch.up * height);
         }
 
         private void UpdateGirder(int length)
         {
             if (length > _girderSegments)
             {
+                Debug.Log("lengthening to: " + length);
                 for (int i = _girderSegments; i < length; i++)
                 {
-                    var offset = Vector3.down * _girderHeight * i;
+                    var offset = Vector3.down * base.initialHeight * i;
                     var indexOffset = _girderVertCount * i;
                     for (int v = 0; v < _girderVertCount; v++)
                     {
-                        _girderVerts.Add(_girderSegmentMesh.vertices[v] + offset);
+                        _girderVerts.Add(girderSegmentMesh.vertices[v] + offset);
                     }
-                    _girderNormals.AddRange(_girderSegmentMesh.normals);
-                    _girderUVs.AddRange(_girderSegmentMesh.uv);
-                    if (_girderHasTangents) _girderTangents.AddRange(_girderSegmentMesh.tangents);
-                    if (_girderHasColors) _girderColors.AddRange(_girderSegmentMesh.colors32);
+                    _girderNormals.AddRange(girderSegmentMesh.normals);
+                    _girderUVs.AddRange(girderSegmentMesh.uv);
+                    if (_girderHasTangents) _girderTangents.AddRange(girderSegmentMesh.tangents);
+                    if (_girderHasColors) _girderColors.AddRange(girderSegmentMesh.colors32);
 
                     for (int t = 0; t < _girderTriCount; t++)
                     {
-                        _girderTris.Add(_girderSegmentMesh.triangles[t] + indexOffset);
+                        _girderTris.Add(girderSegmentMesh.triangles[t] + indexOffset);
                     }
                 }
+
             }
             else
             {
+                Debug.Log("shortening to: " + length);
                 var startIndex = length * _girderVertCount;
                 var count = (_girderSegments - length) * _girderVertCount;
                 Debug.Log("removing verts");
@@ -148,17 +150,18 @@ namespace Restock
                 Debug.Log("removing tris");
                 _girderTris.RemoveRange(length * _girderTriCount, (_girderSegments - length) * _girderTriCount);
             }
+            Debug.Log("vertex count: "+ _girderVerts.Count);
             
-            _girderMesh.Clear();
+            girderMesh.Clear();
             
-            _girderMesh.SetVertices(_girderVerts);
-            _girderMesh.SetNormals(_girderNormals);
-            _girderMesh.SetUVs(0, _girderUVs);
-            if (_girderHasTangents) _girderMesh.SetTangents(_girderTangents);
-            if (_girderHasColors) _girderMesh.SetColors(_girderColors);
-            _girderMesh.SetTriangles(_girderTris, 0);
+            girderMesh.SetVertices(_girderVerts);
+            girderMesh.SetNormals(_girderNormals);
+            girderMesh.SetUVs(0, _girderUVs);
+            if (_girderHasTangents) girderMesh.SetTangents(_girderTangents);
+            if (_girderHasColors) girderMesh.SetColors(_girderColors);
+            girderMesh.SetTriangles(_girderTris, 0);
             
-            _girderMesh.RecalculateBounds();
+            girderMesh.RecalculateBounds();
             _girderSegments = length;
         }
     }
