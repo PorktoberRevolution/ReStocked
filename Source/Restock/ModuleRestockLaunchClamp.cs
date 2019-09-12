@@ -114,7 +114,6 @@ namespace Restock
         {
             if (length > _girderSegments)
             {
-                Debug.Log("lengthening to: " + length);
                 for (int i = _girderSegments; i < length; i++)
                 {
                     var offset = Vector3.down * base.initialHeight * i;
@@ -125,6 +124,7 @@ namespace Restock
                     }
                     _girderNormals.AddRange(girderSegmentMesh.normals);
                     _girderUVs.AddRange(girderSegmentMesh.uv);
+                    
                     if (_girderHasTangents) _girderTangents.AddRange(girderSegmentMesh.tangents);
                     if (_girderHasColors) _girderColors.AddRange(girderSegmentMesh.colors32);
 
@@ -137,20 +137,16 @@ namespace Restock
             }
             else
             {
-                Debug.Log("shortening to: " + length);
                 var startIndex = length * _girderVertCount;
                 var count = (_girderSegments - length) * _girderVertCount;
-                Debug.Log("removing verts");
                 _girderVerts.RemoveRange(startIndex, count);
                 _girderNormals.RemoveRange(startIndex, count);
                 _girderUVs.RemoveRange(startIndex, count);
                 if (_girderHasTangents) _girderTangents.RemoveRange(startIndex, count);
                 if (_girderHasColors) _girderColors.RemoveRange(startIndex, count);
                 
-                Debug.Log("removing tris");
                 _girderTris.RemoveRange(length * _girderTriCount, (_girderSegments - length) * _girderTriCount);
             }
-            Debug.Log("vertex count: "+ _girderVerts.Count);
             
             girderMesh.Clear();
             
