@@ -81,6 +81,7 @@ This mod primarily uses vanilla-provided localization, but for additional string
 - French (Challyss)
 - Brazilian Portuguese (AluisioASG)
 - Spanish (Niako)
+- Simplified Chinese (Duck1998)
 
 =========
 LICENSING
