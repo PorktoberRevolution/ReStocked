@@ -102,10 +102,14 @@
   - Updated Gigantor mesh to be more performant
   - Fixed Twin Boar flag being on wrong side compared to original model
   - Tweaked Nerv plume to be prettier
+  - Tweaked mesh normals on Nerv shroud to be prettier
+  - 1.25m engine revisions
+    - Repainted legacy Porkjet boattails
+    - Terrier now uses a MLI texture on part of its Basic variant
+    - Engines now have White/Grey and Orange surface variants that affect shrouds and boattails
   - Added optional structural strut variants on Baguette and Dumpling tanks
   - Fixed MH replacement for Stratus-V tank
   - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators
-- Stock parts included:
 
 
 ﻿v0.1.4
