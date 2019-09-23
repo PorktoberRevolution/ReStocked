@@ -104,6 +104,7 @@
   - Tweaked Nerv plume to be prettier
   - Added optional structural strut variants on Baguette and Dumpling tanks
   - Fixed MH replacement for Stratus-V tank
+  - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators
 - Stock parts included:
 
 

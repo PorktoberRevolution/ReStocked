@@ -53,6 +53,7 @@ v0.2.0
  - Pegasus II Mobility Enhancer (Nertea): 2x size static ladder
  - Pegasus III Mobility Enhancer (Nertea): 4x size static ladder
 - Fixes and improvements
+ - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators
  - Depth mask added to radial material bay and new RCS parts
  - 3.75m battery now has surface attach capabilities (#648)
 
