@@ -1,5 +1,6 @@
 ﻿v0.2.0
 ------
+- KSP 1.8 compatibility
 - Phase 2 release
 - New stock part replacements
  - Coupling
@@ -21,6 +22,11 @@
   - Large Holding Tank (Andrew Cassidy)
   - Small Holding Tank (Andrew Cassidy)
   - Radial Holding Tank (Andrew Cassidy)
+ - Engines
+  - FM1 'Mite' SRB (Nertea)
+  - F3S0 'Shrimp' SRB (Nertea)
+  - S2-33 'Clydesdale' SRB (Nertea)
+  - S2-17 'Thoroughbred' SRB (Nertea)
  - Electrical
   - Fuel Cell (Andrew Cassidy)
   - Fuel Cell Array (Andrew Cassidy)
@@ -29,15 +35,35 @@
   - Kelus Mobility Enhancer (Nertea)
   - Kelus-LV Bay Mobility Enhancer (Nertea)
   - Launch Escape System (Andrew)
+ - Thermal
+  - Radiator Panel (edge) (Nertea)
+  - Radiator Panel (small) (Nertea)
+  - Radiator Panel (large) (Nertea)
+  - Thermal Control System (small) (Nertea)
+  - Thermal Control System (medium) (Nertea)
+  - Thermal Control System (large) (Nertea)
+ - Resource
+  - Drill-O-Matic (Andrew)
+  - Drill-O-Matic Junior (Andrew)
+  - Radial Holding Tank (Andrew)
+  - Small Holding Tank (Andrew)
+  - Large Holding Tank (Andrew)
+  - Surface Scanning Module (Andrew)
+  - M700 Survey Scanner (Andrew)
+  - M4435 Narrow-Band Scanner (Andrew)
+  - Convert-O-Tron 125 ISRU (Andrew)
  - Compound Parts
   - FTX-2 External Fuel Duct (Andrew)
   - EAS-4 Strut Connector (Andrew)
 - Making History parts replaced:
+ - Aero
+  - New MH nosecone (Nertea)
  - Engines
   - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Compact variants
   - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and Compact variants
   - RE-J10 'Wolfhound' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
   - RE-I2 'Skiff' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
+  - THK 'Pollux' SRB (Nertea)
  - Fuel Tanks
   - FL-C1000 Fuel Tank (Nertea)
   - FL-TX220 Fuel Tank (Nertea)
@@ -51,25 +77,6 @@
   - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
    - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
-   - Radiator Panel (edge) (Nertea)
-   - Radiator Panel (small) (Nertea)
-   - Radiator Panel (large) (Nertea)
-   - Thermal Control System (small) (Nertea)
-   - Thermal Control System (medium) (Nertea)
-   - Thermal Control System (large) (Nertea)
-  - Resource
-   - Drill-O-Matic (Andrew)
-   - Drill-O-Matic Junior (Andrew)
-   - Radial Holding Tank (Andrew)
-   - Small Holding Tank (Andrew)
-   - Large Holding Tank (Andrew)
-   - Surface Scanning Module (Andrew)
-   - M700 Survey Scanner (Andrew)
-   - M4435 Narrow-Band Scanner (Andrew)
-   - Convert-O-Tron 125 ISRU (Andrew)
-  - Electrical
-   - Fuel Cell (Andrew)
-   - Fuel Cell Array (Andrew)
 - New Depth Mask module added
   - Some parts can now be inset into other parts without visible clipping inside them
   - Aero
