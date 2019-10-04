@@ -4,10 +4,10 @@ v0.2.0
 - Phase 2 release
 - Changes to existing parts (as a result of KSP 1.8)
  - Redundant overlapping parts were removed
-   - Mallet SRB (0.625m) has been soft-deprecated and its assets moved into base ReStock
-   - Striker SRB (0.625m) has been soft-deprecated and its assets moved into base ReStock
-   - Anvil SRB (1.875m) has been soft-deprecated and its assets moved into base ReStock
-   - Protective Rocket Nose Mk18 (1.875m) has been soft-deprecated and its assets moved into base ReStock
+  - Mallet SRB (0.625m) has been soft-deprecated and its assets moved into base ReStock
+  - Striker SRB (0.625m) has been soft-deprecated and its assets moved into base ReStock
+  - Anvil SRB (1.875m) has been soft-deprecated and its assets moved into base ReStock
+  - Protective Rocket Nose Mk18 (1.875m) has been soft-deprecated and its assets moved into base ReStock
 - New Aero parts:
  - Miniature Rocket Nose (Nertea): 0.625m rocket nosecone (White and Metallic variants)
 - New Command parts
@@ -62,12 +62,14 @@ v0.2.0
  - Pegasus II Mobility Enhancer (Nertea): 2x size static ladder
  - Pegasus III Mobility Enhancer (Nertea): 4x size static ladder
 - Fixes and improvements
-  - 1.25m engine revisions
-    - Repainted legacy Porkjet boattails on Valiant and Pug
-    - Engines now have White/Grey and Orange surface variants that affect shrouds and boattails
-  - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators. Exact distribution depends on the size class
-  - Depth mask added to radial material bay and new RCS parts
-  - 3.75m battery now has surface attach capabilities (#648)
+ - 0.625m engine revisions
+  - Engines now have White and Metal surface variants that affect shrouds and boattails
+ - 1.25m engine revisions
+  - Repainted legacy Porkjet boattails on Valiant and Pug
+  - Engines now have White/Grey and Orange surface variants that affect shrouds and boattails
+ - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators. Exact distribution depends on the size class
+ - Depth mask added to radial material bay and new RCS parts
+ - 3.75m battery now has surface attach capabilities (#648)
 
 ﻿v0.1.4
 ------
