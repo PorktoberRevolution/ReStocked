@@ -13,6 +13,12 @@
   - M-Beam 200 I-Beam (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 650 I-Beam (Nertea): now has Basic, Truss, Insulated variants
+  - TVR-200L Stack Bi-Adapter (Andrew)
+  - TVR-300L Stack Tri-Adapter (Andrew)
+  - TVR-400L Stack Quad-Adapter (Andrew)
+  - TVR-200 Stack Bi-Coupler (Andrew)
+  - TVR-300 Stack Tri-Coupler (Andrew)
+  - TVR-400 Stack Quad-Coupler (Andrew)
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
