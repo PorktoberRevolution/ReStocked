@@ -28,6 +28,10 @@
   - Pegasus I Mobility Enhancer (Nertea)
   - Kelus Mobility Enhancer (Nertea)
   - Kelus-LV Bay Mobility Enhancer (Nertea)
+ - Ground
+  - LT-05 Landing Strut (Andrew)
+  - LT-1 Landing Strut (Andrew)
+  - LT-2 Landing Strut (Andrew)
  - Compound Parts
   - FTX-2 External Fuel Duct (Andrew)
   - EAS-4 Strut Connector (Andrew)
