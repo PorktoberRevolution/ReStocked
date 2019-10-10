@@ -13,6 +13,7 @@
   - M-Beam 200 I-Beam (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 650 I-Beam (Nertea): now has Basic, Truss, Insulated variants
+  - TT18-A Launch Stability Enhancer (Andrew)
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
