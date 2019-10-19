@@ -110,6 +110,7 @@
   - Fixed Twin Boar flag being on wrong side compared to original model
   - Tweaked Nerv plume to be prettier
   - Tweaked mesh normals on Nerv shroud to be prettier
+  - Tweaked 2.5m battery to work with new 1.8 node layout
   - 0.625m engine revisions
     - Engines now have White and Metal surface variants that affect shrouds and boattails
   - 1.25m engine revisions
@@ -119,6 +120,7 @@
   - Added optional structural strut variants on Baguette and Dumpling tanks
   - Fixed MH replacement for Stratus-V tank
   - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators
+  - Rotated collider of 1.25m nosecone 15 degrees
 
 
 ﻿v0.1.4
