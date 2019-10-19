@@ -1,14 +1,8 @@
 Squad/Parts/Aero/aerodynamicNoseCone/
-Squad/Parts/Aero/cones/ConeA.mu
-Squad/Parts/Aero/cones/ConeB.mu
-Squad/Parts/Aero/cones/ConesDiffuse*.dds
-Squad/Parts/Aero/cones/ConesHeat*.dds
-Squad/Parts/Aero/cones/TinyCone.mu
 Squad/Parts/Aero/fairings/fairingSize2.mu
 Squad/Parts/Aero/HeatShield/HeatShield0.mu
 Squad/Parts/Aero/HeatShield/HeatShield1.mu
 Squad/Parts/Aero/HeatShield/HeatShield3.mu
-Squad/Parts/Aero/protectiveRocketNoseMk7_v2/
 Squad/Parts/Command/advancedSasModuleLarge/
 Squad/Parts/Command/cupola/
 Squad/Parts/Command/hitchhikerStorageContainer/
@@ -63,7 +57,6 @@ Squad/Parts/Engine/Size3AdvancedEngine/
 Squad/Parts/Engine/Size3EngineCluster/
 Squad/Parts/Engine/solidBoosterBACC/
 Squad/Parts/Engine/solidBoosterSep/
-Squad/Parts/Engine/vernorEngine/
 Squad/Parts/FuelTank/FoilTanks/
 Squad/Parts/FuelTank/fuelTankOscarB/
 Squad/Parts/FuelTank/RCSFuelTankR1/
@@ -99,7 +92,6 @@ Squad/Parts/Utility/dockingPortSr/
 Squad/Parts/Utility/decouplerRadialHDM/
 Squad/Parts/Utility/decouplerRadialTT-38K/
 Squad/Parts/Utility/decouplerRadialTT-70/
-Squad/Parts/Utility/linearRCS/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
 Squad/Parts/Utility/parachuteMk16-XL/
