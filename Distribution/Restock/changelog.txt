@@ -68,7 +68,7 @@
   - EAS-4 Strut Connector (Andrew)
 - Making History parts replaced:
  - Aero
-  - New MH nosecone (Nertea)
+  - Protective Rocket Nosecone Mk5A (Nertea)
  - Engines
   - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Compact variants
   - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and Compact variants
