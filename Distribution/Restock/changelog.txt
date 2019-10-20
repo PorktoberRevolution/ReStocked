@@ -3,6 +3,8 @@
 - KSP 1.8 compatibility
 - Phase 2 release
 - New stock part replacements
+ - Aero
+  - Protective Rocket Nose Cone Mk12A (Nertea)
  - Coupling
   - Advanced Grabbing Unit (Andrew Cassidy)
  - Structural
