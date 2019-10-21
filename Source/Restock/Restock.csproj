@@ -45,9 +45,6 @@
     <Reference Include="UnityEngine.AnimationModule">
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InstallChecker.cs" />
