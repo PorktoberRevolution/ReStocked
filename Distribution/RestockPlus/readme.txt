@@ -71,6 +71,7 @@ This mod provides localization support for the following languages:
 - German (woeller)
 - Brazilian Portuguese (AluisioASG)
 - Spanish (Niako)
+- Simplified Chinese (Duck1998)
 
 =========
 LICENSING
