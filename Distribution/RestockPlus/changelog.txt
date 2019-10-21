@@ -30,6 +30,11 @@ v0.2.0
  - Oscar-A Liquid Fuel Tank (Nertea): 0.625m half Oscar-B tank (White and Metallic variants)
  - PRBE-9 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank (long)
  - PRBE-4 Liquid Fuel Tank (Nertea): 0.625m exposed probe-style tank
+ - Oscar-O Hemispherical Liquid Fuel Tank (Nertea): 0.625m hemispherical fuel tank (White and Metallic variants)
+ - FL-T100-R Hemispherical Liquid Fuel Tank (Nertea): 1.25m hemispherical fuel tank (White, Dark, Dark Grey/Orange and Metallic variants)
+ - FL-TX220-R Hemispherical Liquid Fuel Tank (Nertea): 1.875m hemispherical fuel tank (White, Dark Grey/Orange and Metallic variants)
+ - Rockomax X-200-R Hemispherical Liquid Fuel Tank (Nertea): 2.5m hemispherical fuel tank (White, Orange and Metallic variants)
+ - Kerbodyne S3-1800R Hemispherical Liquid Fuel Tank (Nertea): 3.75m hemispherical fuel tank (White and Orange variants)
 - New Engine parts
  - RK-1 'Trash Panda' Vernier Engine (Nertea): 1.875m radial soyuz-like vernier engine, with Basic, Wide and Bare variants. Disabled if Making History is installed
  - RK-107 'Ursa' Liquid Fueled Engine (Nertea): 1.875m booster engine, with 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and compact variants. Disabled if Making History is installed
