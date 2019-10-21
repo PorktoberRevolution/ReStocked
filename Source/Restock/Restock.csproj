@@ -36,9 +36,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="UnityEngine">
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <Private>False</Private>
     </Reference>
