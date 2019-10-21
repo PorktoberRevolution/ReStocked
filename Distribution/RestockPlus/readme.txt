@@ -1,22 +1,28 @@
 ==============
-RESTOCK+ 0.1.5
+RESTOCK+ 1.0.0
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
 
-- 0.625m parts: Completing this range with other tiny parts, including fairings, more fuel tanks, engines and the like
-- 1.875m parts: Completing this range with a new SRB and hopefully more in the future
-- 3.75m parts: Completing this range with a guidance unit, docking port, engines, nosecones
+- 0.625m parts: Completing this range with other tiny parts, including fairings, more fuel tanks, engines and the like.
+- 1.875m parts: Completing this range with missing parts like drone cores, service bays, batteries, and reaction wheels.
+- 3.75m parts: Completing this range with missing parts such as a guidance unit, docking port, vacuum engine, and nosecones.
+- RCS thrusters: a set of new, versatile RCS thruster types that complement the stock offerings, plus a whole new miniature set for smaller craft and probes.
+- Science parts: a couple of new form factors for existing experiments as well as sample return containers.
+- Antennae: New variations on antenna for better craft construction.
 
-In addition some glaring bugfixes and improvements are included. For a full list of changes and additions, consult the changelog.
+In addition some glaring bugfixes and improvements are included:
+- The volume of the Oscar-B tank has been reduced to make room for the rest of the Oscar series tanks. The tank's mass ratio is unchanged
+
+For a full list of changes and additions, consult the changelog.
 
 ============
 DEPENDENCIES
 ============
 
 Required:
-- Restock (0.1.5)
-- ModuleManager (4.0.2)
+- Restock (1.0.0)
+- ModuleManager (4.1.0)
 
 =============
 CREDITS

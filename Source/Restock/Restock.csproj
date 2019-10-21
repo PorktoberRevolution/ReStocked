@@ -47,6 +47,11 @@
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\MaterialModifierParser.cs" />
     <Compile Include="MaterialModifiers\TexturePropertyMaterialModifier.cs" />
+    <Compile Include="ModuleRestockLaunchClamp.cs" />
+    <Compile Include="ModuleRestockLinkedMesh.cs" />
+    <Compile Include="ModuleRestockDepthMask.cs" />
+    <Compile Include="ModuleRestockHeatEffects.cs" />
+    <Compile Include="ModuleRestockISRUAnimation.cs" />
     <Compile Include="ModuleRestockModifyFairingMaterials.cs" />
     <Compile Include="ModuleRestockModifyMaterials.cs" />
     <Compile Include="PartModuleExtensions.cs" />
