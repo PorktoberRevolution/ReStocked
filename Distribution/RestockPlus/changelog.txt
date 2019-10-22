@@ -10,6 +10,7 @@ v0.2.0
   - Protective Rocket Nose Mk18 (1.875m) has been soft-deprecated and its assets moved into base ReStock
 - New Aero parts:
  - Miniature Rocket Nose (Nertea): 0.625m rocket nosecone (White and Metallic variants)
+ - Protective Rocket Nose Mk18: Reworked 1.875m nose cone.  Disabled if Making History is installed
 - New Command parts
  - RC-XS1 Remote Guidance Unit (Nertea): 0.625m drone core
  - RC-M001 Remote Guidance Unit (Nertea): 1.875m drone core
@@ -42,7 +43,6 @@ v0.2.0
  - RE-I2 'Caravel' Liquid Fuel Engine	(Nertea): 1.875m sustainer engine, with 2.5m, 1.875m, 1.25m and compact variants. Disabled if Making History is installed
  - LV-N410 'Cherenkov' Atomic Rocket Motor (Nertea): 2.5m atomic engine with 2.5m and compact variants
  - TCK-1 'Castor' SRB: Reworked 1.875m SRB that aligns with new stock Pollux. Disabled if Making History is installed
- - Protective Rocket Nose Mk18: Reworked 1.875m nose cone.  Disabled if Making History is installed
 - New Structural parts
  - FL-XA30 Adapter (Nertea): 1.875m to 2.5m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
  - FL-XA15 Adapter (Nertea): 1.25m to 1.875m flat adapter (White, Black and White, Dark Grey/Orange and Metallic variants)
@@ -71,6 +71,8 @@ v0.2.0
   - Engines now have White and Metal surface variants that affect shrouds and boattails
  - 1.25m engine revisions
   - Repainted legacy Porkjet boattails on Valiant and Pug
+  - Engines now have White/Grey and Orange surface variants that affect shrouds and boattails
+ - 2.5m engine revisions
   - Engines now have White/Grey and Orange surface variants that affect shrouds and boattails
  - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators. Exact distribution depends on the size class
  - Depth mask added to radial material bay and new RCS parts
