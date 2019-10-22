@@ -1,6 +1,6 @@
-v0.2.0
+v1.0.0
 ------
-- KSP 1.8 support
+- KSP 1.8 compatability
 - Phase 2 release
 - Changes to existing parts (as a result of KSP 1.8)
  - Redundant overlapping parts were removed
