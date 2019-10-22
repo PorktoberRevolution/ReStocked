@@ -1,5 +1,4 @@
-
-﻿v0.2.0
+﻿?v0.2.0
 ------
 - KSP 1.8 compatibility
 - Phase 2 release
@@ -22,8 +21,8 @@
   - TVR-300L Stack Tri-Adapter (Andrew)
   - TVR-400L Stack Quad-Adapter (Andrew)
   - TVR-200 Stack Bi-Coupler (Andrew)
-  - TVR-300 Stack Tri-Coupler (Andrew)
-  - TVR-400 Stack Quad-Coupler (Andrew)
+  - TVR-1180C Mk1 Stack Tri-Coupler (Andrew)
+  - TVR-2160C Mk2 Stack Quad-Coupler (Andrew)
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
