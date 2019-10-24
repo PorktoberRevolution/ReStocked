@@ -132,6 +132,7 @@
   - Rotated collider of 1.25m nosecone 15 degrees
   - Added Spanish localization of Restock strings (thanks Niako)
   - Fixed HG-55 animation not deploying all the way
+  - Fixed an issue with the Vector's shroud in Compact mode
   - Fixed legacy part folders being present in the blacklist file
 
 
