@@ -118,6 +118,7 @@
   - Tweaked Nerv plume to be prettier
   - Tweaked mesh normals on Nerv shroud to be prettier
   - Tweaked 2.5m battery to work with new 1.8 node layout
+  - Improved metal and white shaders for Oscar-B
   - 0.625m engine revisions
     - Engines now have White and Metal surface variants that affect shrouds and boattails
   - 1.25m engine revisions

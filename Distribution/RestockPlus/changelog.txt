@@ -67,6 +67,7 @@ v1.0.0
  - Pegasus II Mobility Enhancer (Nertea): 2x size static ladder
  - Pegasus III Mobility Enhancer (Nertea): 4x size static ladder
 - Fixes and improvements
+ - Improved metal and white shaders for Oscar-series tanks
  - 0.625m engine revisions
   - Engines now have White and Metal surface variants that affect shrouds and boattails
  - 1.25m engine revisions
