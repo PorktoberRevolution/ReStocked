@@ -1,4 +1,7 @@
 Squad/Parts/Aero/aerodynamicNoseCone/
+Squad/Parts/Aero/cones/Assets/ConesDiffuse*.dds
+Squad/Parts/Aero/cones/Assets/ConesHeat*.dds
+Squad/Parts/Aero/cones/Assets/Rockomax_Adapters*.dds
 Squad/Parts/Aero/fairings/fairingSize2.mu
 Squad/Parts/Aero/HeatShield/HeatShield0.mu
 Squad/Parts/Aero/HeatShield/HeatShield1.mu
@@ -57,6 +60,9 @@ Squad/Parts/Engine/Size3AdvancedEngine/
 Squad/Parts/Engine/Size3EngineCluster/
 Squad/Parts/Engine/solidBoosterBACC/
 Squad/Parts/Engine/solidBoosterSep/
+Squad/Parts/Engine/solidBoostersF/Assets/
+Squad/Parts/Engine/solidBoosterS2-17/
+Squad/Parts/Engine/solidBoosterS2-33/
 Squad/Parts/FuelTank/FoilTanks/
 Squad/Parts/FuelTank/fuelTankOscarB/
 Squad/Parts/FuelTank/RCSFuelTankR1/
@@ -79,6 +85,15 @@ Squad/Parts/Structural/structuralMicronode/
 Squad/Parts/Structural/strutCubicOcto/
 Squad/Parts/Structural/strutOcto/
 Squad/Parts/Structural/stackAdapters/
+Squad/Parts/Structural/structuralIBeam200/
+Squad/Parts/Structural/structuralIBeam200Pocket/
+Squad/Parts/Structural/structuralIBeam650/
+Squad/Parts/Structural/structuralPanel1x1/
+Squad/Parts/Structural/structuralPanel2x2/
+Squad/Parts/Structural/trussGirderAdapter/
+Squad/Parts/Structural/trussGirderL/
+Squad/Parts/Structural/trussGirderXL/
+Squad/Parts/Thermal/
 Squad/Parts/Utility/stackCouplers/
 Squad/Parts/Utility/DirectAntennas/
 Squad/Parts/Utility/commDish88-88/
@@ -92,6 +107,9 @@ Squad/Parts/Utility/dockingPortSr/
 Squad/Parts/Utility/decouplerRadialHDM/
 Squad/Parts/Utility/decouplerRadialTT-38K/
 Squad/Parts/Utility/decouplerRadialTT-70/
+Squad/Parts/Utility/ladderRadial/
+Squad/Parts/Utility/ladderTelescopicBay/
+Squad/Parts/Utility/ladderTelescopic/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
 Squad/Parts/Utility/parachuteMk16-XL/
@@ -99,9 +117,11 @@ Squad/Parts/Utility/parachuteMk2-R/
 Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/radialAttachmentPoint/
 Squad/Parts/Utility/rcsBlockRV-105/
+Squad/Parts/Utility/rcsBlockRV-105_v2/
 Squad/Parts/Utility/RelayAntennas/
 Squad/Parts/Utility/rockomaxAdapters/
 Squad/Parts/Utility/ServiceBay/
+Squad/Parts/Utility/ServiceBay_v2/
 Squad/Parts/Utility/spotLightMk1/
 Squad/Parts/Utility/spotLightMk2/
 Squad/Parts/Utility/launchEscapeSystem/
