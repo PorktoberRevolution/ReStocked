@@ -112,6 +112,7 @@
     - Kelus Mobility Enhancer
     - Kelus-LV Bay Mobility Enhancer
 - Bugfixes and tweaks
+  - Added 'Warning - Hatch May Open' text to Mk1 command pod
   - Updated Gigantor colliders to be closer to stock
   - Updated Gigantor mesh to be more performant
   - Fixed Twin Boar flag being on wrong side compared to original model
