@@ -59,6 +59,7 @@
   - Thermal Control System (small) (Nertea)
   - Thermal Control System (medium) (Nertea)
   - Thermal Control System (large) (Nertea)
+  - Inflatable Heat Shield (Nertea)
  - Compound Parts
   - FTX-2 External Fuel Duct (Andrew Cassidy)
   - EAS-4 Strut Connector (Andrew Cassidy)
@@ -136,7 +137,6 @@
   - Fixed HG-55 animation not deploying all the way
   - Fixed an issue with the Vector's shroud in Compact mode
   - Fixed legacy part folders being present in the blacklist file
-
 
 ﻿v0.1.4
 ------

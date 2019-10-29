@@ -1,11 +1,13 @@
 Squad/Parts/Aero/aerodynamicNoseCone/
+
+Squad/Parts/Aero/cones/Assets/ConeA.mu
+Squad/Parts/Aero/cones/Assets/ConeB.mu
+Squad/Parts/Aero/cones/Assets/TinyCone.mu
 Squad/Parts/Aero/cones/Assets/ConesDiffuse*.dds
 Squad/Parts/Aero/cones/Assets/ConesHeat*.dds
-Squad/Parts/Aero/cones/Assets/Rockomax_Adapters*.dds
 Squad/Parts/Aero/fairings/fairingSize2.mu
-Squad/Parts/Aero/HeatShield/HeatShield0.mu
-Squad/Parts/Aero/HeatShield/HeatShield1.mu
-Squad/Parts/Aero/HeatShield/HeatShield3.mu
+Squad/Parts/Aero/HeatShield/
+Squad/Parts/Aero/InflatableHeatShield/
 Squad/Parts/Command/advancedSasModuleLarge/
 Squad/Parts/Command/cupola/
 Squad/Parts/Command/hitchhikerStorageContainer/
@@ -60,7 +62,7 @@ Squad/Parts/Engine/Size3AdvancedEngine/
 Squad/Parts/Engine/Size3EngineCluster/
 Squad/Parts/Engine/solidBoosterBACC/
 Squad/Parts/Engine/solidBoosterSep/
-Squad/Parts/Engine/solidBoostersF/Assets/
+Squad/Parts/Engine/SolidBoostersF/Assets/
 Squad/Parts/Engine/solidBoosterS2-17/
 Squad/Parts/Engine/solidBoosterS2-33/
 Squad/Parts/FuelTank/FoilTanks/
