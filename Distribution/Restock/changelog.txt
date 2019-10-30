@@ -6,6 +6,10 @@
 - New stock part replacements
  - Aero
   - Protective Rocket Nose Cone Mk12A (Nertea)
+  - Basic Fin (Nertea)
+  - AV-R8 Winglet (Nertea)
+  - AV-T1 Winglet (Nertea)
+  - Delta-Deluxe Winglet (Nertea)
  - Coupling
   - Advanced Grabbing Unit (Andrew Cassidy)
  - Structural
