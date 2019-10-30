@@ -66,6 +66,8 @@
 - Making History parts replaced:
  - Aero
   - Protective Rocket Nosecone Mk5A (Nertea)
+ - Coupling
+  - Size 1.5 Decoupler (Nertea)
  - Engines
   - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Compact variants
   - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and Compact variants

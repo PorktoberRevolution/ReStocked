@@ -56,6 +56,7 @@ v1.0.0
  - Experiment Return Unit (Andrew Cassidy): Small 0.625m to 1.25m conical experiment storage unit
 - New Coupling parts
  - Advanced Grabbing Unit Junior (Andrew Cassidy): 0.625m klaw
+ - TD-18-T Truss Decoupler (Nertea): 1.875m decoupler suitable for hot staging. Grey and Soviet Grey variants. Disabled if Making History is installed
 - New Payload parts
  - Service Bay (1.875m) (Nertea): 1.875m service bay (Open, Opaque, Transparent variants)
 - New Thermal parts
