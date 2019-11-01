@@ -56,6 +56,8 @@
   - LT-05 Landing Strut (Andrew Cassidy)
   - LT-1 Landing Strut (Andrew Cassidy)
   - LT-2 Landing Strut (Andrew Cassidy)
+ - Science
+  - SENTINEL Infrared Telescope (Andrew Cassidy)
  - Thermal
   - Radiator Panel (edge) (Nertea)
   - Radiator Panel (small) (Nertea)
