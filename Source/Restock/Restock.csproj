@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Restock</RootNamespace>
     <AssemblyName>Restock</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -36,7 +36,10 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="UnityEngine">
+    <Reference Include="UnityEngine.CoreModule">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -47,6 +50,11 @@
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\MaterialModifierParser.cs" />
     <Compile Include="MaterialModifiers\TexturePropertyMaterialModifier.cs" />
+    <Compile Include="ModuleRestockLaunchClamp.cs" />
+    <Compile Include="ModuleRestockLinkedMesh.cs" />
+    <Compile Include="ModuleRestockDepthMask.cs" />
+    <Compile Include="ModuleRestockHeatEffects.cs" />
+    <Compile Include="ModuleRestockISRUAnimation.cs" />
     <Compile Include="ModuleRestockModifyFairingMaterials.cs" />
     <Compile Include="ModuleRestockModifyMaterials.cs" />
     <Compile Include="PartModuleExtensions.cs" />
