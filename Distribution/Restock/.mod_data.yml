@@ -8,6 +8,9 @@ package:
     - readme.txt
     - changelog.txt
     - license.txt
+  extras-path: Distribution/RestockExtras/
+  included-extras:
+    - RestockRigidLegs
 dependencies:  # Configure dependencies
   ModuleManager:
     version: 4.1.0
