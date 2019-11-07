@@ -1,3 +1,7 @@
+v1.0.1
+------
+- Updated Simplified Chinese localization (Duck1998)
+
 v1.0.0
 ------
 - KSP 1.8 compatability
