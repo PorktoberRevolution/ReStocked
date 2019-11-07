@@ -1,6 +1,9 @@
 v1.0.1
 -----
+- Fixed lack of bundled ModuleManager
 - Updated Simplified Chinese localization (Duck1998)
+- Fixed an issue with the localization of the radial reaction wheel assembly (#742)
+- Fixed compatability with FAR in a case where RealChute is NOT installed
 
 ﻿v1.0.0
 ------

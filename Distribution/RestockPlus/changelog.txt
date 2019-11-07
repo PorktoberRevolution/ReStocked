@@ -1,5 +1,6 @@
 v1.0.1
 ------
+- Fixed lack of bundled ModuleManager
 - Updated Simplified Chinese localization (Duck1998)
 
 v1.0.0
