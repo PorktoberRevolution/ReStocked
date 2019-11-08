@@ -2,7 +2,7 @@
   "spec_version": "v1.4",
   "identifier": "ReStockPlus",
   "name": "ReStock+",
-  "abstract": "A carefully curated set of new parts that fill gaping holes in the stock lineup, adding fox example missing size classes for important part types",
+  "abstract": "A carefully curated set of new parts that fill gaping holes in the stock lineup, adding for example missing size classes for important part types",
   "author": "ReStock Team",
   "$kref": "#/ckan/github/PorktoberRevolution/ReStocked/asset_match/ReStockPlus_.*?\\.zip",
   "$vref": "#/ckan/ksp-avc",

@@ -121,6 +121,9 @@ namespace Restock
         public void LateUpdate()
         {
             if (!HighLogic.LoadedSceneIsFlight) return;
+            if (renderers == null) return; 
+            //when switching to the flight scene LateUpdate gets called AFTER OnLoad for some reason
+            // so renderers should hopefully only be null for one frame
 
             if (enableHeatEmissive)
             {
@@ -148,7 +151,6 @@ namespace Restock
             if (disableBlackbody)
             {
                 _propertyBlock.SetColor(_shaderBlackbodyID, Color.black);
-
             }
 
             for (var i = 0; i < renderers.Count; i++)

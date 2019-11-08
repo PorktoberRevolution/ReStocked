@@ -1,7 +1,21 @@
-﻿v0.2.0
+v1.0.1
+-----
+- Fixed lack of bundled ModuleManager
+- Updated Simplified Chinese localization (Duck1998)
+- Fixed an issue with the localization of the radial reaction wheel assembly (#742)
+- Fixed compatability with FAR in a case where RealChute is NOT installed
+
+﻿v1.0.0
 ------
+- KSP 1.8 compatibility
 - Phase 2 release
 - New stock part replacements
+ - Aero
+  - Protective Rocket Nose Cone Mk12A (Nertea)
+  - Basic Fin (Nertea)
+  - AV-R8 Winglet (Nertea)
+  - AV-T1 Winglet (Nertea)
+  - Delta-Deluxe Winglet (Nertea)
  - Coupling
   - Advanced Grabbing Unit (Andrew Cassidy)
  - Structural
@@ -13,6 +27,13 @@
   - M-Beam 200 I-Beam (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 200 I-Beam Pocket Edition (Nertea): now has Basic, Truss, Insulated variants
   - M-Beam 650 I-Beam (Nertea): now has Basic, Truss, Insulated variants
+  - TT18-A Launch Stability Enhancer (Andrew Cassidy)
+  - TVR-200L Stack Bi-Adapter (Andrew Cassidy)
+  - TVR-300L Stack Tri-Adapter (Andrew Cassidy)
+  - TVR-400L Stack Quad-Adapter (Andrew Cassidy)
+  - TVR-200 Stack Bi-Coupler (Andrew Cassidy)
+  - TVR-300 Stack Tri-Coupler (Andrew Cassidy)
+  - TVR-400 Stack Quad-Coupler (Andrew Cassidy)
  - Resources
   - 'Drill-O-Matic' Mining Excavator (Andrew Cassidy)
   - 'Drill-O-Matic Junior' Mining Excavator (Andrew Cassidy)
@@ -21,6 +42,14 @@
   - Large Holding Tank (Andrew Cassidy)
   - Small Holding Tank (Andrew Cassidy)
   - Radial Holding Tank (Andrew Cassidy)
+  - Surface Scanning Module (Andrew Cassidy)
+  - M700 Survey Scanner (Andrew Cassidy)
+  - M4435 Narrow-Band Scanner (Andrew Cassidy)
+ - Engines
+  - FM1 'Mite' SRB (Nertea)
+  - F3S0 'Shrimp' SRB (Nertea)
+  - S2-33 'Clydesdale' SRB (Nertea)
+  - S2-17 'Thoroughbred' SRB (Nertea)
  - Electrical
   - Fuel Cell (Andrew Cassidy)
   - Fuel Cell Array (Andrew Cassidy)
@@ -28,21 +57,41 @@
   - Pegasus I Mobility Enhancer (Nertea)
   - Kelus Mobility Enhancer (Nertea)
   - Kelus-LV Bay Mobility Enhancer (Nertea)
+  - Launch Escape System (Andrew Cassidy)
+ - Ground
+  - LT-05 Landing Strut (Andrew Cassidy)
+  - LT-1 Landing Strut (Andrew Cassidy)
+  - LT-2 Landing Strut (Andrew Cassidy)
+ - Science
+  - SENTINEL Infrared Telescope (Andrew Cassidy)
+ - Thermal
+  - Radiator Panel (edge) (Nertea)
+  - Radiator Panel (small) (Nertea)
+  - Radiator Panel (large) (Nertea)
+  - Thermal Control System (small) (Nertea)
+  - Thermal Control System (medium) (Nertea)
+  - Thermal Control System (large) (Nertea)
+  - Inflatable Heat Shield (Nertea)
  - Compound Parts
-  - FTX-2 External Fuel Duct (Andrew)
-  - EAS-4 Strut Connector (Andrew)
+  - FTX-2 External Fuel Duct (Andrew Cassidy)
+  - EAS-4 Strut Connector (Andrew Cassidy)
 - Making History parts replaced:
+ - Aero
+  - Protective Rocket Nosecone Mk5A (Nertea)
+ - Coupling
+  - Size 1.5 Decoupler (Nertea)
  - Engines
   - RV-1 'Cub' Vernier Engine (Nertea): now has Basic, Wide and Compact variants
   - RK-7 'Kodiak' Liquid Fueled Engine (Nertea): now has 1.875m, 1.875m (boattail), 1.25m, 1.25m (boattail) and Compact variants
   - RE-J10 'Wolfhound' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
   - RE-I2 'Skiff' Liquid Fuel Engine (Nertea): now has 2.5m, 1.875m, 1.25m and Compact variants
+  - THK 'Pollux' SRB (Nertea)
  - Fuel Tanks
   - FL-C1000 Fuel Tank (Nertea)
   - FL-TX220 Fuel Tank (Nertea)
   - FL-TX440 Fuel Tank (Nertea)
   - FL-TX900 Fuel Tank (Nertea)
-  - FL-C1000 Fuel Tank (Nertea)
+  - FL-TX1800 Fuel Tank (Nertea)
   - FL-A150 Fuel Tank Adapter (Nertea)
   - FL-A151L Fuel Tank Adapter (Nertea)
   - FL-A151S Fuel Tank Adapter (Nertea)
@@ -50,25 +99,6 @@
   - FL-R5 RCS Fuel Tank (Nertea)
  - Thermal
    - Heat Shield (1.875m) (Nertea): new Unpainted, Classic, Black variants
-   - Radiator Panel (edge) (Nertea)
-   - Radiator Panel (small) (Nertea)
-   - Radiator Panel (large) (Nertea)
-   - Thermal Control System (small) (Nertea)
-   - Thermal Control System (medium) (Nertea)
-   - Thermal Control System (large) (Nertea)
-  - Resource
-   - Drill-O-Matic (Andrew)
-   - Drill-O-Matic Junior (Andrew)
-   - Radial Holding Tank (Andrew)
-   - Small Holding Tank (Andrew)
-   - Large Holding Tank (Andrew)
-   - Surface Scanning Module (Andrew)
-   - M700 Survey Scanner (Andrew)
-   - M4435 Narrow-Band Scanner (Andrew)
-   - Convert-O-Tron 125 ISRU (Andrew)
-  - Electrical
-   - Fuel Cell (Andrew)
-   - Fuel Cell Array (Andrew)
 - New Depth Mask module added
   - Some parts can now be inset into other parts without visible clipping inside them
   - Aero
@@ -97,14 +127,31 @@
     - Kelus Mobility Enhancer
     - Kelus-LV Bay Mobility Enhancer
 - Bugfixes and tweaks
+  - Added new, easier method of disabling Restock art replacements on  per-part basis
+  - Added 'Warning - Hatch May Open' text to Mk1 command pod
   - Updated Gigantor colliders to be closer to stock
   - Updated Gigantor mesh to be more performant
   - Fixed Twin Boar flag being on wrong side compared to original model
   - Tweaked Nerv plume to be prettier
+  - Tweaked mesh normals on Nerv shroud to be prettier
+  - Tweaked 2.5m battery to work with new 1.8 node layout
+  - Improved metal and white shaders for Oscar-B
+  - 0.625m engine revisions
+    - Engines now have White and Metal surface variants that affect shrouds and boattails
+  - 1.25m engine revisions
+    - Repainted legacy Porkjet boattails
+    - Terrier now uses a MLI texture on part of its Basic variant
+    - Engines now have White and Orange/Grey surface variants that affect shrouds and boattails
+  - 2.5m engine revisions
+    - Engines now have White and Orange/Grey surface variants that affect shrouds and boattails
   - Added optional structural strut variants on Baguette and Dumpling tanks
   - Fixed MH replacement for Stratus-V tank
-- Stock parts included:
-
+  - Added appropriate Orange/Dark/Metal variants to all stack Decouplers and Separators
+  - Rotated collider of 1.25m nosecone 15 degrees
+  - Added Spanish localization of Restock strings (thanks Niako)
+  - Fixed HG-55 animation not deploying all the way
+  - Fixed an issue with the Vector's shroud in Compact mode
+  - Fixed legacy part folders being present in the blacklist file
 
 ﻿v0.1.4
 ------

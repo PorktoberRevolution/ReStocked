@@ -8,9 +8,12 @@ package:
     - readme.txt
     - changelog.txt
     - license.txt
+  extras-path: Distribution/RestockExtras/
+  included-extras:
+    - RestockRigidLegs
 dependencies:  # Configure dependencies
   ModuleManager:
-    version: 4.0.2
+    version: 4.1.0
     location: s3
 deploy:
   SpaceDock:
