@@ -1,5 +1,5 @@
 ========================
-RESTOCK RIGID LEGS 0.3.0
+RESTOCK RIGID LEGS 1.0.0
 ========================
 
 Restock Rigid Legs adds alternate versions of the stock legs without the suspension module. These legs are functionally just animated parts the are by default tied to the landing gear action group. The legs are added as their own parts and do not replace the existing legs, making them compatible with saves just like any other mod. They also take advantage of the physics material switcher module added in 1.7.3, allowing for an adjustable level of friction to prevent your landers from sliding down slopes.
@@ -9,7 +9,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (0.3.0)
+- Restock (1.0.0)
 - ModuleManager (4.0.2)
 
 ============
@@ -36,6 +36,7 @@ LOCALIZATION
 
 This mod primarily uses vanilla-provided localization, but for additional strings, it provides localization support for the following languages:
 - English
+- Simplified Chinese (Duck1998)
 
 =========
 LICENSING

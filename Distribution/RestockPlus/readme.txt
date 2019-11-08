@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 0.2.0
+RESTOCK+ 1.0.0
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -21,8 +21,8 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (0.2.0)
-- ModuleManager (4.0.2)
+- Restock (1.0.0)
+- ModuleManager (4.1.0)
 
 =============
 CREDITS
@@ -69,6 +69,9 @@ LOCALIZATION
 This mod provides localization support for the following languages:
 - English
 - German (woeller)
+- Brazilian Portuguese (AluisioASG)
+- Spanish (Niako)
+- Simplified Chinese (Duck1998)
 
 =========
 LICENSING
