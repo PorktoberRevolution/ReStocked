@@ -2,6 +2,8 @@ v1.0.1
 ------
 - Fixed lack of bundled ModuleManager
 - Updated Simplified Chinese localization (Duck1998)
+- Fixed Cherenkov shroud texture assignments (#754)
+- Fixed x-large truss piece collider scaling (#753)
 
 v1.0.0
 ------

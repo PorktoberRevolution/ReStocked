@@ -3,7 +3,10 @@ v1.0.1
 - Fixed lack of bundled ModuleManager
 - Updated Simplified Chinese localization (Duck1998)
 - Fixed an issue with the localization of the radial reaction wheel assembly (#742)
-- Fixed compatability with FAR in a case where RealChute is NOT installed
+- Fixed compatability with FAR in a case where RealChute is NOT installed (#751)
+- Fixed compatability with RealChute and NO FAR (#756)
+- Fixed Skippper orange boattail texture assignments (#754)
+- Fixed large truss piece collider scaling (#753)
 
 ﻿v1.0.0
 ------
