@@ -7,6 +7,7 @@ v1.0.1
 - Fixed compatability with RealChute and NO FAR (#756)
 - Fixed Skippper orange boattail texture assignments (#754)
 - Fixed large truss piece collider scaling (#753)
+- Un-blacklisted legacy squad spark model (we don't have an appropriate replacement anymore)
 
 ﻿v1.0.0
 ------
