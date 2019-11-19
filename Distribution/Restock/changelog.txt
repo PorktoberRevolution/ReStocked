@@ -1,4 +1,16 @@
-﻿v0.2.0
+v1.0.1
+-----
+- Fixed lack of bundled ModuleManager
+- Updated Simplified Chinese localization (Duck1998)
+- Fixed an issue with the localization of the radial reaction wheel assembly (#742)
+- Fixed compatability with FAR in a case where RealChute is NOT installed (#751)
+- Fixed compatability with RealChute and NO FAR (#756)
+- Fixed Skippper orange boattail texture assignments (#754)
+- Fixed large truss piece collider scaling (#753)
+- Un-blacklisted legacy Squad spark model (we don't have an appropriate replacement anymore)
+- Updated Chinese translation (Duck1998)
+
+﻿v1.0.0
 ------
 - KSP 1.8 compatibility
 - Phase 2 release
