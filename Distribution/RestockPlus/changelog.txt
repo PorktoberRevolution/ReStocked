@@ -4,6 +4,7 @@ v1.0.1
 - Updated Simplified Chinese localization (Duck1998)
 - Fixed Cherenkov shroud texture assignments (#754)
 - Fixed x-large truss piece collider scaling (#753)
+- Updated Chinese translation (Duck1998)
 
 v1.0.0
 ------
