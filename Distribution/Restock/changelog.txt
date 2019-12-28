@@ -1,3 +1,8 @@
+v1.0.2
+-----
+- Fixed 'tankbutt' localizations for Skiff showing 1.875m when they should be 2.5m (#766)
+- Fixed inflatable heatshield fairing (#765)
+
 v1.0.1
 -----
 - Fixed lack of bundled ModuleManager
