@@ -1,6 +1,7 @@
 v1.0.2
 -----
 - Fixed tech tree locations for 1.875m decoupler and separator
+- Fixed Castor SRB having the same part name as old Anvil
 
 v1.0.1
 ------
