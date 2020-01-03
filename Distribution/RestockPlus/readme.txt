@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 1.0.0
+RESTOCK+ 1.0.3
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -21,8 +21,8 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (1.0.0)
-- ModuleManager (4.1.0)
+- Restock (1.0.3)
+- ModuleManager (4.1.3)
 
 =============
 CREDITS
