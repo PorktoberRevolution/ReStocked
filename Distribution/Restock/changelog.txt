@@ -1,3 +1,15 @@
+v1.0.3
+-----
+- Updated ModuleManager distribution to 4.1.3
+- Fixed Flea, Hammer, Kickback and Thumper colliders (#779)
+
+v1.0.2
+-----
+- Fixed plugin instantiation issue
+- Fixed 'tankbutt' localizations for Skiff showing 1.875m when they should be 2.5m (#766)
+- Fixed inflatable heatshield fairing (#765)
+
+
 v1.0.1
 -----
 - Fixed lack of bundled ModuleManager
@@ -7,7 +19,8 @@ v1.0.1
 - Fixed compatability with RealChute and NO FAR (#756)
 - Fixed Skippper orange boattail texture assignments (#754)
 - Fixed large truss piece collider scaling (#753)
-- Un-blacklisted legacy squad spark model (we don't have an appropriate replacement anymore)
+- Un-blacklisted legacy Squad spark model (we don't have an appropriate replacement anymore)
+- Updated Chinese translation (Duck1998)
 
 ﻿v1.0.0
 ------

@@ -1,5 +1,5 @@
 =============
-RESTOCK 1.0.0
+RESTOCK 1.0.3
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the cancelled Part Overhaul project by Porkjet.
@@ -13,7 +13,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (4.1.0)
+- ModuleManager (4.1.3)
 
 =======
 CREDITS
