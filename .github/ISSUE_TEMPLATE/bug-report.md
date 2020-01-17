@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of what the bug is. Make sure you read the [list of common issues](https://github.com/PorktoberRevolution/ReStocked/issues/581) first!
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
