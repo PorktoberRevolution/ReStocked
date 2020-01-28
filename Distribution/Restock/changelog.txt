@@ -1,3 +1,15 @@
+v1.1.0
+-----
+- New stock part replacements
+ - Wheels
+  - Rovemax Model S2 (Andrew Cassidy)
+  - Rovemax Model M1 (Andrew Cassidy)
+  - TR-2L Ruggedized Wheel (Andrew Cassidy)
+
+- Making History parts replaced:
+ - Wheels
+  - Rovemax Model M1-F (Andrew Cassidy)
+
 v1.0.1
 -----
 - Fixed lack of bundled ModuleManager
