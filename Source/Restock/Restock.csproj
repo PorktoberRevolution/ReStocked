@@ -44,6 +44,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constraints\CopyPositionConstraint.cs" />
+    <Compile Include="Constraints\CopyRotationConstraint.cs" />
+    <Compile Include="Constraints\IConstraint.cs" />
+    <Compile Include="Constraints\LookAtConstraint.cs" />
     <Compile Include="InstallChecker.cs" />
     <Compile Include="MaterialModifiers\ColorPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\FloatPropertyMaterialModifier.cs" />
@@ -55,7 +59,7 @@
     <Compile Include="ModuleRestockDepthMask.cs" />
     <Compile Include="ModuleRestockHeatEffects.cs" />
     <Compile Include="ModuleRestockISRUAnimation.cs" />
-    <Compile Include="ModuleRestockLookAtConstraint.cs" />
+    <Compile Include="ModuleRestockConstraints.cs" />
     <Compile Include="ModuleRestockModifyFairingMaterials.cs" />
     <Compile Include="ModuleRestockModifyMaterials.cs" />
     <Compile Include="PartModuleExtensions.cs" />
