@@ -1,3 +1,9 @@
+v1.1.0
+-----
+- New Wheel parts
+  - Rovemax Model S2-T (Andrew Cassidy): 90° rotated rover wheel for building tricycles
+  - Rovemax Model M0 (Andrew Cassidy): folding rover wheel. Disabled if Making History is installed
+
 v1.0.3
 -----
 - Updated ModuleManager distribution to 4.1.3
