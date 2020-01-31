@@ -55,6 +55,7 @@
     <Compile Include="ModuleRestockDepthMask.cs" />
     <Compile Include="ModuleRestockHeatEffects.cs" />
     <Compile Include="ModuleRestockISRUAnimation.cs" />
+    <Compile Include="ModuleRestockLookAtConstraint.cs" />
     <Compile Include="ModuleRestockModifyFairingMaterials.cs" />
     <Compile Include="ModuleRestockModifyMaterials.cs" />
     <Compile Include="PartModuleExtensions.cs" />
