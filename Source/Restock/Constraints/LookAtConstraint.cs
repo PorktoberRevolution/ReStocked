@@ -3,14 +3,17 @@ using UnityEngine;
 namespace Restock.Constraints
 {
     [System.Serializable]
+    /**
+     * Points the rotator object at the target object
+     */
     public class LookAtConstraint : IConstraint
     {
         private readonly string rotatorsName;
         private readonly string targetName;
 
         // Cached components
-        private readonly Transform target;
         private readonly Transform rotator;
+        private readonly Transform target;
 
         public LookAtConstraint(ConfigNode node, Part p)
         {

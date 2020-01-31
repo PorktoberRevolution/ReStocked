@@ -3,6 +3,10 @@ using UnityEngine;
 namespace Restock.Constraints
 {
     [System.Serializable]
+    /**
+     * Copies the position of the target object to the mover object.
+     * If `IsLocal` is true, uses local position instead of global position. 
+     */
     public class CopyPositionConstraint : IConstraint
     {
         private readonly string moversName;
@@ -16,8 +20,9 @@ namespace Restock.Constraints
         
         public CopyPositionConstraint(ConfigNode node, Part p)
         {
-            node.TryGetValue("rotatorsName", ref moversName);
+            node.TryGetValue("moversName", ref moversName);
             node.TryGetValue("targetName", ref targetName);
+            node.TryGetValue("isLocal", ref local);
             
             mover = p.FindModelTransform(moversName);
             target = p.FindModelTransform(targetName);
