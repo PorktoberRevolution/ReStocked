@@ -5,10 +5,11 @@ v1.1.0
   - Rovemax Model S2 (Andrew Cassidy)
   - Rovemax Model M1 (Andrew Cassidy)
   - TR-2L Ruggedized Wheel (Andrew Cassidy)
-
 - Making History parts replaced:
  - Wheels
   - Rovemax Model M1-F (Andrew Cassidy)
+- Bugfixes and tweaks
+ - Fixed an issue where launch clamps girders would not render in older versions of OpenGL (#790)
 
 v1.0.3
 -----
