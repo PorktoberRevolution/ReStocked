@@ -5,9 +5,9 @@ v1.1.0
   - T-1 Toroidal Aerospike "Dart" Liquid Fuel Engine (Nertea)
 - New Making History part replacements
  - Aero
-  - Protective Rocket Nose Cone Mk16A (Nertea)
+  - Protective Rocket Nose Cone Mk16A (Nertea): now has White and Orange variants
  - Engines
-  - Kerbodyne KE-1 "Mastodon" Liquid Fuel Engine (Nertea): now has Compact, 1.875m, 2.5m, 2.5m Boattail ad 3.75m Boattail variants
+  - Kerbodyne KE-1 "Mastodon" Liquid Fuel Engine (Nertea): now has Compact, 1.875m, 2.5m, 2.5m Boattail and 3.75m Boattail variants
  - Fuel Tanks
   - Kerbodyne S4-64 Fuel Tank (Nertea): now has Black and White and Orange variants
   - Kerbodyne S4-128 Fuel Tank (Nertea): now has Black and White and Orange variants
@@ -28,6 +28,10 @@ v1.1.0
   - T-50 Structural Tube (Nertea): now has White and Orange variants
  - Bugfixes and tweaks
   - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better
+  - Re-added missing stock smoke plumes to Skiff, Wolfhound, Kodiak
+  - Adjusted configs for patched Skiff, Wolfhound to account for a bug Squad fixed in KSP 1.9
+  - Adjusted Rhino's surface attach node so that it adjusts for variants correctly in KSP 1.9
+  - Fixed SMR scaling for Skiff, Wolfhound 
 
 v1.0.3
 -----
