@@ -30,6 +30,7 @@ v1.1.0
  - Adjusted MH hiding patch to apply to tech tree correctly and disable part testing contracts (#799)
  - Adjusted configs for Caravel, Schnauzer to account for a bug Squad fixed in 1.9
  - Fixed SMR scaling for Caravel, Schnauzer (#800)
+ 
 v1.0.3
 -----
 - Updated ModuleManager distribution to 4.1.3
