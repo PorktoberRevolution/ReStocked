@@ -1,3 +1,38 @@
+v1.1.0
+-----
+- New stock part replacements
+ - Engines
+  - T-1 Toroidal Aerospike "Dart" Liquid Fuel Engine (Nertea)
+- New Making History part replacements
+ - Aero
+  - Protective Rocket Nose Cone Mk16A (Nertea): now has White and Orange variants
+ - Engines
+  - Kerbodyne KE-1 "Mastodon" Liquid Fuel Engine (Nertea): now has Compact, 1.875m, 2.5m, 2.5m Boattail and 3.75m Boattail variants
+ - Fuel Tanks
+  - Kerbodyne S4-64 Fuel Tank (Nertea): now has Black and White and Orange variants
+  - Kerbodyne S4-128 Fuel Tank (Nertea): now has Black and White and Orange variants
+  - Kerbodyne S4-256 Fuel Tank (Nertea): now has Black and White and Orange variants
+  - Kerbodyne S4-512 Fuel Tank  (Nertea): now has Black and White and Orange variants
+  - Kerbodyne S3-S4 Adapter Tank  (Nertea): now has Black and White and Orange variants
+  - Kerbodyne Engine Cluster Adapter Tank (Nertea): now has different models for 2, 3, 4 and 6 engine pods
+ - Payload
+  - AE-FF4 Airstream Protective Shell (5m):(Nertea): now has White, Black and White and Orange variants
+ - Coupling
+  - TD-50 Stack Decoupler (Nertea): now has White and Orange variants
+  - TS-50 Stack Separator (Nertea): now has White and Orange variants
+ - Structural
+  - T-12 Structural Tube (Nertea): now has White and Orange variants
+  - T-18 Structural Tube (Nertea): now has White and Orange variants
+  - T-25 Structural Tube (Nertea): now has White and Metal variants
+  - T-37 Structural Tube (Nertea): now has White and Orange variants
+  - T-50 Structural Tube (Nertea): now has White and Orange variants
+ - Bugfixes and tweaks
+  - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better
+  - Re-added missing stock smoke plumes to Skiff, Wolfhound, Kodiak
+  - Adjusted configs for patched Skiff, Wolfhound to account for a bug Squad fixed in KSP 1.9
+  - Adjusted Rhino's surface attach node so that it adjusts for variants correctly in KSP 1.9
+  - Fixed SMR scaling for Skiff, Wolfhound 
+
 v1.0.3
 -----
 - Updated ModuleManager distribution to 4.1.3
