@@ -24,6 +24,9 @@ v1.1.0
   - T-25 Structural Tube (Nertea): now has White and Metal variants
   - T-37 Structural Tube (Nertea): now has White and Orange variants
   - T-50 Structural Tube (Nertea): now has White and Orange variants
+- New Wheel parts
+  - Rovemax Model S2-T (Andrew Cassidy): 90° rotated rover wheel for building tricycles
+  - Rovemax Model M0 (Andrew Cassidy): folding rover wheel. Disabled if Making History is installed
 - Fixes and improvements
  - Fixed shrouds on Caravel's variants (#796)
  - RE-137 'Schnauzer'Liquid Fuel Engine and RE-I2 "Caravel" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and _____ better
