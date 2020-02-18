@@ -4,25 +4,25 @@
     "DOWNLOAD":"https://forum.kerbalspaceprogram.com/index.php?/topic/182679-161-restock-revamping-ksps-art/&",
     "VERSION":
     {
-        "MAJOR":0,
-        "MINOR":2,
+        "MAJOR":1,
+        "MINOR":1,
         "PATCH":0,
         "BUILD":0
     },
     "KSP_VERSION":
     {
         "MAJOR":1,
-        "MINOR":7,
+        "MINOR":9,
         "PATCH":0
     },
     "KSP_VERSION_MIN":{
         "MAJOR":1,
-        "MINOR":7,
+        "MINOR":8,
         "PATCH":0
     },
     "KSP_VERSION_MAX":{
         "MAJOR":1,
-        "MINOR":7,
+        "MINOR":9,
         "PATCH":99
     }
 }

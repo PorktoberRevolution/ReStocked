@@ -31,7 +31,7 @@ namespace Restock
         // should the module wait until a current looping animation completes before changing state?
         [KSPField] public bool waitForComplete = false;
 
-        public bool IsDeployed => (CurrentState == State.InactiveWaiting || 
+        public bool IsDeployed => (CurrentState == State.InactiveWaiting ||
                                    CurrentState == State.Active ||
                                    CurrentState == State.Deploying);
 
@@ -68,14 +68,49 @@ namespace Restock
             _activeAnimationPresent = (activeAnimationName != string.Empty);
             _inactiveAnimationPresent = (inactiveAnimationName != string.Empty);
 
-            DeployAnimation = ((_deployAnimationPresent) ? 
-                base.part.FindModelAnimators(deployAnimationName)[0] : null);
-            RetractAnimation = ((_retractAnimationPresent) ? 
-                base.part.FindModelAnimators(retractAnimationName)[0] : null);
-            ActiveAnimation = ((_activeAnimationPresent) ? 
-                base.part.FindModelAnimators(activeAnimationName)[0] : null);
-            InactiveAnimation = ((_inactiveAnimationPresent)? 
-                base.part.FindModelAnimators(inactiveAnimationName)[0] : null);
+            if (_deployAnimationPresent)
+            {
+                DeployAnimation = base.part.FindModelAnimators(deployAnimationName)[0];
+                if (DeployAnimation == null)
+                {
+                    _deployAnimationPresent = false;
+                    this.LogError($"Can't find deploy animation named {deployAnimationName}");
+                }
+            }
+            else DeployAnimation = null;
+
+            if (_retractAnimationPresent)
+            {
+                RetractAnimation = base.part.FindModelAnimators(retractAnimationName)[0];
+                if (RetractAnimation == null)
+                {
+                    _retractAnimationPresent = false;
+                    this.LogError($"Can't find retract animation named {retractAnimationName}");
+                }
+            }
+            else RetractAnimation = null;
+
+            if (_activeAnimationPresent)
+            {
+                ActiveAnimation = base.part.FindModelAnimators(activeAnimationName)[0];
+                if (ActiveAnimation == null)
+                {
+                    _activeAnimationPresent = false;
+                    this.LogError($"Can't find active animation named {activeAnimationName}");
+                }
+            }
+            else ActiveAnimation = null;
+
+            if (_inactiveAnimationPresent)
+            {
+                InactiveAnimation = base.part.FindModelAnimators(inactiveAnimationName)[0];
+                if (InactiveAnimation == null)
+                {
+                    _inactiveAnimationPresent = false;
+                    this.LogError($"Can't find inactive animation named {inactiveAnimationName}");
+                }
+            }
+            else InactiveAnimation = null;
 
             foreach (var a in base.part.FindModelAnimators()) a.Stop();
 
@@ -116,7 +151,7 @@ namespace Restock
                                 DeployStart();
                             }
                         }
-                        
+
                         break;
 
                     // System is inactive, but waiting for the animation to end before deploying
@@ -176,7 +211,8 @@ namespace Restock
                     case State.ActiveWaiting:
                         if (!waitForComplete || !_activeAnimationPresent)
                         {
-                            this.LogError("Invalid state! waitForComplete not enabled or active animation not present.");
+                            this.LogError(
+                                "Invalid state! waitForComplete not enabled or active animation not present.");
                             CurrentState = State.Active;
                         }
                         else if (ConvertersEnabled())
@@ -201,9 +237,19 @@ namespace Restock
                         {
                             DeployStart();
                         }
-                        else if (!RetractAnimation.IsPlaying(retractAnimationName))
+                        else if (_retractAnimationPresent)
                         {
-                            RetractEnd();
+                            if (!RetractAnimation.IsPlaying(retractAnimationName))
+                            {
+                                RetractEnd();
+                            }
+                        }
+                        else if (_deployAnimationPresent)
+                        {
+                            if (!DeployAnimation.IsPlaying(deployAnimationName))
+                            {
+                                RetractEnd();
+                            }
                         }
 
                         break;
@@ -220,7 +266,8 @@ namespace Restock
 
         private void DeployWait()
         {
-            if (_inactiveAnimationPresent){
+            if (_inactiveAnimationPresent)
+            {
                 CurrentState = State.InactiveWaiting;
                 PlayAnimation(InactiveAnimation, inactiveAnimationName, loop: false);
             }
@@ -237,7 +284,8 @@ namespace Restock
                 if (_retractAnimationPresent && RetractAnimation.IsPlaying(retractAnimationName))
                 {
                     RetractAnimation.Stop(retractAnimationName);
-                } 
+                }
+
                 CurrentState = State.Deploying;
                 PlayAnimation(DeployAnimation, deployAnimationName, speed * deploySpeed);
             }
@@ -250,7 +298,7 @@ namespace Restock
         private void DeployEnd()
         {
             CurrentState = State.Active;
-            
+
             if (_activeAnimationPresent)
             {
                 PlayAnimation(ActiveAnimation, activeAnimationName, loop: true);
@@ -269,7 +317,7 @@ namespace Restock
                 RetractStart();
             }
         }
-        
+
         private void RetractStart(float speed = 1f)
         {
             if (_retractAnimationPresent)
@@ -277,7 +325,8 @@ namespace Restock
                 if (_deployAnimationPresent && DeployAnimation.IsPlaying(deployAnimationName))
                 {
                     DeployAnimation.Stop(deployAnimationName);
-                } 
+                }
+
                 CurrentState = State.Retracting;
                 PlayAnimation(RetractAnimation, retractAnimationName, speed * retractSpeed);
             }
@@ -295,7 +344,7 @@ namespace Restock
         private void RetractEnd()
         {
             CurrentState = State.Inactive;
-            
+
             if (_inactiveAnimationPresent)
             {
                 PlayAnimation(InactiveAnimation, inactiveAnimationName, loop: true);
@@ -345,7 +394,7 @@ namespace Restock
             animState.wrapMode = loop ? WrapMode.Loop : WrapMode.Once;
 
             //if (!anim.IsPlaying(name)) 
-                anim.Play(name);
+            anim.Play(name);
         }
     }
 }

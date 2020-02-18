@@ -13,11 +13,11 @@ namespace Restock
         [KSPField] public string shaderProperty = "_EmissiveColor";
 
         // animation curve for the red channel
-        [KSPField] public FloatCurve redCurve= new FloatCurve();
+        [KSPField] public FloatCurve redCurve = new FloatCurve();
 
         // animation curve for the green channel
         [KSPField] public FloatCurve greenCurve = new FloatCurve();
-        
+
         // animation curve for the blue channel
         [KSPField] public FloatCurve blueCurve = new FloatCurve();
 
@@ -26,41 +26,44 @@ namespace Restock
 
         // draper point, the temperature in Kelvin where materials start glowing
         [KSPField] public double draperPoint = 798.0;
-        
+
         // temperature where the animation is at its maximum
         [KSPField] public double lerpMax = double.NaN;
-        
+
         // temperature where the animation is at its minimum, added with draperPoint
         [KSPField] public double lerpMin = 0.0;
 
         // use the part's core temperature? (overrides useSkinTemp)
         [KSPField] public bool useCoreTemp = false;
-        
+
         // use the part's skin temperature?
         [KSPField] public bool useSkinTemp = false;
 
         // should the module disable the stock blackbody glow effect on the included renderers?
         [KSPField] public bool disableBlackbody = false;
-        
-        [KSPField] public List<Renderer> renderers = new List<Renderer>();
+
+        public List<Renderer> renderers = new List<Renderer>();
 
         private readonly string _shaderBlackbody = "_TemperatureColor";
 
         private ModuleCoreHeat _coreHeatModule = null;
-        
+
         private int _shaderPropertyID;
 
         private int _shaderBlackbodyID;
 
         private double _lerpRange;
 
-        private Color _emissiveColor = new Color();
-        private MaterialPropertyBlock _propertyBlock = new MaterialPropertyBlock();
+        private Color _emissiveColor;
+        private MaterialPropertyBlock _propertyBlock;
 
         public void Start()
         {
             if (base.vessel == null) return;
-            
+
+            _emissiveColor = new Color();
+            _propertyBlock = new MaterialPropertyBlock();
+
             if (enableHeatEmissive)
             {
                 if (useCoreTemp)
@@ -72,7 +75,7 @@ namespace Restock
                         useCoreTemp = false;
                     }
                 }
-                
+
                 if (double.IsNaN(lerpMax))
                 {
                     if (useCoreTemp)
@@ -95,17 +98,17 @@ namespace Restock
                 _shaderBlackbodyID = Shader.PropertyToID(_shaderBlackbody);
             }
         }
-        
+
         public override void OnLoad(ConfigNode node)
         {
             if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
-            
+
             renderers = base.part.FindModelComponents<Renderer>();
-            
+
             if (node.HasValue("excludedRenderer"))
             {
                 var excludedRenderers = new List<string>();
-                
+
                 excludedRenderers.AddRange(node.GetValues("excludedRenderer"));
 
                 for (int i = renderers.Count - 1; i >= 0; i--)
@@ -121,6 +124,9 @@ namespace Restock
         public void LateUpdate()
         {
             if (!HighLogic.LoadedSceneIsFlight) return;
+            if (renderers == null) return;
+            //when switching to the flight scene LateUpdate gets called AFTER OnLoad for some reason
+            // so renderers should hopefully only be null for one frame
 
             if (enableHeatEmissive)
             {
@@ -133,10 +139,10 @@ namespace Restock
                 {
                     temp = useSkinTemp ? base.part.skinTemperature : base.part.temperature;
                 }
-                
+
                 var temp2 = (float) ((temp - draperPoint) / _lerpRange);
                 temp2 = Mathf.Clamp01(temp2);
-                
+
                 _emissiveColor.r = redCurve.Evaluate(temp2);
                 _emissiveColor.g = greenCurve.Evaluate(temp2);
                 _emissiveColor.b = blueCurve.Evaluate(temp2);
@@ -148,7 +154,6 @@ namespace Restock
             if (disableBlackbody)
             {
                 _propertyBlock.SetColor(_shaderBlackbodyID, Color.black);
-
             }
 
             for (var i = 0; i < renderers.Count; i++)
