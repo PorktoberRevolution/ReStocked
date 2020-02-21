@@ -40,6 +40,8 @@ v1.1.0
   - Adjusted configs for patched Skiff, Wolfhound to account for a bug Squad fixed in KSP 1.9
   - Adjusted Rhino's surface attach node so that it adjusts for variants correctly in KSP 1.9
   - Fixed SMR scaling for Skiff, Wolfhound 
+  - Adjusted engine glow meshes for Terrier, Reliant and Swivel to clean up some clipping issues
+  - Tagged engine glow meshes properly for Terrier, Reliant and Swivel
 
 v1.0.3
 -----
