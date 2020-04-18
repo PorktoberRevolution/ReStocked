@@ -5,7 +5,7 @@ v1.1.0
 - New Engine parts
   - Kerbodyne KE-1 "____" Liquid Fuel Engine (Nertea): now has Compact, 1.875m, 2.5m, 2.5m Boattail and 3.75m Boattail variants
 - New Fuel Tank parts
-  - Kerbodyne S4-64 Fuel Tank (Nertea): 5m fuel tank with has Black and White and Orange variants
+  - Kerbodyne S4-64 Fuel Tank (Nertea): 5m fuel tank with Black and White and Orange variants
   - Kerbodyne S4-128 Fuel Tank (Nertea): 5m fuel tank with Black and White and Orange variants
   - Kerbodyne S4-256 Fuel Tank (Nertea): 5m fuel tank with Black and White and Orange variants
   - Kerbodyne S4-512 Fuel Tank  (Nertea): 5m fuel tank with Black and White and Orange variants
@@ -14,8 +14,13 @@ v1.1.0
 - New Aero parts
   - Protective Rocket Nose Cone Mk16A (Nertea): 5m nose cone with White and Orange variants
 - New Coupling parts
-  - TD-50 Stack Decoupler (Nertea): 5m decoupler with has White and Orange variants
-  - TS-50 Stack Separator (Nertea): 5m separator White and Orange variants
+  - TD-50 Stack Decoupler (Nertea): 5m decoupler with White and Orange variants
+  - TS-50 Stack Separator (Nertea): 5m separator with White and Orange variants
+  - EP-12 Engine Plate (Andrew Cassidy): 1.25m engine plate with White, Orange, and Dark variants plus boattails
+  - EP-18 Engine Plate (Andrew Cassidy): 1.875m engine plate with White and Orange variants plus boattails. Disabled if Making History is installed
+  - EP-25 Engine Plate (Andrew Cassidy): 2.5m engine plate with White and metal variants plus boattails. Disabled if Making History is installed
+  - EP-37 Engine Plate (Andrew Cassidy): 3.75m engine plate with White and Orange variants plus boattails. Disabled if Making History is installed
+  - EP-50 Engine Plate (Andrew Cassidy): 5m engine plate with White and Orange variants plus boattails. Disabled if Making History is installed
 - New Payload parts
   - AE-FF4 Airstream Protective Shell (5m):(Nertea): 5m fairing base with White, Black and White and Orange variants
 - New Structural parts
