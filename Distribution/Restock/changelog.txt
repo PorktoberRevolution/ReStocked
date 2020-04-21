@@ -49,6 +49,8 @@ v1.1.0
  - Tagged engine glow meshes properly for Terrier, Reliant and Swivel
  - Fixed an issue where launch clamps girders would not render in older versions of OpenGL (#790)
  - Fixed the Pollux SRB using FX from RestockPlus - flames would not show if RS+ was not installed
+ - Fixed the centering of the Rovemate probe core
+ - Fixed some smoothing groups on the white variant of the Rockomax X-32 Fuel Tank
 
 v1.0.3
 -----
