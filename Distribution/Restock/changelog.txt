@@ -1,11 +1,10 @@
 v1.1.0
 -----
-- KSP 1.9 
+- KSP 1.9
 - New stock part replacements
  - Engines
-  - RE-M3 'Mainsail' Liquid Fuel Engine (Nertea/riocrokite): New model to replace new Squad model
-  - RE-I5 'Skipper' Liquid Fuel Engine (Nertea/riocrokite): New model to replace new Squad model
-  - T-1 Toroidal Aerospike "Dart" Liquid Fuel Engine (Nertea)
+  - RE-M3 'Mainsail' Liquid Fuel Engine (Nertea/riocrokite): New model to replace new 1.9 Squad model
+  - RE-I5 'Skipper' Liquid Fuel Engine (Nertea/riocrokite): New model to replace new 1.9 Squad model
  - Wheels
   - Rovemax Model S2 (Andrew Cassidy)
   - Rovemax Model M1 (Andrew Cassidy)
@@ -40,17 +39,18 @@ v1.1.0
  - Wheels
   - Rovemax Model M1-F (Andrew Cassidy)
 - Bugfixes and tweaks
- - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better
+ - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better.
  - Re-added missing stock smoke plumes to Skiff, Wolfhound, Kodiak
  - Adjusted configs for patched Skiff, Wolfhound to account for a bug Squad fixed in KSP 1.9
  - Adjusted Rhino's surface attach node so that it adjusts for variants correctly in KSP 1.9
- - Fixed SMR scaling for Skiff, Wolfhound, Mainsail, Skipper
+ - Fixed SkinnedMeshRenderer scaling for Wolfhound, Skiff, Mainsail, Skipper
  - Adjusted engine glow meshes for Terrier, Reliant and Swivel to clean up some clipping issues
  - Tagged engine glow meshes properly for Terrier, Reliant and Swivel
  - Fixed an issue where launch clamps girders would not render in older versions of OpenGL (#790)
  - Fixed the Pollux SRB using FX from RestockPlus - flames would not show if RS+ was not installed
  - Fixed the centering of the Rovemate probe core
  - Fixed some smoothing groups on the white variant of the Rockomax X-32 Fuel Tank
+
 
 v1.0.3
 -----
