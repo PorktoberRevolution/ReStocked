@@ -39,6 +39,7 @@ v1.1.0
  - Adjusted configs for Caravel, Schnauzer to account for a bug Squad fixed in 1.9
  - Fixed SkinnedMeshRenderer scaling for Caravel, Schnauzer (#800)
  - Fixed an issue with the thrust transforms on the Cherenkov nuclear engine (#804)
+ - Fixed localization tag for Caravel's Tankbutt variant
 
 v1.0.3
 -----
