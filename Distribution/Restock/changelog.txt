@@ -50,7 +50,7 @@ v1.1.0
  - Fixed the Pollux SRB using FX from RestockPlus - flames would not show if RS+ was not installed
  - Fixed the centering of the Rovemate probe core
  - Fixed some smoothing groups on the white variant of the Rockomax X-32 Fuel Tank
-
+ - Fixed an issue where radiators would freak out when destroyed. 
 
 v1.0.3
 -----
