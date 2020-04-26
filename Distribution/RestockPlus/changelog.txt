@@ -39,7 +39,9 @@ v1.1.0
  - Adjusted configs for Caravel, Schnauzer to account for a bug Squad fixed in 1.9
  - Fixed SkinnedMeshRenderer scaling for Caravel, Schnauzer (#800)
  - Fixed an issue with the thrust transforms on the Cherenkov nuclear engine (#804)
+ - Fixed localization tag for Caravel's Tankbutt variant
  - Reduced Caravel vacuum Isp to 265/320s from 285/340s, increased mass to 2.0t from 1.6t 
+ 
 v1.0.3
 -----
 - Updated ModuleManager distribution to 4.1.3
