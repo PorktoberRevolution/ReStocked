@@ -32,6 +32,8 @@ namespace Restock
         private List<Color32> _girderColors;
         private List<int> _girderTris;
 
+        private bool _girderFlightUpdated = false;
+
         private bool _girderHasTangents = false;
         private bool _girderHasColors = false;
         private int _girderVertCount;
@@ -51,9 +53,10 @@ namespace Restock
                 this.LogWarning("You are using a computer which does not support instancing, " +
                                 "falling back to a slower launch clamp implementation");
                 instancingEnabled = false;
-                girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
-                girderSegmentMesh = Instantiate<Mesh>(girderMesh);
             }
+            
+            girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
+            girderSegmentMesh = Instantiate<Mesh>(girderMesh);
 
             base.OnLoad(node);
         }
@@ -64,7 +67,7 @@ namespace Restock
 
             girderMesh = towerGirder.GetComponent<MeshFilter>().mesh;
 
-            if (instancingEnabled)
+            if (instancingEnabled && HighLogic.LoadedSceneIsEditor)
             {
                 var girderRenderer = towerGirder.GetComponent<MeshRenderer>();
                 girderRenderer.enabled = false; // we'll render manually from now on
@@ -76,7 +79,6 @@ namespace Restock
             }
             else
             {
-                this.Log("Instancing is disabled, setting up fallback");
                 _girderVertCount = girderSegmentMesh.vertexCount;
                 _girderTriCount = girderSegmentMesh.triangles.Length;
 
@@ -106,7 +108,7 @@ namespace Restock
             var initialHeight = this.initialHeight;
 
             towerAnchor.position = towerStretch.position - towerStretch.up * height;
-            
+
             var vec1 = Vector3.down;
             var vec2 = towerAnchor.localPosition - towerYoke.localPosition;
             towerYoke.localRotation = Quaternion.FromToRotation(vec1, vec2);
@@ -114,14 +116,23 @@ namespace Restock
             var girderSegments = Mathf.CeilToInt(height / initialHeight);
             girderSegments = Math.Min(girderSegments, maxSegments);
             girderSegments = Math.Max(girderSegments, 0);
-            
-            if (instancingEnabled)
-            {
-                UpdateGirder(girderSegments);
+
+            if (HighLogic.LoadedSceneIsEditor){
+                if (instancingEnabled)
+                {
+                    UpdateGirder(girderSegments);
+                }
+                else
+                {
+                    UpdateGirderFallback(girderSegments);
+                }
             }
             else
             {
+                if (_girderFlightUpdated) return;
+                
                 UpdateGirderFallback(girderSegments);
+                _girderFlightUpdated = true;
             }
         }
 
@@ -136,14 +147,14 @@ namespace Restock
                 matrix = offset * matrix;
             }
 
-            Graphics.DrawMeshInstanced(girderMesh, 0, _girderMaterial, _girderMatrices, girderSegments, part.mpb);
+            Graphics.DrawMeshInstanced(girderMesh, 0, _girderMaterial, _girderMatrices, girderSegments, part.mpb,
+                UnityEngine.Rendering.ShadowCastingMode.On, true, towerGirder.gameObject.layer);
         }
 
         private void UpdateGirderFallback(int newGirderSegments)
         {
-
             if (newGirderSegments == _girderSegments) return;
-            
+
             if (newGirderSegments > _girderSegments)
             {
                 for (int i = _girderSegments; i < newGirderSegments; i++)
@@ -177,7 +188,8 @@ namespace Restock
                 if (_girderHasTangents) _girderTangents.RemoveRange(startIndex, count);
                 if (_girderHasColors) _girderColors.RemoveRange(startIndex, count);
 
-                _girderTris.RemoveRange(newGirderSegments * _girderTriCount, (_girderSegments - newGirderSegments) * _girderTriCount);
+                _girderTris.RemoveRange(newGirderSegments * _girderTriCount,
+                    (_girderSegments - newGirderSegments) * _girderTriCount);
             }
 
             girderMesh.Clear();
