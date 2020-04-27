@@ -39,7 +39,7 @@ v1.1.0
  - Wheels
   - Rovemax Model M1-F (Andrew Cassidy)
 - Bugfixes and tweaks
- - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better.
+ - RE-J10 "Wolfhound" Liquid Fuel Engine and RE-I2 "Skiff" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Mastodon better
  - Re-added missing stock smoke plumes to Skiff, Wolfhound, Kodiak
  - Adjusted configs for patched Skiff, Wolfhound to account for a bug Squad fixed in KSP 1.9
  - Adjusted Rhino's surface attach node so that it adjusts for variants correctly in KSP 1.9
@@ -52,8 +52,8 @@ v1.1.0
  - Fixed some smoothing groups on the white variant of the Rockomax X-32 Fuel Tank
  - Fixed an issue where radiators would freak out when destroyed. 
  - Fixed localization tag for Skiff's Tankbutt variant
-- Added compatibility patch for Modular Launch Pads to allow for RS & RS+ 1.875m Engine Plate Boattail variant to align with MLP's Titan II Launch Pad base.
-
+ - Changed launch clamps to always use fallback implementation in flight as instanced rendering doesn't work with KSP's lighting correctly in flight scene
+- Added compatibility patch for Modular Launch Pads to allow for RS & RS+ 1.875m Engine Plate Boattail variant to align with MLP's Titan II Launch Pad base
 
 v1.0.3
 -----
