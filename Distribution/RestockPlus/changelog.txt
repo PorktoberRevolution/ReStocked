@@ -33,6 +33,7 @@ v1.1.0
   - Rovemax Model S2-T (Andrew Cassidy): 90° rotated rover wheel for building tricycles
   - Rovemax Model M0 (Andrew Cassidy): folding rover wheel. Disabled if Making History is installed
 - Fixes and improvements
+ - Added nodes on the top of hemispherical tanks for easier attachement
  - Fixed shrouds on Caravel's variants (#796)
  - RE-137 'Schnauzer'Liquid Fuel Engine and RE-I2 "Caravel" Liquid Fuel Engine have had their manufacturer colours changed to Green-Grey/White (no gameplay effect) to match with the Saturn V parts and Galleon better. They also have new manufacturers and designations (Universal Paperclips)
  - Adjusted MH hiding patch to apply to tech tree correctly and disable part testing contracts (#799)
