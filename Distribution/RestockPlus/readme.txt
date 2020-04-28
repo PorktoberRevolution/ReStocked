@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 1.0.3
+RESTOCK+ 1.1.0
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -21,7 +21,7 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (1.0.3)
+- Restock (1.1.0)
 - ModuleManager (4.1.3)
 
 =============
@@ -47,7 +47,7 @@ Lead Testing
 INSTALLATION
 ============
 
-To install, drag the ReStockPlus folder from the GameData folder you downloaded into your Kerbal Space Program Gamedata folder. If installed correctly, you should see:
+To install, drag the ReStockPlus folder from the GameData folder you downloaded into your Kerbal Space Program GameData folder. If installed correctly, you should see:
 - Kerbal Space Program
     - GameData
         - Squad
@@ -80,4 +80,4 @@ LICENSING
 See the license.txt file for more information.
 
 Any bundled mods are distributed under their own license:
-- ModuleManager by blowfish and sarbian is distributed under a Creative Commons Sharealike license. More details, including source code, can be found here: http://forum.kerbalspaceprogram.com/threads/31342-0-20-ModuleManager-1-3-for-all-your-stock-modding-needs?p=528607&viewfull=1#post528607
+- ModuleManager by blowfish and sarbian is distributed under a Creative Commons Sharealike license. More details, including source code, can be found here: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*
