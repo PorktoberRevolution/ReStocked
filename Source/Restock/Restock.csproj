@@ -49,6 +49,7 @@
     <Compile Include="Constraints\IConstraint.cs" />
     <Compile Include="Constraints\LookAtConstraint.cs" />
     <Compile Include="InstallChecker.cs" />
+    <Compile Include="LaunchClampGirderFactory.cs" />
     <Compile Include="MaterialModifiers\ColorPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\FloatPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
