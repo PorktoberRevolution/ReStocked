@@ -1,3 +1,9 @@
+v1.1.1
+------
+- Cherenkov running sound is now same as LV-N, not Spark
+- Cherenkov tech node is now correctly Nuclear Propulsion
+- Torch, Cherenkov manufacturers corrected to Rockomax, was Kerbodyne
+
 v1.1.0
 ------
 - KSP 1.9 Compatibility
