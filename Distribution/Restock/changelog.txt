@@ -1,6 +1,7 @@
-v1.1.0
+v1.1.1
 ------
 - Fixed Skipper UV issue inside bell
+- Fixed fix for radiator breakage not being included
 
 v1.1.0
 -----
