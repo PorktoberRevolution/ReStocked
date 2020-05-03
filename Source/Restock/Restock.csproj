@@ -55,6 +55,7 @@
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\MaterialModifierParser.cs" />
     <Compile Include="MaterialModifiers\TexturePropertyMaterialModifier.cs" />
+    <Compile Include="ModuleRestockDeployableMeshHider.cs" />
     <Compile Include="ModuleRestockLaunchClamp.cs" />
     <Compile Include="ModuleRestockLinkedMesh.cs" />
     <Compile Include="ModuleRestockDepthMask.cs" />
