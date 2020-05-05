@@ -1,3 +1,12 @@
+v1.2.0
+------
+- New Command parts
+ - SP-1 'Clementine' Reentry Module (Andrew Cassidy): 1-kerbal spherical command module with bare and green padded variants. Disabled if Making History is installed.
+ - SP-2 'Tangerine' Reentry Module (Andrew Cassidy): 1-kerbal spherical command module with bare and beige padded variants. Disabled if Making History is installed.
+ - SP-3 'Mandarin' Reentry Module (Andrew Cassidy): 1-kerbal spherical command module with bare and white padded variants. Disabled if Making History is installed.
+- New Coupling parts
+ - AL-1 'Lychee' Inflatable Docking Airlock (Andrew Cassidy): Inflatable airlock with integrated 0.625m docking port. Disabled if Making History is installed
+
 v1.1.1
 ------
 - Cherenkov running sound is now same as LV-N, not Spark
