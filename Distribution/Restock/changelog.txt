@@ -1,3 +1,13 @@
+v1.2.0
+------
+- New Making History part replacements
+ - Command
+  - KV-1 'Onion' Reentry Module (Andrew Cassidy): now has bare and green padded variants and a node for attaching the inflatable airlock.
+  - KV-2 'Pea' Reentry Module (Andrew Cassidy): now has bare and beige padded variants and a node for attaching the inflatable airlock.
+  - KV-3 'Pomegranate' Reentry Module (Andrew Cassidy): now has bare and white padded variants and a node for attaching the inflatable airlock.
+ - Coupling
+  - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods
+
 v1.1.1
 ------
 - Fixed Skipper UV issue inside bell
