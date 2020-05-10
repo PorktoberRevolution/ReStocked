@@ -1,3 +1,7 @@
+v1.1.2
+------
+- Fixed engine plate compatability with stock vessels by moving boattails to the end of the variant list
+
 v1.1.1
 ------
 - Fixed Skipper UV issue inside bell

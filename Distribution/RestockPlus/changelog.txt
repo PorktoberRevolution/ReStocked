@@ -1,3 +1,8 @@
+v1.1.2
+------
+- Fixed engine plate node sizes all being size 1
+- Fixed engine plates allowing crossfeed through their bottom node
+
 v1.1.1
 ------
 - Cherenkov running sound is now same as LV-N, not Spark
