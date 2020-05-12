@@ -49,11 +49,13 @@
     <Compile Include="Constraints\IConstraint.cs" />
     <Compile Include="Constraints\LookAtConstraint.cs" />
     <Compile Include="InstallChecker.cs" />
+    <Compile Include="LaunchClampGirderFactory.cs" />
     <Compile Include="MaterialModifiers\ColorPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\FloatPropertyMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\IMaterialModifier.cs" />
     <Compile Include="MaterialModifiers\MaterialModifierParser.cs" />
     <Compile Include="MaterialModifiers\TexturePropertyMaterialModifier.cs" />
+    <Compile Include="ModuleRestockDeployableMeshHider.cs" />
     <Compile Include="ModuleRestockLaunchClamp.cs" />
     <Compile Include="ModuleRestockLinkedMesh.cs" />
     <Compile Include="ModuleRestockDepthMask.cs" />
