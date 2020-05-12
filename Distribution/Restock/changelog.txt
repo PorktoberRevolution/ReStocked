@@ -1,3 +1,9 @@
+v1.2.0
+------
+- New stock part replacements
+ - Resources
+   -FTE-1 Drain Valve (Andrew Cassidy): now has metal and warning stripe variants
+
 v1.1.2
 ------
 - Fixed engine plate compatability with stock vessels by moving boattails to the end of the variant list
