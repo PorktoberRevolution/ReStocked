@@ -7,5 +7,8 @@ build-deploy/
 bin/
 obj/
 *.swp
+
+Distribution/Restock/GameData/ReStock/Spaces/**/*.png
+Distribution/Restock/GameData/ReStock/Props/**/*.png
 Distribution/RestockPlus/GameData/ReStockPlus/Props/**/*.png
 Distribution/RestockPlus/GameData/ReStockPlus/Spaces/**/*.png
