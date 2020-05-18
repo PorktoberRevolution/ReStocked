@@ -7,7 +7,7 @@ v1.2.0
   - KV-3 'Pomegranate' Reentry Module (Andrew Cassidy): now has bare and white padded variants and a node for attaching the inflatable airlock.
   - Mk2 Command Pod (Andrew Cassidy): Now has dark and white variants.
  - Coupling
-  - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods
+  - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods. Has a new IVA.
 
 v1.1.1
 ------
