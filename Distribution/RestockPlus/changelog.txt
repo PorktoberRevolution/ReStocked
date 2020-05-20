@@ -7,6 +7,9 @@ v1.2.0
  - Mk2 "Acorn" Command Pod (Andrew Cassidy): 2-kerbal conical command module with dark and white variants. Disabled if Making History is installed
 - New Coupling parts
  - AL-1 'Lychee' Inflatable Docking Airlock (Andrew Cassidy): Inflatable airlock with integrated 0.625m docking port. Disabled if Making History is installed. Has a new IVA.
+- New Structural Parts
+ - BZ-26 Radial Attachment Point Jr. (Andrew Cassidy): 0.625m radial attachment node
+ - BZ-78 Radial Attachment Point (Andrew Cassidy): 1.875m radial attachment node
 
 v1.1.2
 ------
