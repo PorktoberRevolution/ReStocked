@@ -1,5 +1,6 @@
 v1.1.2
 ------
+- Changed ModuleManager pass from [Restock] to [000_Restock]
 - Fixed engine plate compatability with stock vessels by moving boattails to the end of the variant list
 - Fixed engine plate negative masses when used in KSP 1.8.x by setting the part mass to the 1.9.x values. This comes at the expense of affecting part balance when used in 1.8.x.
 - Tuned 2.5m heatshield texture
