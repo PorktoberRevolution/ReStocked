@@ -1,0 +1,40 @@
+// Proposed format:
+//   #LOC_RestockPlus_partconfigname_fieldname
+// eg.
+//   #LOC_RestockPlus_restock-engine-375-3_title = ...
+//   #LOC_RestockPlus_restock-engine-375-3_description = ...
+
+Localization
+{
+  de-de
+  {
+    // ACTIONS AND BUTTONS
+    // ===================
+    
+    #LOC_RestockRigidLegs_extend = Ausfahren
+    #LOC_RestockRigidLegs_retract = Einfahren
+    #LOC_RestockRigidLegs_toggle = Umschalten
+    
+    // PHYSICS MATERIALS
+    // ===================
+    
+    #LOC_RestockRigidLegs_restock-low-grip = niedriger Griff
+    #LOC_RestockRigidLegs_restock-medium-grip = mittlerer Griff
+    #LOC_RestockRigidLegs_restock-high-grip = hoher Griff
+    #LOC_RestockRigidLegs_restock-extreme-grip = extremer Griff
+    
+    // LANDING LEGS
+    // ===================
+    
+    #LOC_RestockRigidLegs_restock-leg-1-rigid_title = LTR-05 Winzige Landungsbeine
+    #LOC_RestockRigidLegs_restock-leg-1-rigid_description = Nach der Frustration über die recycelten Pogo-Sticks, ähm, weltraumtauglichen Aufhängungen an den Standard-LT-05-Landestreben, entwickelten wir diese alternative Version, bei der das Bein fest eingeklebt ist!
+    
+    #LOC_RestockRigidLegs_restock-leg-2-rigid_title = LTR-1 Landungsbeine
+    #LOC_RestockRigidLegs_restock-leg-2-rigid_description = Dieses größere starre Landebein für mittelgroße Fahrzeuge eignet sich perfekt für hüpffreie Lander oder sogar kleine Oberflächenbasen.
+    
+    #LOC_RestockRigidLegs_restock-leg-3-rigid_title = LTR-2 Landungsbeine
+    #LOC_RestockRigidLegs_restock-leg-3-rigid_description = Obwohl es der LT-2-Landestrebe ähnlich zu sein scheint, handelt es sich tatsächlich um einen zweckentfremdeten Ausleger eines Mobilkrans, den unsere Ingenieure nebenan gefunden haben. Er wird wahrscheinlich nicht benötigt.
+    
+    #autoLOC_6011081 = Traktion
+  }
+}
