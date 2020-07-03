@@ -94,7 +94,15 @@ Squad/Parts/Resources/RadialTank/
 Squad/Parts/Resources/SmallTank/
 Squad/Parts/Resources/SurfaceScanner/
 Squad/Parts/Resources/SurveyScanner/
-Squad/Parts/Science/
+Squad/Parts/Science/AtmosphereSensor/
+Squad/Parts/Science/GooExperiment/
+Squad/Parts/Science/LargeCrewedLab/
+Squad/Parts/Science/MaterialBay/
+Squad/Parts/Science/ScienceBox/
+Squad/Parts/Science/sensorAccelerometer/
+Squad/Parts/Science/sensorBarometer/
+Squad/Parts/Science/sensorGravimeter/
+Squad/Parts/Science/sensorThermometer/
 Squad/Parts/Structural/FLAdapters/
 Squad/Parts/Structural/Size3To2Adapter_v2/
 Squad/Parts/Structural/stackAdapters/
