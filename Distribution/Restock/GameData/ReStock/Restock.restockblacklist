@@ -103,6 +103,7 @@ Squad/Parts/Science/sensorAccelerometer/
 Squad/Parts/Science/sensorBarometer/
 Squad/Parts/Science/sensorGravimeter/
 Squad/Parts/Science/sensorThermometer/
+Squad/Parts/Science/Magnetometer/
 Squad/Parts/Structural/FLAdapters/
 Squad/Parts/Structural/Size3To2Adapter_v2/
 Squad/Parts/Structural/stackAdapters/
