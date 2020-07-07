@@ -1,3 +1,7 @@
+v1.2.0
+------
+- Fixed duplicate drag cubes on reaction wheels.
+
 v1.1.2
 ------
 - Changed ModuleManager pass from [Restock] to [000_Restock]
