@@ -10,6 +10,8 @@ v1.2.0
 - New Structural Parts
  - BZ-26 Radial Attachment Point Jr. (Andrew Cassidy): 0.625m radial attachment node
  - BZ-78 Radial Attachment Point (Andrew Cassidy): 1.875m radial attachment node
+- Bugfixes and tweaks
+ - Advanced Grabbing Unit Junior renamed to Compact Grabbing Unit Jr. and assets moved to Restock base to be shared with stock Advanced Grabbing Unit Jr.
 
 v1.1.2
 ------
