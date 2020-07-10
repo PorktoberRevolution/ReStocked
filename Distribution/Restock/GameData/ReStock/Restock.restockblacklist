@@ -22,8 +22,8 @@ Squad/Parts/Command/mk1pod_v2/
 Squad/Parts/Command/mk2LanderCan_v2/
 Squad/Parts/Command/probeCoreCube/
 Squad/Parts/Command/probeCoreHex_v2/
-Squad/Parts/Command/probeCoreOcto_v2/
 Squad/Parts/Command/probeCoreOcto2_v2/
+Squad/Parts/Command/probeCoreOcto_v2/
 Squad/Parts/Command/probeRoverBody_v2/
 Squad/Parts/Command/probeStackLarge/
 Squad/Parts/Command/probeStackSmall/
@@ -68,6 +68,7 @@ Squad/Parts/Engine/solidBoosterS2-17/
 Squad/Parts/Engine/solidBoosterS2-33/
 Squad/Parts/Engine/solidBoosterSep/
 Squad/Parts/Engine/SolidBoostersF/Assets/
+Squad/Parts/FuelTank/drainTankFTE-1/
 Squad/Parts/FuelTank/FoilTanks/
 Squad/Parts/FuelTank/fuelTankOscarB/
 Squad/Parts/FuelTank/RCSFuelTankR1/
@@ -81,7 +82,6 @@ Squad/Parts/FuelTank/Size3Tanks/
 Squad/Parts/FuelTank/xenonTank/
 Squad/Parts/FuelTank/xenonTankLarge/
 Squad/Parts/FuelTank/xenonTankRadial/
-Squad/Parts/FuelTank/drainTankFTE-1/
 Squad/Parts/Misc/AsteroidDay/
 Squad/Parts/Resources/FuelCell/
 Squad/Parts/Resources/ISRU/
@@ -97,13 +97,13 @@ Squad/Parts/Resources/SurveyScanner/
 Squad/Parts/Science/AtmosphereSensor/
 Squad/Parts/Science/GooExperiment/
 Squad/Parts/Science/LargeCrewedLab/
+Squad/Parts/Science/Magnetometer/
 Squad/Parts/Science/MaterialBay/
 Squad/Parts/Science/ScienceBox/
 Squad/Parts/Science/sensorAccelerometer/
 Squad/Parts/Science/sensorBarometer/
 Squad/Parts/Science/sensorGravimeter/
 Squad/Parts/Science/sensorThermometer/
-Squad/Parts/Science/Magnetometer/
 Squad/Parts/Structural/FLAdapters/
 Squad/Parts/Structural/Size3To2Adapter_v2/
 Squad/Parts/Structural/stackAdapters/
@@ -145,8 +145,8 @@ Squad/Parts/Utility/linearVernorRCS/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
 Squad/Parts/Utility/parachuteMk16-XL/
-Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/parachuteMk2-R/
+Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/radialAttachmentPoint/
 Squad/Parts/Utility/rcsBlockRV-105/
 Squad/Parts/Utility/rcsBlockRV-105_v2/
@@ -154,6 +154,7 @@ Squad/Parts/Utility/RelayAntennas/
 Squad/Parts/Utility/rockomaxAdapters/
 Squad/Parts/Utility/ServiceBay/
 Squad/Parts/Utility/ServiceBay_v2/
+Squad/Parts/Utility/smallClaw/
 Squad/Parts/Utility/spotLightMk1/
 Squad/Parts/Utility/spotLightMk2/
 Squad/Parts/Utility/stackCouplers/
