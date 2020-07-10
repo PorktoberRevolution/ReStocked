@@ -19,6 +19,8 @@ v1.2.0
 - Bugfixes and tweaks
  - New White and White (compact) variants for EAS-4 Strut Connector
  - New White and Blue variants for the FTX-2 External Fuel Duct
+ - New White, Black, and Yellow variants for the Advanced Grabbing Unit
+ - Fixed missing pivot collider on Advanced Grabbing Unit
 
 v1.1.2
 ------
