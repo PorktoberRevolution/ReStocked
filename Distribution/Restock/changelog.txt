@@ -1,5 +1,6 @@
 v1.2.0
 ------
+- KSP 1.10.1
 - New stock part replacements
  - Resources
    -FTE-1 Drain Valve (Andrew Cassidy): now has metal and warning stripe variants
@@ -11,6 +12,10 @@ v1.2.0
   - Mk2 Command Pod (Andrew Cassidy): Now has dark and white variants.
  - Coupling
   - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods. Has a new IVA.
+- Updates to support KSP 1.10.0 parts:
+ - Kickback now supports a new White variant with slightly different geometry and more... white
+ - Poodle now supports a new Single Bell variant, which replaces the new Squad variant, and a Single Bell Compact variant, which is new
+ - Decouplers now support a Classic variant
 
 v1.1.2
 ------
