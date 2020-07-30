@@ -12,10 +12,13 @@ v1.2.0
   - Mk2 Command Pod (Andrew Cassidy): Now has dark and white variants.
  - Coupling
   - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods. Has a new IVA.
-- Updates to support KSP 1.10.0 parts:
+- Updates to support KSP 1.10.x part changes:
  - Kickback now supports a new White variant with slightly different geometry and more... white
+ - 2.5m tanks now support new White and ESA variants
+ - Retextured and tuned Poodle model
  - Poodle now supports a new Single Bell variant, which replaces the new Squad variant, and a Single Bell Compact variant, which is new
- - Decouplers now support a Classic variant
+ - Decouplers now support a Classic variant (replaces stock White/Yellow variant)
+ - Separators now support a Classic variant (replaces stock White/Yellow variant)
 
 v1.1.2
 ------
