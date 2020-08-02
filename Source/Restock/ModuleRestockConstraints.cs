@@ -35,11 +35,6 @@ namespace Restock
                     case "COPYROTATIONCONSTRAINT":
                         constraints.Add(new CopyRotationConstraint(cnode, this.part));
                         break;
-
-                    //Unknown
-                    default:
-                        this.LogError($"Unknown constraint type \"{cnode.name}\"");
-                        break;
                 }
             }
 
@@ -52,13 +47,12 @@ namespace Restock
             {
                 if (constraints == null || constraints.Count == 0)
                 {
-                    ConfigNode cfg;
                     foreach (UrlDir.UrlConfig pNode in GameDatabase.Instance.GetConfigs("PART"))
                     {
                         if (pNode.name.Replace("_", ".") == part.partInfo.name)
                         {
-                            cfg = pNode.config;
-                            ConfigNode node = cfg.GetNodes("MODULE").Single(n => n.GetValue("name") == moduleName);
+                            var cfg = pNode.config;
+                            var node = cfg.GetNodes("MODULE").Single(n => n.GetValue("name") == moduleName);
                             OnLoad(node);
                         }
                     }
@@ -66,7 +60,7 @@ namespace Restock
             }
         }
 
-        void LateUpdate()
+        private void LateUpdate()
         {
             if (constraints == null) return;
             
