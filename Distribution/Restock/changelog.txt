@@ -19,7 +19,11 @@ v1.2.0
  - Poodle now supports a new Single Bell variant, which replaces the new Squad variant, and a Single Bell Compact variant, which is new
  - Decouplers now support a Classic variant (replaces stock White/Yellow variant)
  - Separators now support a Classic variant (replaces stock White/Yellow variant)
-- Fixed duplicate drag cubes on reaction wheels.
+- Fixes:
+ - Fixed duplicate drag cubes on reaction wheels.
+ - Rebuilt colliders for the following parts: QBE, HECS, HECS2, OKTO, OKTO2 (#862, #865)
+ - Fixed smoothing issues on Jumbo-64 tank (#867)
+ - Tuned probe core foil textures somewhat
 
 v1.1.2
 ------
