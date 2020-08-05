@@ -2,13 +2,17 @@ v1.2.0
 ------
 - KSP 1.10.1
 - New stock part replacements
+ - Coupling
+  - Advanced Grabbing Unit Jr. (Andrew Cassidy): now has black, yellow, and white variants
  - Resources
-   -FTE-1 Drain Valve (Andrew Cassidy): now has metal and warning stripe variants
+  - FTE-1 Drain Valve (Andrew Cassidy): now has metal and warning stripe variants
+ - Science
+  - Magnetometer Boom (Andrew Cassidy)
 - New Making History part replacements
  - Command
-  - KV-1 'Onion' Reentry Module (Andrew Cassidy): now has bare and green padded variants and a node for attaching the inflatable airlock.
-  - KV-2 'Pea' Reentry Module (Andrew Cassidy): now has bare and beige padded variants and a node for attaching the inflatable airlock.
-  - KV-3 'Pomegranate' Reentry Module (Andrew Cassidy): now has bare and white padded variants and a node for attaching the inflatable airlock.
+  - KV-1 'Onion' Reentry Module (Well): now has bare and green padded variants and a node for attaching the inflatable airlock.
+  - KV-2 'Pea' Reentry Module (Well): now has bare and beige padded variants and a node for attaching the inflatable airlock.
+  - KV-3 'Pomegranate' Reentry Module (Well): now has bare and white padded variants and a node for attaching the inflatable airlock.
   - Mk2 Command Pod (Andrew Cassidy): Now has dark and white variants.
  - Coupling
   - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods. Has a new IVA.
@@ -19,11 +23,15 @@ v1.2.0
  - Poodle now supports a new Single Bell variant, which replaces the new Squad variant, and a Single Bell Compact variant, which is new
  - Decouplers now support a Classic variant (replaces stock White/Yellow variant)
  - Separators now support a Classic variant (replaces stock White/Yellow variant)
+ - EAS-4 Strut Connector now supports new White and White (compact) variants
+ - FTX-2 External Fuel Duct now supports new White variant, plus an additional Delta Blue variant.
+ - Advanced Grabbing Unit Jr. now supports new White, Black, and Yellow variants
 - Fixes:
  - Fixed duplicate drag cubes on reaction wheels.
  - Rebuilt colliders for the following parts: QBE, HECS, HECS2, OKTO, OKTO2 (#862, #865)
  - Fixed smoothing issues on Jumbo-64 tank (#867)
  - Tuned probe core foil textures somewhat
+ - Fixed missing pivot collider on Advanced Grabbing Unit
 
 v1.1.2
 ------
