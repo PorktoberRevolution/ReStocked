@@ -12,6 +12,7 @@ v1.2.0
  - BZ-78 Radial Attachment Point (Andrew Cassidy): 1.875m radial attachment node
 - Bugfixes and tweaks
  - Advanced Grabbing Unit Jr. has been soft-deprecated and its assets moved into base ReStock
+ - Adjusted colliders on 3.75m Drone Core
 
 v1.1.2
 ------

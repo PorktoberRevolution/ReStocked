@@ -28,7 +28,9 @@ v1.2.0
  - Advanced Grabbing Unit Jr. now supports new White, Black, and Yellow variants
 - Fixes:
  - Fixed duplicate drag cubes on reaction wheels.
- - Rebuilt colliders for the following parts: QBE, HECS, HECS2, OKTO, OKTO2 (#862, #865)
+ - Rebuilt colliders for the following parts: QBE, HECS, HECS2, OKTO, OKTO2, Twin Boar (#862, #865)
+ - Fixed smoothing issues on Twin Boar
+ - Fixed flag transform on Twin Boar
  - Fixed smoothing issues on Jumbo-64 tank (#867)
  - Tuned probe core foil textures somewhat
  - Fixed missing pivot collider on Advanced Grabbing Unit
