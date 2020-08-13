@@ -16,6 +16,9 @@ v1.2.0
   - Mk2 Command Pod (Andrew Cassidy): Now has dark and white variants.
  - Coupling
   - Inflatable Airlock (Andrew Cassidy): now has built in decoupler and optional ring to connect seamlessly with KV-series pods. Has a new IVA.
+ - Payload
+  - SM-18 Service Module (Well): Now has shelved and open variants.
+  - SM-6A Service Module (Well): Now has crew-tube and open variants.
 - Updates to support KSP 1.10.x part changes:
  - Kickback now supports a new White variant with slightly different geometry and more... white
  - 2.5m tanks now support new White and ESA variants
