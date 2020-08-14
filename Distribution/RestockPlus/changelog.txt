@@ -16,6 +16,7 @@ v1.2.0
 - Bugfixes and tweaks
  - Advanced Grabbing Unit Jr. has been soft-deprecated and its assets moved into base ReStock
  - Adjusted colliders on 3.75m Drone Core
+ - Added Making History Pollux SRB to SRB gimbal patch
 
 v1.1.2
 ------
