@@ -17,6 +17,8 @@ v1.2.0
  - Advanced Grabbing Unit Jr. has been soft-deprecated and its assets moved into base ReStock
  - Adjusted colliders on 3.75m Drone Core
  - Added Making History Pollux SRB to SRB gimbal patch
+ - 3.75 and 1.875m Decouplers now support a Classic variant (replaces stock White/Yellow variant)
+ - 3.75 and 1.875m Separators now support a Classic variant (replaces stock White/Yellow variant)
 
 v1.1.2
 ------
