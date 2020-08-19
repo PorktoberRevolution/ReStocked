@@ -30,7 +30,9 @@ v1.2.0
  - FTX-2 External Fuel Duct now supports new White variant, plus an additional Delta Blue variant.
  - Advanced Grabbing Unit Jr. now supports new White, Black, and Yellow variants
  - Added Dark variant for basic winglets
+ - Added Gold/Silver/Metal variants to selection of fairings
 - Fixes:
+ - Resolved issue with fairing creation brought up by the KSP 1.10.0 update.
  - Fixed duplicate drag cubes on reaction wheels.
  - Rebuilt colliders for the following parts: QBE, HECS, HECS2, OKTO, OKTO2, Twin Boar (#862, #865)
  - Fixed smoothing issues on Twin Boar
