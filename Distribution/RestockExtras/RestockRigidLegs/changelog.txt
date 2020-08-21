@@ -1,0 +1,7 @@
+v1.2.0
+------
+- Fixed rigid landing legs deploying immediately
+
+v1.0.0
+-----
+- Initial Release

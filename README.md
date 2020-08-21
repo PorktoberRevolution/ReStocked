@@ -51,6 +51,8 @@ If you are interested in contributing artistically to the revamp, please contact
         * **Localization:** new localization data
         * **Patches:** ModuleManager patches to enable art replacements
         * **PatchesMH:** ModuleManager patches to enable art replacements for Making History
+        * **Props**: IVA props
+        * **Spaces**: IVA configs and assets
   * RestockPlus
     * readme.txt
     * changelog.txt
@@ -62,3 +64,4 @@ If you are interested in contributing artistically to the revamp, please contact
         * **Localization**: new localization data
         * **Parts**: config files for new parts
         * **Patches**: ModuleManager patches that change parts
+        * **Spaces**: IVA configs and assets

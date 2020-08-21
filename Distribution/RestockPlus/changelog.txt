@@ -1,3 +1,25 @@
+v1.2.0
+------
+- New Command parts
+ - SP-1 'Clementine' Reentry Module (Well): 1-kerbal spherical command module with bare and green padded variants. Disabled if Making History is installed.
+ - SP-2 'Tangerine' Reentry Module (Well): 2-kerbal spherical command module with bare and beige padded variants. Disabled if Making History is installed.
+ - SP-3 'Mandarin' Reentry Module (Well): 3-kerbal spherical command module with bare and white padded variants. Disabled if Making History is installed.
+ - Mk2 "Acorn" Command Pod (Andrew Cassidy): 2-kerbal conical command module with dark and white variants. Disabled if Making History is installed
+- New Coupling parts
+ - AL-1 'Lychee' Inflatable Docking Airlock (Andrew Cassidy): Inflatable airlock with integrated 0.625m docking port. Disabled if Making History is installed. Has a new IVA.
+- New Payload Parts
+ - 1.25m to 0.625m Service Module (Well): Conical 1.25m service module with open and crew-tunnel variants. Disabled if Making History is installed.
+ - 1.875m Service Module (Well): 1.875m service module with shelved and open variants. Disabled if Making History is installed.
+- New Structural Parts
+ - BZ-26 Radial Attachment Point Jr. (Andrew Cassidy): 0.625m radial attachment node
+ - BZ-78 Radial Attachment Point (Andrew Cassidy): 1.875m radial attachment node
+- Bugfixes and tweaks
+ - Advanced Grabbing Unit Jr. has been soft-deprecated and its assets moved into base ReStock
+ - Adjusted colliders on 3.75m Drone Core
+ - Added Making History Pollux SRB to SRB gimbal patch
+ - 3.75 and 1.875m Decouplers now support a Classic variant (replaces stock White/Yellow variant)
+ - 3.75 and 1.875m Separators now support a Classic variant (replaces stock White/Yellow variant)
+
 v1.1.2
 ------
 - Fixed engine plate node sizes all being size 1
