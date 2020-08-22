@@ -1,3 +1,7 @@
+v1.2.1
+------
+- Updated French localization (vinix38)
+
 v1.2.0
 ------
 - KSP 1.10.1
