@@ -1,6 +1,7 @@
 v1.2.1
 ------
 - Revised all three Spherical Command Module part configs to fall in-line with capability of Making History parts.
+- Fix Anvil, Boar and Torch engine's Isp curves to go towards 0 Isp at high ambient pressures.
 
 v1.2.0
 ------
