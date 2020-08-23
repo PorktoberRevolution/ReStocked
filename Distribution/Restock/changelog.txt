@@ -1,6 +1,7 @@
 v1.2.1
 ------
 - Updated French localization (vinix38)
+- Updated Single Bell, Orange/Grey, Compact "Poodle" variant to resolve top node issue.
 
 v1.2.0
 ------

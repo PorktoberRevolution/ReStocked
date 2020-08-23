@@ -1,5 +1,6 @@
 v1.2.1
 ------
+- Revised all three Spherical Command Module part configs to fall in-line with capability of Making History parts.
 
 v1.2.0
 ------
