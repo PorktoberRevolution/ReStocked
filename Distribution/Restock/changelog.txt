@@ -1,5 +1,6 @@
 v1.2.1
 ------
+- Fix model/texture issues with Fairing bases and Interstage trusses.
 - Updated Chinese localization (Duck1998)
 - Updated French localization (vinix38)
 - Updated Single Bell, Orange/Grey, Compact "Poodle" variant to resolve top node issue.
