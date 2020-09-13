@@ -1,3 +1,7 @@
+v1.2.2
+------
+- Updated French localization (vinix38)
+
 v1.2.1
 ------
 - Fix model/texture issues with 1.875m Fairing base and Interstage truss.
