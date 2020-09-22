@@ -1,3 +1,8 @@
+v1.3.0
+------
+- New Engine parts
+ - Launch Escape System Jr. (Andrew Cassidy): 0.625m Escape Tower with white and red/black variants.
+
 v1.2.2
 ------
 - Updated French localization (vinix38)
