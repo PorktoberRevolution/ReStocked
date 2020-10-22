@@ -1,0 +1,3 @@
+[submodule "Assets/CineboxAndrew"]
+	path = Assets/CineboxAndrew
+	url = git@pileof.rocks:drewcassidy/Restock-Assets.git
