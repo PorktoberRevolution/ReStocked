@@ -1,3 +1,7 @@
+v1.2.2
+------
+- Added Japanese and Russian translation to ReStock base via crude online translation.
+
 v1.2.1
 ------
 - Fix model/texture issues with Fairing bases and Interstage trusses.
