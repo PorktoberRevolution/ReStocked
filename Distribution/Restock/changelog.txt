@@ -1,3 +1,9 @@
+v1.3.0
+------
+- KSP 1.11.0
+- Updates to support KSP 1.11.x part changes:
+ - Rotated the HG-5 antenna model to match stock
+
 v1.2.1
 ------
 - Fix model/texture issues with Fairing bases and Interstage trusses.
