@@ -2,6 +2,8 @@ v1.3.0
 ------
 - New Engine parts
  - Launch Escape System Jr. (Andrew Cassidy): 0.625m Escape Tower with white and red/black variants.
+- Bugfixes and tweaks
+ - Added a new version of the HG-20 High Gain Antenna matching the orientation of the stock HG-5. The old version has been soft-deprecated.
 
 v1.2.2
 ------
