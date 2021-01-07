@@ -82,6 +82,8 @@ This mod primarily uses vanilla-provided localization, but for additional string
 - Brazilian Portuguese (AluisioASG)
 - Spanish (Niako)
 - Simplified Chinese (Duck1998)
+- Russian (Fedor-St)
+- Japanese (Chemical-Factory)
 
 =========
 LICENSING

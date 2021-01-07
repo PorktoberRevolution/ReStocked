@@ -2,6 +2,7 @@ v1.3.0
 ------
 - KSP 1.11
 - Removed Light Adjustement patch, replaced with new stock functionality as part of base Restock
+- Updated French localization (vinix38)
 
 v1.2.1
 ------
