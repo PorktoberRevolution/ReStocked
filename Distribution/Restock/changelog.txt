@@ -1,3 +1,20 @@
+v1.3.0
+------
+- 1.11.0
+- New stock part replacements
+ - Lights
+  - Spotlight Mk1 (Nertea): now has a Metal variant
+  - Domelight Mk1 (Nertea): now has a Metal variant
+  - LightStrip Mk1 (Nertea): now has a Metal variant
+  - Navigation Light Mk1 (Nertea): now has a Metal variant
+  - Work Lamp - small (Nertea)
+  - Work Lamp - Stand (Nertea)
+- Updates and fixes
+ - Updated old Mk1, Mk2 Illuminator models to use reflectivity on their lenses
+ - Added White variant to Mk1, Mk2 Illuminators
+ - Updated Russian localization (Fedor-St)
+ - Updated Japanese localization (Chemical-Factory) 
+
 v1.2.1
 ------
 - Fix model/texture issues with Fairing bases and Interstage trusses.

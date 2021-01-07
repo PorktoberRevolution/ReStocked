@@ -1,3 +1,8 @@
+v1.3.0
+------
+- KSP 1.11
+- Removed Light Adjustement patch, replaced with new stock functionality as part of base Restock
+
 v1.2.1
 ------
 - Fix model/texture issues with 1.875m Fairing base and Interstage truss.
