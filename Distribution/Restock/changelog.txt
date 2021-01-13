@@ -14,6 +14,7 @@ v1.3.0
   - RV-1X RCS Block (Nertea): ported RCS models from Restock+ to support new model
   - PlaceAnywhere 1 Linear RCS thruster (Nertea): ported RCS model from Restock+
 - Updates and fixes
+ - Rotated the HG-5 antenna model to match stock
  - Updated old Mk1, Mk2 Illuminator models to use reflectivity on their lenses
  - Added White variant to Mk1, Mk2 Illuminators
  - Added RCS nozzle glows to improve RCS effects

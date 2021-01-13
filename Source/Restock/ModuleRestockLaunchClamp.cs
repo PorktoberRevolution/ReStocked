@@ -22,6 +22,7 @@ namespace Restock
         public LaunchClampGirderFactory girderFactory;
 
         private int _girderSegments;
+        private Quaternion towerRot;
 
         private Material _girderMaterial;
         private Matrix4x4[] _girderMatrices;
@@ -63,10 +64,26 @@ namespace Restock
                     girderFactory.Initialize(girderMesh, girderSegmentHeight, maxSegments);
                 }
             }
+
+            if (node.HasValue ("towerRot"))
+            {
+                string rot = node.GetValue ("towerRot");
+                towerRot = KSPUtil.ParseQuaternion (rot);
+            }
             
             _girderSegments = 1;
 
             base.OnLoad(node);
+        }
+
+        public void RotateTower ()
+        {
+            // transforms found in OnLoad
+            float height = Vector3.Distance (towerAnchor.position, towerStretch.position);
+            //Debug.Log($"[ModuleRestockLaunchClamp] RotateTower: {height} {towerRot}");
+            towerPivot.localRotation = towerRot;
+            towerAnchor.localRotation = towerRot;
+            towerAnchor.position = towerStretch.position - towerStretch.up * height;
         }
 
         public override void OnStart(StartState state)
