@@ -1,8 +1,12 @@
 v1.3.0
 ------
 - KSP 1.11
-- Removed Light Adjustement patch, replaced with new stock functionality as part of base Restock
 - Updated French localization (vinix38)
+- Removed Light Adjustement patch, replaced with new stock functionality as part of base Restock
+- Soft-deprecated all various RV-series and RC-series RCS blocks
+- New RCS parts:
+ - RV-105-A RCS Thruster Block : RCS block with 45 degree canted nozzles, available in 5x, 4x, 3x, 2x variants
+ - RV-1X-A RCS Thruster Block : Micro RCS block with 45 degree canted nozzles, available in 5x, 4x, 3x, 2x variants
 
 v1.2.1
 ------
