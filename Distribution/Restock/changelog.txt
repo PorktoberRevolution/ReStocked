@@ -20,6 +20,7 @@ v1.3.0
  - Added RCS nozzle glows to improve RCS effects
  - Updated Russian localization (Fedor-St)
  - Updated Japanese localization (Chemical-Factory) 
+ - Updated twin boar replacement to target "new" Squad model
 
 v1.2.1
 ------
