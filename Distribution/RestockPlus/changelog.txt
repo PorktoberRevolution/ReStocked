@@ -3,10 +3,13 @@ v1.3.0
 - KSP 1.11
 - Updated French localization (vinix38)
 - Removed Light Adjustement patch, replaced with new stock functionality as part of base Restock
+- Added a new version of the HG-20 High Gain Antenna matching the orientation of the stock HG-5. The old version has been soft-deprecated.
 - Soft-deprecated all various RV-series and RC-series RCS blocks
 - New RCS parts:
  - RV-105-A RCS Thruster Block : RCS block with 45 degree canted nozzles, available in 5x, 4x, 3x, 2x variants
  - RV-1X-A RCS Thruster Block : Micro RCS block with 45 degree canted nozzles, available in 5x, 4x, 3x, 2x variants
+- New Engine parts:
+ - Launch Escape System Jr. (Andrew Cassidy): 0.625m Escape Tower with white and red/black variants.
 
 v1.2.1
 ------
