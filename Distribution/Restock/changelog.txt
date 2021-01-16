@@ -17,6 +17,7 @@ v1.3.0
  - Rotated the HG-5 antenna model to match stock
  - Updated old Mk1, Mk2 Illuminator models to use reflectivity on their lenses
  - Added White variant to Mk1, Mk2 Illuminators
+ - Updated claw lamps with lens reflectivity and light cookies.
  - Added RCS nozzle glows to improve RCS effects
  - Updated Russian localization (Fedor-St)
  - Updated Japanese localization (Chemical-Factory) 
