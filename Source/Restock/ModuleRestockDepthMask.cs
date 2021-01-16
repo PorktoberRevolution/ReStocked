@@ -44,12 +44,14 @@ namespace Restock
             // the part variant system is implemented extremely stupidly
             // so we have to make this whole module more complicated as a result
             GameEvents.onVariantApplied.Add(OnVariantApplied);
+            GameEvents.onPartRepaired.Add(OnPartRepaired);
         }
 
 
         private void OnDestroy()
         {
             GameEvents.onVariantApplied.Remove(OnVariantApplied);
+            GameEvents.onPartRepaired.Remove(OnPartRepaired);
         }
 
 
@@ -93,6 +95,12 @@ namespace Restock
         {
             // I dont know why changing part variants resets all the materials to their as-loaded state, but it does
             if (appliedPart == this.part) UpdateAllMaterials();
+        }
+
+        public void OnPartRepaired(Part repairedPart) 
+        {
+            // Part repair resets part of the mesh from the prefab, so it needs to be reapplied
+            if (repairedPart == this.part) UpdateAllMaterials();
         }
 
 
