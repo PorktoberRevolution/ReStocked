@@ -142,6 +142,7 @@ Squad/Parts/Utility/landingLegLT-2/
 Squad/Parts/Utility/landingLegLT-5/
 Squad/Parts/Utility/launchClamp1/
 Squad/Parts/Utility/launchEscapeSystem/
+Squad/Parts/Utility/Lights/
 Squad/Parts/Utility/linearVernorRCS/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
@@ -150,12 +151,15 @@ Squad/Parts/Utility/parachuteMk2-R/
 Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/radialAttachmentPoint/
 Squad/Parts/Utility/rcsBlockRV-105/
+Squad/Parts/Utility/rcsBlockRV-105_v2/
 Squad/Parts/Utility/rcsSmallLinear/
 Squad/Parts/Utility/RelayAntennas/
 Squad/Parts/Utility/rockomaxAdapters/
 Squad/Parts/Utility/ServiceBay/
 Squad/Parts/Utility/ServiceBay_v2/
 Squad/Parts/Utility/smallClaw/
+Squad/Parts/Utility/spotLightMk1/
+Squad/Parts/Utility/spotLightMk2/
 Squad/Parts/Utility/stackCouplers/
 Squad/Parts/Wheel/roverWheelM1/
 Squad/Parts/Wheel/roverWheelS2/
