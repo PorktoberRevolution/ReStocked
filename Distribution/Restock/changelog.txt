@@ -1,3 +1,31 @@
+v1.3.0
+------
+- 1.11.0
+- New stock part replacements
+ - Lights
+  - Spotlight Mk1 (Nertea): now has a Metal variant
+  - Domelight Mk1 (Nertea): now has a Metal variant
+  - LightStrip Mk1 (Nertea): now has a Metal variant
+  - Navigation Light Mk1 (Nertea): now has a Metal variant
+  - Work Lamp - small (Nertea)
+  - Work Lamp - Stand (Nertea)
+ - RCS
+  - RV-105 RCS Block (Nertea): ported RCS models from Restock+ to support new variants
+  - RV-1X RCS Block (Nertea): ported RCS models from Restock+ to support new model
+  - PlaceAnywhere 1 Linear RCS thruster (Nertea): ported RCS model from Restock+
+- Updates and fixes
+ - Rotated the HG-5 antenna model to match stock
+ - Updated old Mk1, Mk2 Illuminator models to use reflectivity on their lenses
+ - Added White variant to Mk1, Mk2 Illuminators
+ - Updated claw lamps with lens reflectivity and light cookies
+ - Added RCS nozzle glows to improve RCS effects
+ - Updated small solar panel parts to allow them to be repaired
+ - Updated Russian localization (Fedor-St)
+ - Updated Japanese localization (Chemical-Factory) 
+ - Updated twin boar replacement to target "new" Squad model
+ - Fixed bottom of 2.5m RCS Tank collider mesh
+ - Added procedural drag cube use back to all engine plates to mimic Stock behaviour
+
 v1.2.1
 ------
 - Fix model/texture issues with Fairing bases and Interstage trusses.

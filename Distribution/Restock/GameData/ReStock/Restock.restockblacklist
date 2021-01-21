@@ -61,6 +61,7 @@ Squad/Parts/Engine/OMSEngine/
 Squad/Parts/Engine/rapierEngine/
 Squad/Parts/Engine/Size1_SRBs/
 Squad/Parts/Engine/Size2LFB/
+Squad/Parts/Engine/Size2LFB_v2/
 Squad/Parts/Engine/Size3AdvancedEngine/
 Squad/Parts/Engine/Size3EngineCluster/
 Squad/Parts/Engine/solidBoosterBACC/
@@ -141,6 +142,7 @@ Squad/Parts/Utility/landingLegLT-2/
 Squad/Parts/Utility/landingLegLT-5/
 Squad/Parts/Utility/launchClamp1/
 Squad/Parts/Utility/launchEscapeSystem/
+Squad/Parts/Utility/Lights/
 Squad/Parts/Utility/linearVernorRCS/
 Squad/Parts/Utility/parachuteMk1/
 Squad/Parts/Utility/parachuteMk12-R/
@@ -150,6 +152,7 @@ Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/radialAttachmentPoint/
 Squad/Parts/Utility/rcsBlockRV-105/
 Squad/Parts/Utility/rcsBlockRV-105_v2/
+Squad/Parts/Utility/rcsSmallLinear/
 Squad/Parts/Utility/RelayAntennas/
 Squad/Parts/Utility/rockomaxAdapters/
 Squad/Parts/Utility/ServiceBay/

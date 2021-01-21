@@ -1,5 +1,5 @@
 =============
-RESTOCK 1.2.0
+RESTOCK 1.3.0
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the canceled Part Overhaul project by Porkjet.
@@ -13,7 +13,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (4.1.3)
+- ModuleManager (4.1.4)
 
 =======
 CREDITS
@@ -50,7 +50,7 @@ To install, drag the ReStock folder and ModuleManager DLL from the GameData fold
             - Assets
             - Patches
             - etc.
-        - ModuleManager.4.1.3.dll
+        - ModuleManager.4.1.4.dll
 
 ===============
 ASSET BLACKLIST
@@ -82,6 +82,8 @@ This mod primarily uses vanilla-provided localization, but for additional string
 - Brazilian Portuguese (AluisioASG)
 - Spanish (Niako)
 - Simplified Chinese (Duck1998)
+- Russian (Fedor-St)
+- Japanese (Chemical-Factory)
 
 =========
 LICENSING
