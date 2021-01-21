@@ -23,6 +23,7 @@ v1.3.0
  - Updated Russian localization (Fedor-St)
  - Updated Japanese localization (Chemical-Factory) 
  - Updated twin boar replacement to target "new" Squad model
+ - Fixed bottom of 2.5m RCS Tank collider mesh
 
 v1.2.1
 ------

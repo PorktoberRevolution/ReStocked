@@ -21,8 +21,8 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (1.2.0)
-- ModuleManager (4.1.3)
+- Restock (1.3.0)
+- ModuleManager (4.1.4)
 
 =============
 CREDITS
@@ -59,7 +59,7 @@ To install, drag the ReStockPlus folder from the GameData folder you downloaded 
             - Assets
             - Parts
             - etc.
-        - ModuleManager.4.1.3.dll
+        - ModuleManager.4.1.4.dll
 
 
 ============
@@ -72,6 +72,9 @@ This mod provides localization support for the following languages:
 - Brazilian Portuguese (AluisioASG)
 - Spanish (Niako)
 - Simplified Chinese (Duck1998)
+- French (vinix38)
+- Japanese (Chemical-Factory)
+- Russian (Fedor-St)
 
 =========
 LICENSING
