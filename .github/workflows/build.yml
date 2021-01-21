@@ -1,0 +1,45 @@
+name: Release Checks
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build-package:
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      OAUTH_TOKEN: ${{ secrets.OAUTH_TOKEN }}
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checkout this repo
+    - uses: actions/checkout@v2
+    # Checkout another repo
+    - uses: actions/checkout@v2
+      with:
+        # Repository name with owner.
+        repository: 'post-kerbin-mining-corporation/build-deploy'
+        # branch
+        ref: 'actions'
+        path: 'build-deploy'
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8' 
+        architecture: 'x64' 
+    - name: Installing dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest awscli boto3 requests
+    #- name: Running deploy tests
+    #  run: pytest -s --testpath "GameData/" build-deploy/src/tests/  # run the deploy tests
+    - name: Building Restock package
+      run: python build-deploy/src/package.py --f "Distribution/Restock/.mod_data.yml"
+    - name: Building Restock+ package
+    run: python build-deploy/src/package.py --f "Distribution/Restock/.mod_data.yml"
