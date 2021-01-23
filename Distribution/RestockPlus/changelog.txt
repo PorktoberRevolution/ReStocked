@@ -1,3 +1,8 @@
+v1.3.1
+------
+- Updated French localization  (vinix38)
+- Fixed compatability marked for 1.10.1, it isn't, really
+
 v1.3.0
 ------
 - KSP 1.11
