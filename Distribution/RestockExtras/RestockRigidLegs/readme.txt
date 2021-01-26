@@ -10,7 +10,7 @@ DEPENDENCIES
 
 Required:
 - Restock (1.2.0)
-- ModuleManager (4.1.3)
+- ModuleManager (4.1.4)
 
 ============
 INSTALLATION
@@ -28,7 +28,7 @@ To install, drag the RestockRigidLegs folder and ModuleManager DLL from the Game
             - Parts
             - Resources
             - etc.
-        - ModuleManager.4.1.3.dll
+        - ModuleManager.4.1.4.dll
 
 ============
 LOCALIZATION
