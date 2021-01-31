@@ -4,6 +4,7 @@ v1.3.1
 - Fixed compatability marked for 1.10.1, it isn't, really
 - Change DXT5 textures to DXT1 where an alpha channel was unnecessary
 - Fixed RV-1X-A thrust power
+- Fixed RV-105-A depth mask
 
 v1.3.0
 ------
