@@ -43,7 +43,7 @@ jobs:
       run: python build-deploy/src/package.py --f "Distribution/RestockPlus/.mod_data.yml"  
     - name: Staging package
       run: python build-deploy/src/stage.py --f "Distribution/Restock/.mod_data.yml" # Run the staging script
-      name: Deploying Restock
+    - name: Deploying Restock
       run: python build-deploy/src/deploy.py --f "Distribution/Restock/.mod_data.yml" # Deploy package to spacedock, curse, github
     - name: Deploying RestockPlus
       run: python build-deploy/src/deploy.py --f "Distribution/RestockPlus/.mod_data.yml" # Deploy package to spacedock, curse, github

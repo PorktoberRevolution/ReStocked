@@ -1,3 +1,7 @@
+v1.3.2
+------
+- Fixed drag cubes (and occlusion) for 1.875m heatshield (#923)
+
 v1.3.1
 ------
 - Updated French localization  (vinix38)
