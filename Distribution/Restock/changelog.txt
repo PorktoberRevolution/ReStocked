@@ -1,3 +1,9 @@
+v1.3.2
+------
+- Fixed collider location inconsistency with stock for 1.25m heatshield (#914)
+- Fixed drag cubes (and occlusion) for 1.875m heatshield (#923)
+- Added new FX transform nodes for Poodle
+
 v1.3.1
 ------
 - Fixed small linear RCS collider
