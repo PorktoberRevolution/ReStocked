@@ -1,6 +1,7 @@
 v1.3.2
 ------
 - Fixed drag cubes (and occlusion) for 1.875m heatshield (#923)
+- Fixed SRB gimbal patch not functioning correctly on MH Pollux (#951)
 
 v1.3.1
 ------
