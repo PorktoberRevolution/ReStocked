@@ -1,3 +1,7 @@
+v1.3.3
+------
+- Fixed smoke emission point on single Boar engine
+
 v1.3.2
 ------
 - Fixed drag cubes (and occlusion) for 1.875m heatshield (#923)
