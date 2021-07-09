@@ -1,7 +1,6 @@
 v1.4.0
 ------
 - KSP 1.12
-- Updated docking ports to be able to rotate, includes a few texture touchups
 
 v1.3.3
 ------
