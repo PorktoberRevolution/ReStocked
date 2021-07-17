@@ -8,8 +8,7 @@ v1.4.0
   - OX-10L Photovoltaic Panels (Beale)
   - SP-10L Photovoltaic Panels (Beale)
 - Adapted docking port models for new 1.12 rotational functionality
-- Adapter new collider for 2.5m nosecone replacement
-- Texture updates for 3.75m docking port
+- Adapted new stock collider for 2.5m nosecone replacement
 - Texture updates for Gigantor
 
 v1.3.3

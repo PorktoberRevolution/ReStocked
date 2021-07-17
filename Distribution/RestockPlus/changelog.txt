@@ -1,6 +1,8 @@
 v1.4.0
 ------
 - KSP 1.12
+- Added rotational docking port feature to 3.75m docking port
+- Texture updates for 3.75m docking port
 
 v1.3.3
 ------
