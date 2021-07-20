@@ -1,3 +1,7 @@
+v1.4.1
+------
+- Fixed Sr docking port shader
+
 v1.4.0
 ------
 - KSP 1.12
