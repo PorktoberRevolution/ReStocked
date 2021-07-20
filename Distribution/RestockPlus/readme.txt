@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 1.3.3
+RESTOCK+ 1.4.0
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:

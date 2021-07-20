@@ -1,3 +1,16 @@
+v1.4.0
+------
+- KSP 1.12
+- Added new part replacements
+ - Electrical
+  - OX-10C Photovoltaic Panels (Nertea)
+  - SP-10C Photovoltaic Panels (Nertea)
+  - OX-10L Photovoltaic Panels (Beale)
+  - SP-10L Photovoltaic Panels (Beale)
+- Adapted docking port models for new 1.12 rotational functionality
+- Adapted new stock collider for 2.5m nosecone replacement
+- Texture updates for Gigantor
+
 v1.3.3
 ------
 - Fix Poodle shroud shaders
