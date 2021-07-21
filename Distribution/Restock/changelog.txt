@@ -1,3 +1,10 @@
+v1.4.1
+------
+- Numerous fixes to circular solar panel model (shrouded and not)
+- Fixed Clamp-O-Tron Sr. docking port shader being emissive when it wasn't supposed to be
+- Moved alignment arrows closer to the surface on Mk1 Inline Docking port
+- Fixed new solar panel assets not being blacklisted appropriately
+
 v1.4.0
 ------
 - KSP 1.12

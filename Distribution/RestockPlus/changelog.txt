@@ -1,3 +1,7 @@
+v1.4.1
+------
+- Fixed Boar additional extraneous boattail mesh
+
 v1.4.0
 ------
 - KSP 1.12
