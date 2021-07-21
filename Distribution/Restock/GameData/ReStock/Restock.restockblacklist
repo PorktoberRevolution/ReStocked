@@ -30,6 +30,8 @@ Squad/Parts/Command/probeStackLarge/
 Squad/Parts/Command/probeStackSmall/
 Squad/Parts/Command/probeStackSphere_v2/
 Squad/Parts/CompoundParts/
+Squad/Parts/Electrical/10CSolarPanels/
+Squad/Parts/Electrical/10LSolarPanels/
 Squad/Parts/Electrical/1x6ShroudSolarPanels/
 Squad/Parts/Electrical/1x6SolarPanels/
 Squad/Parts/Electrical/3x2ShroudSolarPanels/
