@@ -1,5 +1,5 @@
 =============
-RESTOCK 1.4.1
+RESTOCK 1.4.2
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the canceled Part Overhaul project by Porkjet.
@@ -13,7 +13,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (4.1.4)
+- ModuleManager (4.2.1)
 
 =======
 CREDITS
@@ -50,7 +50,7 @@ To install, drag the ReStock folder and ModuleManager DLL from the GameData fold
             - Assets
             - Patches
             - etc.
-        - ModuleManager.4.1.4.dll
+        - ModuleManager.4.2.1.dll
 
 ===============
 ASSET BLACKLIST
