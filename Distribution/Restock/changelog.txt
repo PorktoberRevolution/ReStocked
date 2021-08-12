@@ -1,3 +1,12 @@
+v1.4.2
+------
+- KSP 1.12.2
+- Updated ModuleManager to 4.2.1
+- Fixed Gigantor panel extension
+- Adjusted and applied Restock Swivel and Reliant models to fit new Squad revamps (adjusted dimensions, colliders)
+- Fixed Mk2 docking port not docking
+- Added new Senior docking port grey variant 
+
 v1.4.1
 ------
 - Numerous fixes to circular solar panel model (shrouded and not)
