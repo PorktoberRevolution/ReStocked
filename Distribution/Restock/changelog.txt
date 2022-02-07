@@ -1,3 +1,8 @@
+v1.4.3
+------
+- Fix Communotron 88-88 starting extended in the VAB (#965)
+- Added a depth mask to the Communotron 88-88
+
 v1.4.2
 ------
 - KSP 1.12.2
