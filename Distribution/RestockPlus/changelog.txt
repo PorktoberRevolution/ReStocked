@@ -1,6 +1,7 @@
 v1.4.3
 ------
 - Added Japanese localization (kzm4269)
+- Added flag to 1.25m Engine Plate for Making History inclusion
 
 v1.4.2
 ------
