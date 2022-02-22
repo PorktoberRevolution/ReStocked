@@ -1,5 +1,6 @@
 v1.4.3
 ------
+- KSP 1.12.3
 - Added Japanese localization (kzm4269)
 - Added flag to 1.25m Engine Plates for Making History inclusion
 - Deprecated previous 1.25m Engine Plate and added new 1.25m Engine Plate for craft file compatibility
