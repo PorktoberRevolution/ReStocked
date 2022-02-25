@@ -1,8 +1,10 @@
 v1.4.3
 ------
+- KSP 1.12.3
+- Incorporated 1.25m Engine Plate into ReStock base to account for Making History 1.25m Engine Plate addition
 - Fix Communotron 88-88 starting extended in the VAB (#965)
 - Added a depth mask to the Communotron 88-88
-- Fixed Reliant boattail grey option being the old pre-1.12 one.
+- Fixed Reliant boattail grey option being the old pre-1.12 one
 - Removed extra rescaleFactor from Swivel
 
 v1.4.2
