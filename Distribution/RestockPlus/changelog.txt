@@ -1,5 +1,6 @@
 v1.4.4
 ------
+- Fixed top node for Galleon 3.75m Boattail variant
 - Introduce patch to correctly locate CoM on Making History SP-R Triangle Structural Panels
 - Tidied up various config syntax errors, thank you HebaruSan!
 

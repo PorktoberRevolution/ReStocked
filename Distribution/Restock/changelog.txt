@@ -1,5 +1,6 @@
 v1.4.4
 ------
+- Fixed top node for Mastodon 3.75m Boattail variant
 - Fixed Russian localization syntax
 - Fixed variant display names for lights
 - Tidied up various config syntax errors, thank you HebaruSan!
