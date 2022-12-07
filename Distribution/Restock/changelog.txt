@@ -1,5 +1,6 @@
 v1.4.4
 ------
+- Fixed wheelCollider on the LT-05 Micro Landing Strut
 - Fixed 1.25m, 2.5m, 3.75m and 5m Engine Plate mass values
 - Fixed top node for Mastodon 3.75m Boattail variant
 - Fixed Russian localization syntax
