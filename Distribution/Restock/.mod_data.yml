@@ -13,7 +13,7 @@ package:
     - RestockRigidLegs
 dependencies:  # Configure dependencies
   ModuleManager:
-    version: 4.2.1
+    version: 4.2.2
     location: s3
 deploy:
   SpaceDock:
