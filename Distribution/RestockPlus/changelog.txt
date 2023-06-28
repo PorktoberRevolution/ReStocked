@@ -1,5 +1,6 @@
 v1.4.4
 ------
+- Fixed attachment node sizes on some 1.875m parts
 - Fixed 1.25m, 2.5m, 3.75m and 5m Engine Plate mass values
 - Fixed top node for Galleon 3.75m Boattail variant
 - Introduce patch to correctly locate CoM on Making History SP-R Triangle Structural Panels
