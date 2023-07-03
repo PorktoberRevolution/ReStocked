@@ -14,7 +14,7 @@ package:
 dependencies:  # Configure dependencies
   ModuleManager:
     location: url
-    url: https://ksp.sarbian.com/jenkins/job/ModuleManager/162/artifact/ModuleManager.4.2.2.dll
+    url: https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager.4.2.3.dll
     zip: false
 deploy:
   SpaceDock:
