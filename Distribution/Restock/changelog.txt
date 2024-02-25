@@ -32,6 +32,7 @@ v1.4.4
 - Fixed Russian localization syntax
 - Fixed variant display names for lights
 - Tidied up various config syntax errors, thank you HebaruSan!
+- Fixed LT-2 landing leg being weaker than stock (#858)
 
 v1.4.3
 ------
