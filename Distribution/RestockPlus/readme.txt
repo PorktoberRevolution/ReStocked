@@ -22,7 +22,7 @@ DEPENDENCIES
 
 Required:
 - Restock (1.4.4)
-- ModuleManager (4.2.2)
+- ModuleManager (4.2.3)
 
 =============
 CREDITS
@@ -59,7 +59,7 @@ To install, drag the ReStockPlus folder from the GameData folder you downloaded 
             - Assets
             - Parts
             - etc.
-        - ModuleManager.4.2.2.dll
+        - ModuleManager.4.2.3.dll
 
 
 ============

@@ -13,7 +13,7 @@ DEPENDENCIES
 ============
 
 Required:
-- ModuleManager (4.2.2)
+- ModuleManager (4.2.3)
 
 =======
 CREDITS
@@ -50,7 +50,7 @@ To install, drag the ReStock folder and ModuleManager DLL from the GameData fold
             - Assets
             - Patches
             - etc.
-        - ModuleManager.4.2.2.dll
+        - ModuleManager.4.2.3.dll
 
 ===============
 ASSET BLACKLIST
