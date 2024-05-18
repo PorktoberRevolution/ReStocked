@@ -10,8 +10,9 @@ package:
     - license.txt
 dependencies:  # Configure dependencies
   ModuleManager:
-    version: 4.2.1
-    location: s3
+    location: url
+    url: https://ksp.sarbian.com/jenkins/job/ModuleManager/163/artifact/ModuleManager.4.2.3.dll
+    zip: false
 deploy:
   SpaceDock:
     enabled: true  # activate/deactivate this deployment script

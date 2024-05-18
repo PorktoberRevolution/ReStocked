@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 1.4.3
+RESTOCK+ 1.4.4
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -21,8 +21,8 @@ DEPENDENCIES
 ============
 
 Required:
-- Restock (1.4.3)
-- ModuleManager (4.2.1)
+- Restock (1.4.4)
+- ModuleManager (4.2.3)
 
 =============
 CREDITS
@@ -59,7 +59,7 @@ To install, drag the ReStockPlus folder from the GameData folder you downloaded 
             - Assets
             - Parts
             - etc.
-        - ModuleManager.4.1.4.dll
+        - ModuleManager.4.2.3.dll
 
 
 ============
@@ -70,10 +70,10 @@ This mod provides localization support for the following languages:
 - English
 - German (woeller)
 - Brazilian Portuguese (AluisioASG)
-- Spanish (Niako)
+- Spanish (Niako and Fitiales)
 - Simplified Chinese (Duck1998)
 - French (vinix38)
-- Japanese (Chemical-Factory)
+- Japanese (kzm4269)
 - Russian (Fedor-St)
 
 =========
