@@ -1,3 +1,22 @@
+v1.4.5
+------
+- Add drag cubes from KSP 1.12.5 Vanilla to the following parts (this should help a lot with re-entry with craft designed in Vanilla):
+  - Probodobodyne QBE
+  - Probodobodyne Stayputnik
+  - Probodobodyne HECS
+  - Probodobodyne OKTO
+  - Probodobodyne OKTO2
+  - Probodobodyne HECS2
+  - RC-L01 Remote Guidance Unit
+  - RC-001S Remote Guidance Unit
+  - R-4 'Dumpling' External Tank
+  - R-11 'Baguette' External Tank
+  - R-12 'Doughnut' External Tank
+  - Heat Shield (0.625m)
+  - OX-STAT Photovoltaic Panels
+  - OX-STAT-XL Photovoltaic Panels
+- Fix engine attachment nodes on the Making History Kerbodyne Engine Cluster Adapter Tank.
+
 v1.4.4
 ------
 - Fixed wheelCollider on the LT-05 Micro Landing Strut

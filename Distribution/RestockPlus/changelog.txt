@@ -1,3 +1,8 @@
+v1.4.5
+------
+- Add part volumes for all parts under 2700L to allow for use with the stock inventory system (by mostly using KSP Part Volume mod to generate volumes).
+- Fix engine attachment nodes on the Kerbodyne SIV Fuelled Engine Adapter.
+
 v1.4.4
 ------
 - Fixed attachment node sizes on some 1.875m parts
