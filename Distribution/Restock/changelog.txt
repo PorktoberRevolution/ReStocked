@@ -16,6 +16,8 @@ v1.4.5
   - OX-STAT Photovoltaic Panels
   - OX-STAT-XL Photovoltaic Panels
 - Fix engine attachment nodes on the Making History Kerbodyne Engine Cluster Adapter Tank.
+- New stock part replacement:
+  - T-1 Toroidal Aerospike "Dart" Liquid Fuel Engine.
 
 v1.4.4
 ------

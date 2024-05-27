@@ -27,6 +27,7 @@ If you are interested in contributing artistically to the revamp, please contact
 - Passinglurker
 - Porkjet
 - riocrokite
+- Kavaeric
 
 #### Drag cube wizardry
 - DMagic
