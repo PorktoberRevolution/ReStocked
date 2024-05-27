@@ -1,5 +1,5 @@
 ==============
-RESTOCK+ 1.4.4
+RESTOCK+ 1.4.5
 ==============
 
 Restock+ is a complement to Restock which adds useful parts that we feel are missing from the base game. Functionally, these parts additions allow better flexibility in craft construction and not add new gameplay systems or form factors. Some examples might include:
@@ -12,7 +12,9 @@ Restock+ is a complement to Restock which adds useful parts that we feel are mis
 - Antennae: New variations on antenna for better craft construction.
 
 In addition some glaring bugfixes and improvements are included:
-- The volume of the Oscar-B tank has been reduced to make room for the rest of the Oscar series tanks. The tank's mass ratio is unchanged
+- The volume of the Oscar-B tank has been reduced to make room for the rest of the Oscar series tanks. The tank's mass ratio is unchanged.
+- SRBs have been given a small amount of gimbal ability in most cases.
+- Triangular Structural Panels from Making History have had their centre of mass correctly located.
 
 For a full list of changes and additions, consult the changelog.
 
