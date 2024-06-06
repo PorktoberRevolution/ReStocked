@@ -1,5 +1,5 @@
 =============
-RESTOCK 1.4.5
+RESTOCK 1.5.0
 =============
 
 Restock is a project to improve the art of the Kerbal Space Program part set. Some of the revisions are based on the canceled Part Overhaul project by Porkjet.
@@ -27,6 +27,7 @@ Art
 - Passinglurker
 - Porkjet
 - riocrokite
+- Kavaeric
 
 Drag cube wizardry
 - DMagic

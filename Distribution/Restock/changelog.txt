@@ -1,3 +1,9 @@
+v1.5.0
+------
+- New Engine parts
+  - LV-T91 "Cheetah" Liquid Fuel Engine: now has 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants.
+  - LV-TX87 "Bobcat" Liquid Fuel Engine: now has [VARIANTS]
+
 v1.4.5
 ------
 - Add drag cubes from KSP 1.12.5 Vanilla to the following parts (this should help a lot with re-entry with craft designed in Vanilla):
