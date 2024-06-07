@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Restock.Constraints;
 
@@ -6,67 +7,77 @@ namespace Restock
 {
     public class ModuleRestockConstraints : PartModule
     {
-        public List<IConstraint> constraints;
+        private List<IConstraint> _constraints;
 
         public override void OnLoad(ConfigNode node)
         {
             base.OnLoad(node);
             
-            constraints = new List<IConstraint>();
+            _constraints = new List<IConstraint>();
             var cnodes = node.GetNodes();
             this.Log($"Loading {cnodes.Length} constraints");
 
             foreach (var cnode in cnodes)
             {
-                switch (cnode.name)
+                try
                 {
-                    //LookAtConstraint
-                    case "CONSTRAINLOOKFX":
-                    case "LOOKATCONSTRAINT":
-                        constraints.Add(new LookAtConstraint(cnode, this.part));
-                        break;
+                    switch (cnode.name)
+                    {
+                        //LookAtConstraint
+                        case "CONSTRAINLOOKFX":
+                        case "LOOKATCONSTRAINT":
+                            _constraints.Add(new LookAtConstraint(cnode, this.part));
+                            break;
 
-                    //CopyPositionConstraint
-                    case "COPYPOSITIONCONSTRAINT":
-                        constraints.Add(new CopyPositionConstraint(cnode, this.part));
-                        break;
+                        //CopyPositionConstraint
+                        case "COPYPOSITIONCONSTRAINT":
+                            _constraints.Add(new CopyPositionConstraint(cnode, this.part));
+                            break;
 
-                    //CopyRotationConstraint
-                    case "COPYROTATIONCONSTRAINT":
-                        constraints.Add(new CopyRotationConstraint(cnode, this.part));
-                        break;
+                        //CopyRotationConstraint
+                        case "COPYROTATIONCONSTRAINT":
+                            _constraints.Add(new CopyRotationConstraint(cnode, this.part));
+                            break;
+                    }
+                }
+                catch(Exception e)
+                {
+                    this.LogError($"Exception while loading {cnode.name} Node: {e}");
                 }
             }
 
-            this.Log($"Loaded {constraints.Count} constraints");
+            this.Log($"Loaded {_constraints.Count} constraints");
         }
 
         public override void OnStart(StartState state)
         {
-            if (HighLogic.LoadedSceneIsFlight || HighLogic.LoadedSceneIsEditor)
+            if (!HighLogic.LoadedSceneIsFlight && !HighLogic.LoadedSceneIsEditor) return;
+            if (_constraints != null && _constraints.Count != 0) return;
+
+            // I have no idea why this is here but I'm scared to remove it
+            foreach (var pNode in GameDatabase.Instance.GetConfigs("PART"))
             {
-                if (constraints == null || constraints.Count == 0)
-                {
-                    foreach (UrlDir.UrlConfig pNode in GameDatabase.Instance.GetConfigs("PART"))
-                    {
-                        if (pNode.name.Replace("_", ".") == part.partInfo.name)
-                        {
-                            var cfg = pNode.config;
-                            var node = cfg.GetNodes("MODULE").Single(n => n.GetValue("name") == moduleName);
-                            OnLoad(node);
-                        }
-                    }
-                }
+                if (pNode.name.Replace("_", ".") != part.partInfo.name) continue;
+                var cfg = pNode.config;
+                var node = cfg.GetNodes("MODULE").Single(n => n.GetValue("name") == moduleName);
+                OnLoad(node);
             }
         }
 
         private void LateUpdate()
         {
-            if (constraints == null) return;
-            
-            foreach (var constraint in constraints)
+            for (var i = 0; i < _constraints.Count; i++)
             {
-                constraint.Update();
+                try
+                {
+                    _constraints[i].Update();
+                }
+                catch (Exception e)
+                {
+                    this.LogError($"Encountered exception in constraint. Removing the constraint to prevent further errors\n {e}");
+                    _constraints.RemoveAt(i--);
+                }
+
             }
         }
     }
