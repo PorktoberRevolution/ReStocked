@@ -27,6 +27,8 @@ Art
 - Passinglurker
 - Porkjet
 - riocrokite
+- Kavaeric
+- Well
 
 Drag cube wizardry
 - DMagic

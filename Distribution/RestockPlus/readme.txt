@@ -34,6 +34,7 @@ Art
 - Chris Adderley (Nertea)
 - Andrew Cassidy (Cineboxandrew)
 - Porkjet
+- Kavaeric
 
 Drag cube wizardry
 - DMagic
