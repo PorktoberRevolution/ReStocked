@@ -1,6 +1,7 @@
 v1.4.6
 ------
-- Fixed extra random png texture in the distribution
+- Fixed extra random png texture in the distribution (#1017)
+- Fixed rotation of Mk2 Lander can airlock (#1008)
 
 v1.4.5
 ------
