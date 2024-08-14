@@ -1,3 +1,7 @@
+v1.4.6
+------
+- Fixed extra random png texture in the distribution
+
 v1.4.5
 ------
 - Add drag cubes from KSP 1.12.5 Vanilla to the following parts (this should help a lot with re-entry with craft designed in Vanilla):

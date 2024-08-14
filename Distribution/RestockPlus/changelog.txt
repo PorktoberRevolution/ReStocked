@@ -1,3 +1,7 @@
+v1.4.6
+------
+- Added VABOrganizer support
+
 v1.4.5
 ------
 - Add part volumes for all parts under 2700L to allow for use with the stock inventory system (by mostly using KSP Part Volume mod to generate volumes).
