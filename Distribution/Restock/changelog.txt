@@ -2,6 +2,7 @@ v1.4.6
 ------
 - Fixed extra random png texture in the distribution (#1017)
 - Fixed rotation of Mk2 Lander can airlock (#1008)
+- Fixed LT-2 landing leg being weaker than stock (#858)
 
 v1.4.5
 ------
@@ -32,7 +33,6 @@ v1.4.4
 - Fixed Russian localization syntax
 - Fixed variant display names for lights
 - Tidied up various config syntax errors, thank you HebaruSan!
-- Fixed LT-2 landing leg being weaker than stock (#858)
 
 v1.4.3
 ------
