@@ -1,6 +1,11 @@
-v1.4.6
+v1.5.0
 ------
+- Introduced patch to give roll control gimbal to Making History LV-T91 "Cheetah" Liquid Fuel Engine
+- New Engine parts
+  - PLACEHOLDER FOR RS+ CHEETAH-ALIKE (Kavaeric): LR-91 engine with 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants. Disabled if Making History is installed.
+  - PLACEHOLDER FOR RS+ BOBCAT-ALIKE (Kavaeric): LR-87 engine with [VARIANTS]. Disabled if Making History is installed.
 - Added VABOrganizer support
+- Added Russian language localization (BalaurGD)
 
 v1.4.5
 ------

@@ -43,6 +43,7 @@ namespace Restock
         [KSPField] public bool disableBlackbody = false;
 
         public List<Renderer> renderers = new List<Renderer>();
+        public List<string> excludedRendererNames = new List<string>();
 
         private readonly string _shaderBlackbody = "_TemperatureColor";
 
@@ -103,22 +104,12 @@ namespace Restock
         {
             if (HighLogic.LoadedSceneIsEditor || HighLogic.LoadedSceneIsFlight) return;
 
-            renderers = base.part.FindModelComponents<Renderer>();
-
             if (node.HasValue("excludedRenderer"))
             {
-                var excludedRenderers = new List<string>();
-
-                excludedRenderers.AddRange(node.GetValues("excludedRenderer"));
-
-                for (int i = renderers.Count - 1; i >= 0; i--)
-                {
-                    if (renderers[i] == null || excludedRenderers.Contains(renderers[i].name))
-                    {
-                        renderers.RemoveAt(i);
-                    }
-                }
+                excludedRendererNames = new List<string>(node.GetValues("excludedRenderer"));
             }
+
+            FindRenderers();
         }
 
         public void LateUpdate()
@@ -140,7 +131,7 @@ namespace Restock
                     temp = useSkinTemp ? base.part.skinTemperature : base.part.temperature;
                 }
 
-                var temp2 = (float) ((temp - draperPoint) / _lerpRange);
+                var temp2 = (float)((temp - draperPoint) / _lerpRange);
                 temp2 = Mathf.Clamp01(temp2);
 
                 _emissiveColor.r = redCurve.Evaluate(temp2);
@@ -156,9 +147,35 @@ namespace Restock
                 _propertyBlock.SetColor(_shaderBlackbodyID, Color.black);
             }
 
+            try
+            {
+                UpdateRenderers(_propertyBlock);
+            } catch(NullReferenceException)
+            {
+                // if any renderers are null, rebuild renderer list
+                // any bonus renderers will just have to be ignored I guess
+                FindRenderers();
+                UpdateRenderers(_propertyBlock);
+            }
+        }
+
+        private void UpdateRenderers(MaterialPropertyBlock mpb)
+        {
             for (var i = 0; i < renderers.Count; i++)
             {
-                renderers[i].SetPropertyBlock(_propertyBlock);
+                renderers[i].SetPropertyBlock(mpb);
+            }
+        }
+
+        private void  FindRenderers()
+        {
+            renderers= part.FindModelComponents<Renderer>();
+
+            renderers.RemoveAll(renderer => renderer == null);
+
+            if( excludedRendererNames.Count != 0)
+            {
+                renderers.RemoveAll(renderer => excludedRendererNames.Contains(renderer.name));
             }
         }
     }
