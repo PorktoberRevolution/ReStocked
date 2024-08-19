@@ -3,6 +3,9 @@ v1.5.0
 - New Engine parts
   - LV-T91 "Cheetah" Liquid Fuel Engine: now has 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants.
   - LV-TX87 "Bobcat" Liquid Fuel Engine: now has [VARIANTS]
+- Fixed extra random png texture in the distribution (#1017)
+- Fixed rotation of Mk2 Lander can airlock (#1008)
+- Fixed LT-2 landing leg being weaker than stock (#858)
 
 v1.4.5
 ------
