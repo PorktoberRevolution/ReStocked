@@ -1,9 +1,20 @@
+v1.5.1
+------
+- Moved liquidEngineLV-1, liquidEngineLV-1R, rcsBlockRV-105 and ServiceBay in Restock Blacklist to deprecated filepaths to resolve log error
+
 v1.5.0
 ------
-- New Engine parts
-  - LV-T91 "Cheetah" Liquid Fuel Engine: now has 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants.
-  - LV-TX87 "Bobcat" Liquid Fuel Engine: now has [VARIANTS]
+- New parts (all Kavaeric)
+  - LV-T91 "Cheetah" Liquid Fuel Engine: now has 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants
+  - LV-TX87 "Bobcat" Liquid Fuel Engine: now has 1.875m Tankbutt, 1.875m Truss, 1.875m Boattail and Compact variants
+  - Mk-55 "Thud" Liquid Fuel Engine: now has White Shrouded, Orange/Grey Shrouded and Compact variants
+  - EAS-1 External Command Seat
+  - SEQ-3 Cargo Storage Unit: now has White and Metal variants
+  - SEQ-3C Conformal Storage Unit: now has White and Metal variants
+  - SEQ-9 Container Module: now has White and Metal variants
+  - SEQ-24 Cargo Storage Unit: now has White and Metal variants
 - Fixed extra random png texture in the distribution (#1017)
+- Fix NRE when ModuleRestockHeatEffects encounters a missing renderer (#1009)
 - Fixed rotation of Mk2 Lander can airlock (#1008)
 - Fixed LT-2 landing leg being weaker than stock (#858)
 

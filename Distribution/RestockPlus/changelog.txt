@@ -1,11 +1,15 @@
+v1.5.1
+------
+- Fixed drag cubes for 1.875m decoupler and separator (#1026)
+- Fixed Oscar-A Fuel Tank packed volume size (#1025)
+- Removed duplicated bulkheadProfiles line in Launch Escape System Jr. config
+
 v1.5.0
 ------
-- Introduced patch to give roll control gimbal to Making History LV-T91 "Cheetah" Liquid Fuel Engine
-- New Engine parts
-  - PLACEHOLDER FOR RS+ CHEETAH-ALIKE (Kavaeric): LR-91 engine with 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants. Disabled if Making History is installed.
-  - PLACEHOLDER FOR RS+ BOBCAT-ALIKE (Kavaeric): LR-87 engine with [VARIANTS]. Disabled if Making History is installed.
+- Introduced patch to give roll control gimbal to Making History LV-T91 "Cheetah" Liquid Fuel Engine.
 - Added VABOrganizer support
-- Added Russian language localization (BalaurGD)
+- Added Russian language localization (BalaurGD).
+- Removed Test contract from legacy SRBs and legacy vernier engine.
 
 v1.4.5
 ------

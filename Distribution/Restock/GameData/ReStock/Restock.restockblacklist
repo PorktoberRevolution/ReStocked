@@ -51,9 +51,9 @@ Squad/Parts/Engine/ionEngine/
 Squad/Parts/Engine/liquidEngine24-77/
 Squad/Parts/Engine/liquidEngine24-77_v2/
 Squad/Parts/Engine/liquidEngine48-7S_v2/
-Squad/Parts/Engine/liquidEngineLV-1/
+Squad/zDeprecated/Parts/Engine/liquidEngineLV-1/
 Squad/Parts/Engine/liquidEngineLV-1_v2/
-Squad/Parts/Engine/liquidEngineLV-1R/
+Squad/zDeprecated/Parts/Engine/liquidEngineLV-1R/
 Squad/Parts/Engine/liquidEngineLV-909_v2/
 Squad/Parts/Engine/liquidEngineLV-N/
 Squad/Parts/Engine/liquidEngineLV-T30/
@@ -159,12 +159,12 @@ Squad/Parts/Utility/parachuteMk16-XL/
 Squad/Parts/Utility/parachuteMk2-R/
 Squad/Parts/Utility/parachuteMk25/
 Squad/Parts/Utility/radialAttachmentPoint/
-Squad/Parts/Utility/rcsBlockRV-105/
+Squad/zDeprecated/Parts/Utility/rcsBlockRV-105/
 Squad/Parts/Utility/rcsBlockRV-105_v2/
 Squad/Parts/Utility/rcsSmallLinear/
 Squad/Parts/Utility/RelayAntennas/
 Squad/Parts/Utility/rockomaxAdapters/
-Squad/Parts/Utility/ServiceBay/
+Squad/zDeprecated/Parts/Utility/ServiceBay/
 Squad/Parts/Utility/ServiceBay_v2/
 Squad/Parts/Utility/smallClaw/
 Squad/Parts/Utility/spotLightMk1/
