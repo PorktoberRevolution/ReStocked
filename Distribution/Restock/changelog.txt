@@ -1,6 +1,10 @@
+v1.5.1
+------
+- Moved liquidEngineLV-1, liquidEngineLV-1R, rcsBlockRV-105 and ServiceBay in Restock Blacklist to deprecated filepaths to resolve log error
+
 v1.5.0
 ------
-- New parts (all Kavaric)
+- New parts (all Kavaeric)
   - LV-T91 "Cheetah" Liquid Fuel Engine: now has 1.25m Truss, 1.25m Boattail, 1.875m Truss, 1.875m Boattail and Compact variants
   - LV-TX87 "Bobcat" Liquid Fuel Engine: now has 1.875m Tankbutt, 1.875m Truss, 1.875m Boattail and Compact variants
   - Mk-55 "Thud" Liquid Fuel Engine: now has White Shrouded, Orange/Grey Shrouded and Compact variants

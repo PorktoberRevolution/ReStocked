@@ -1,3 +1,9 @@
+v1.5.1
+------
+- Fixed drag cubes for 1.875m decoupler and separator (#1026)
+- Fixed Oscar-A Fuel Tank packed volume size (#1025)
+- Removed duplicated bulkheadProfiles line in Launch Escape System Jr. config
+
 v1.5.0
 ------
 - Introduced patch to give roll control gimbal to Making History LV-T91 "Cheetah" Liquid Fuel Engine.
