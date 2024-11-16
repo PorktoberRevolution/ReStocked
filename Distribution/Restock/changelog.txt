@@ -1,5 +1,6 @@
 v1.5.1
 ------
+- Fixed Mk2 Lander Can bottom porthole window (#1028)
 - Moved liquidEngineLV-1, liquidEngineLV-1R, rcsBlockRV-105 and ServiceBay in Restock Blacklist to deprecated filepaths to resolve log error
 
 v1.5.0
